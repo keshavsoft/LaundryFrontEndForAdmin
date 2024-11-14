@@ -12,7 +12,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SourceFolderName = "SourceCode";
-const SrcFolder = "src/Laundry/Admin/AdminAllDays/CommonConfig/QrCode/AsArray";
+const SrcFolder = "src/AdminAllDays/CommonConfig/QrCode/AsArray";
 
 const FrontEndDistFolder = "publicDir/Admin/AdminAllDays/CommonConfig/QrCode/AsArray";
 

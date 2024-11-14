@@ -6,10 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "Admin-AdminAllDays-QrCodeWise-AsArray": "vite build --config src/Laundry/Admin/AdminAllDays/QrCodeWise/AsArray/vite.config.js",
-    "Admin-AdminAllDays-QrCodeWise-BranchWise": "vite build --config src/Laundry/Admin/AdminAllDays/QrCodeWise/BranchWise/vite.config.js",
-    "Admin-AdminAllDays-QrCodeWise-BranchFilter": "vite build --config src/Laundry/Admin/AdminAllDays/QrCodeWise/BranchFilter/vite.config.js",
-    "Admin-AdminAllDays-CommonConfig-QrCode-AsArray": "vite build --config src/Laundry/Admin/AdminAllDays/CommonConfig/QrCode/AsArray/vite.config.js"
+    "AdminAllDays-CommonConfig-QrCode-AsArray": "vite build --config src/AdminAllDays/CommonConfig/QrCode/AsArray/vite.config.js"
   },
   "author": "",
   "license": "ISC",
