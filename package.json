@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "AdminAllDays-CommonConfig-QrCode-AsArray": "vite build --config src/AdminAllDays/CommonConfig/QrCode/AsArray/vite.config.js"
+    "AdminAllDays-CommonConfig-QrCode-AsArray": "vite build --config src/AdminAllDays/CommonConfig/QrCode/AsArray/vite.config.js",
+    "AdminAllDays-CommonConfig-QrCode-BranchWise": "vite build --config src/AdminAllDays/CommonConfig/QrCode/BranchWise/vite.config.js"
   },
   "author": "",
   "license": "ISC",

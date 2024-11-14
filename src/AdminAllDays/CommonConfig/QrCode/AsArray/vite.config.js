@@ -14,7 +14,7 @@ const __dirname = path.dirname(__filename);
 const SourceFolderName = "SourceCode";
 const SrcFolder = "src/AdminAllDays/CommonConfig/QrCode/AsArray";
 
-const FrontEndDistFolder = "publicDir/Admin/AdminAllDays/CommonConfig/QrCode/AsArray";
+const FrontEndDistFolder = "publicDir/AdminAllDays/CommonConfig/QrCode/AsArray";
 
 const root = resolve(__dirname, `${SrcFolder}/${SourceFolderName}`);
 
