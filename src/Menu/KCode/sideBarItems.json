@@ -16,7 +16,7 @@
         "children": [
             {
                 "name": "CommonConfig",
-                "url": "../../../Admin/AdminAllDays/CommonConfig/Menu/HtmlFiles/",
+                "url": "../../../AdminAllDays/CommonConfig/Menu/HtmlFiles/",
                 "icon": "bi bi-list"
             }
         ]
