@@ -7,7 +7,7 @@
     {
         "name": "Parent",
         "icon": "bi bi-arrow-90deg-left",
-        "url": "../../../AdminMenu/HtmlFiles/index.html"
+        "url": "../../../../Admin/Menu/HtmlFiles/"
     },
     {
         "name": "QrCode",
