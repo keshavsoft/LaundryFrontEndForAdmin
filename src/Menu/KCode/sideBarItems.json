@@ -7,16 +7,16 @@
     {
         "name": "Parent",
         "icon": "bi bi-arrow-90deg-left",
-        "url": "../../../AdminMenu/HtmlFiles/index.html"
+        "url": "../../../../../laundryAdmin.html"
     },
     {
-        "name": "QrCode",
+        "name": "AllDays",
         "key": "Simple",
         "icon": "bi bi-file-earmark",
         "children": [
             {
-                "name": "AsArray",
-                "url": "../../QrCode/AsArray/HtmlFiles/",
+                "name": "CommonConfig",
+                "url": "../../../Admin/AdminAllDays/CommonConfig/Menu/HtmlFiles/",
                 "icon": "bi bi-list"
             }
         ]
