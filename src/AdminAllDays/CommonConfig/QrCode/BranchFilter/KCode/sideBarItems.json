@@ -7,7 +7,7 @@
     {
         "name": "Parent",
         "icon": "bi bi-arrow-90deg-left",
-        "url": "/laundryAdminQrCodes.html"
+        "url": "../../../../../AdminAllDays/CommonConfig/Menu/HtmlFiles/"
     },
     {
         "name": "Simple",
