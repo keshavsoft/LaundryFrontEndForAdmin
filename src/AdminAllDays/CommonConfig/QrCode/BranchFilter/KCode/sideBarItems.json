@@ -1,7 +1,12 @@
 [
     {
         "name": "Home",
-        "icon": "bi bi-house-door",
+        "icon": "bi bi-grid",
+        "url": "/laundry.html"
+    },
+    {
+        "name": "Parent",
+        "icon": "bi bi-arrow-90deg-left",
         "url": "/laundryAdminQrCodes.html"
     },
     {
