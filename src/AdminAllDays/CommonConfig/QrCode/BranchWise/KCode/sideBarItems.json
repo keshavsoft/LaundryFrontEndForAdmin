@@ -2,12 +2,12 @@
     {
         "name": "Home",
         "icon": "bi bi-grid",
-        "url": "/laundry.html"
+        "url": "../../../../../../../laundry.html"
     },
     {
         "name": "Parent",
         "icon": "bi bi-arrow-90deg-left",
-        "url": "/laundryAdminQrCodes.html"
+        "url": "../../../../../../../laundryAdminQrCodes.html"
     },
     {
         "name": "Simple",
