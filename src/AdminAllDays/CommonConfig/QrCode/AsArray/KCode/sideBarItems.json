@@ -121,6 +121,16 @@
                 "name": "Short Filter",
                 "url": "ToFactoryShortBranchWise.html",
                 "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "Emojis",
+                "url": "ToFactoryEmojis.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EmojisFilter",
+                "url": "ToFactoryEmojisFilter.html",
+                "icon": "bi bi-filter-circle"
             }
         ]
     },
