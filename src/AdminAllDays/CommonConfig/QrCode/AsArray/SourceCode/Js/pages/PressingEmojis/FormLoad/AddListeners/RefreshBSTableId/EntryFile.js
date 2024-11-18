@@ -1,11 +1,12 @@
 import { StartFunc as StartFuncFuncToRun } from "./ButtonClickFunc.js";
 
 let StartFunc = () => {
-    let jVarLocalRefreshBSTableId = document.getElementById("RefreshBSTableId");
+    const arrClass = document.querySelectorAll(".RefreshBSTableClass");
 
-    if (jVarLocalRefreshBSTableId === null === false) {
-        jVarLocalRefreshBSTableId.addEventListener("click", StartFuncFuncToRun);
+    for (let i of arrClass) {
+        i.addEventListener("click", StartFuncFuncToRun);
     };
+
 };
 
 export { StartFunc };
