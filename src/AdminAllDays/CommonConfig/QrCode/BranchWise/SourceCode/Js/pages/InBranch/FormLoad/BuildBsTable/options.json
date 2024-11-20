@@ -16,10 +16,10 @@
         },
         {
             "field": "BranchName",
-            "title": "BranchName"
+            "title": "Branch Name"
         },
         {
-            "title": "QrShow",
+            "title": "Total QrCodes",
             "field": "QrShow",
             "footerFormatter": "",
              "align":"right"
