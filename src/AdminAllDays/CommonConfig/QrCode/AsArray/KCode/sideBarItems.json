@@ -128,6 +128,21 @@
                 "icon": "bi bi-filter-circle"
             },
             {
+                "name": "EmojiWashingFilter",
+                "url": "ToFactoryEmojisWashingFilter.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EmojiPressingFilter",
+                "url": "ToFactoryEmojisPressingFilter.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EmojiCompletionFilter",
+                "url": "ToFactoryEmojisCompletionFilter.html",
+                "icon": "bi bi-filter-circle"
+            },
+            {
                 "name": "EmojisFilter",
                 "url": "ToFactoryEmojisFilter.html",
                 "icon": "bi bi-filter-circle"
