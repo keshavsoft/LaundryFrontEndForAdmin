@@ -6,8 +6,18 @@
     },
     {
         "name": "Parent",
-        "icon": "bi bi-arrow-90deg-left",
-        "url": "../../../../../AdminAllDays/CommonConfig/Menu/HtmlFiles/"
+        "icon": "bi bi-people",
+        "children": [
+            {
+                "name": "AsArray",
+                "url": "../../AsArray/HtmlFiles/",
+                "icon": "bi bi-list"
+            },{
+                "name": "BranchFilter",
+                "url": "../../BranchFilter/HtmlFiles/",
+                "icon": "bi bi-list"
+            }
+        ]
     },
     {
         "name": "Simple",
