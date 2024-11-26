@@ -7,6 +7,11 @@
     {
         "name": "Parent",
         "icon": "bi bi-arrow-90deg-left",
+        "url": "../../../../../AdminAllDays/CommonConfig/Menu/HtmlFiles/"
+    },
+    {
+        "name": "Parent-QRCodes",
+        "icon": "bi bi-ui-checks",
         "children": [
             {
                 "name": "BranchFilter",
