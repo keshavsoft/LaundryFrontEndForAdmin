@@ -6,7 +6,7 @@
     },
     {
         "name": "Parent",
-        "icon": "bi bi-people",
+        "icon": "bi bi-arrow-90deg-left",
         "children": [
             {
                 "name": "BranchFilter",
