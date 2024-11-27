@@ -40,6 +40,16 @@
                 "name": "AsArray",
                 "url": "../../QrCodeAtStage/AsArray/HtmlFiles/",
                 "icon": "bi bi-list"
+            },
+            {
+                "name": "BranchFilter",
+                "url": "../../QrCodeAtStage/BranchFilter/HtmlFiles/",
+                "icon": "bi bi-list"
+            },
+            {
+                "name": "BranchWise",
+                "url": "../../QrCodeAtStage/BranchWise/HtmlFiles/",
+                "icon": "bi bi-list"
             }
         ]
     }
