@@ -3,6 +3,8 @@
     "search": "true",
     "searchable": "true",
     "idfield": "pk",
+    "pageList": "[5, 10, 25 ]",
+    "pageSize": "5",  
     "showFooter": "true",
     "pagination": "true",
     "filterControl": true,
@@ -25,6 +27,7 @@
         {
             "field": "Rate",
             "title": "Rate",
+            "align":"right",
             "footerFormatter": ""
         },
         {

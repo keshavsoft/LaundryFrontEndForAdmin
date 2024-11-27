@@ -9,6 +9,7 @@
     "data": [],
     "onClickRow": "",
     "pagination": "true",
+    
     "columns": [
         {
             "field": "KS-Serial",
@@ -30,6 +31,7 @@
         {
             "field": "Rate",
             "title": "Rate",
+            "align":"right",
             "footerFormatter": ""
         },
         {

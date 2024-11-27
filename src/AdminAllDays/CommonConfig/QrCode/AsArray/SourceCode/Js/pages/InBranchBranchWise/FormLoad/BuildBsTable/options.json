@@ -7,6 +7,9 @@
     "pagination":"true",
     "filterControl": true,
     "data": [],
+    "pageList": "[5, 10, 25 ]",
+    "pageSize": "5",
+   
     "onClickRow": "",
     "columns": [
         {
@@ -28,6 +31,7 @@
             "field": "Rate",
             "title": "Rate",
             "filtercontrol": "select",
+            "align":"right",
             "footerFormatter": ""
         },
         {

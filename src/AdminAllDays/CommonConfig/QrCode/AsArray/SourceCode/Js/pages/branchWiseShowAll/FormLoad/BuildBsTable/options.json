@@ -7,6 +7,10 @@
     "data": [],
     "onClickRow": "",
     "filterControl": true,
+    "pagination": "true",
+    "pageList": "[5, 10, 25 ]",
+    "pageSize": "5",
+   
     "columns": [
         {
             "field": "KS-Serial",
@@ -24,6 +28,7 @@
         {
             "field": "Rate",
             "title": "Rate",
+            "align":"right",
             "footerFormatter": ""
         },
         {
