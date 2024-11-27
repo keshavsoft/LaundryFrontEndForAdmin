@@ -30,5 +30,17 @@
                 "icon": "bi bi-list"
             }
         ]
+    },
+    {
+        "name": "QrCodeAtStage",
+        "key":"",
+        "icon": "bi bi-file-earmark",
+        "children": [
+            {
+                "name": "AsArray",
+                "url": "../../QrCodeAtStage/AsArray/HtmlFiles/",
+                "icon": "bi bi-list"
+            }
+        ]
     }
 ]

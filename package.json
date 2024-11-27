@@ -10,7 +10,8 @@
     "AdminAllDays-CommonConfig-Menu": "vite build --config src/AdminAllDays/CommonConfig/Menu/vite.config.js",
     "AdminAllDays-CommonConfig-QrCode-AsArray": "vite build --config src/AdminAllDays/CommonConfig/QrCode/AsArray/vite.config.js",
     "AdminAllDays-CommonConfig-QrCode-BranchWise": "vite build --config src/AdminAllDays/CommonConfig/QrCode/BranchWise/vite.config.js",
-    "AdminAllDays-CommonConfig-QrCode-BranchFilter": "vite build --config src/AdminAllDays/CommonConfig/QrCode/BranchFilter/vite.config.js"
+    "AdminAllDays-CommonConfig-QrCode-BranchFilter": "vite build --config src/AdminAllDays/CommonConfig/QrCode/BranchFilter/vite.config.js",
+    "AdminAllDays-CommonConfig-QrCodeAtStage-AsArray": "vite build --config src/AdminAllDays/CommonConfig/QrCodeAtStage/AsArray/vite.config.js"
   },
   "author": "",
   "license": "ISC",
