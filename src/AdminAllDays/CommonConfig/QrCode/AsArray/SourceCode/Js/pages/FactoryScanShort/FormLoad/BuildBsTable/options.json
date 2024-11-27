@@ -2,6 +2,9 @@
     "toolbar": "#toolbar",
     "search": "true",
     "searchable": "true",
+    "pageList": "[5, 10, 25 ]",
+    "pageSize": "5",
+  
     "idfield": "pk",
     "showFooter": "true",
     "pagination": "true",
@@ -27,6 +30,7 @@
             "field": "Rate",
             "title": "Rate",
             "width": "200",
+            "align":"right",
             "footerFormatter": ""
         },
         {
