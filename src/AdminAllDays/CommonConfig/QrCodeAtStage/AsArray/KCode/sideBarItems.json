@@ -7,6 +7,11 @@
     {
         "name": "Parent",
         "icon": "bi bi-arrow-90deg-left",
+        "url":"../../../../CommonConfig/Menu/HtmlFiles/"
+    },
+    {
+        "name": "Parent-QrCodes",
+        "icon": "bi bi-ui-checks",
         "children": [
             {
                 "name": "BranchFilter",
