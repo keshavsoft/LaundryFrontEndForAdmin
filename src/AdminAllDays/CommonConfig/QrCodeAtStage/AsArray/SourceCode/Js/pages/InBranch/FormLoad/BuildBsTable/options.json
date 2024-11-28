@@ -4,10 +4,9 @@
     "searchable": "true",
     "idfield": "pk",
     "showFooter": "true",
-    "pagination":"true",
+    "pagination": "true",
     "pageList": "[5, 10, 25 ]",
     "pageSize": "5",
-   
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -22,6 +21,15 @@
             "filtercontrol": "select"
         },
         {
+            "title": "BranchName",
+            "field": "BranchName",
+            "filterControl": "select"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        },
+        {
             "field": "ItemName",
             "title": "ItemName",
             "filtercontrol": "select"
@@ -29,7 +37,7 @@
         {
             "field": "Rate",
             "title": "Rate",
-            "align":"right",
+            "align": "right",
             "filtercontrol": "select",
             "footerFormatter": ""
         },
@@ -50,10 +58,6 @@
             "field": "FactoryScan",
             "title": "Status",
             "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         }
     ]
 }

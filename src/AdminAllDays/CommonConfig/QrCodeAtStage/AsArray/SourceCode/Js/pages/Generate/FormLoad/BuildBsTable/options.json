@@ -7,7 +7,6 @@
     "pagination": "true",
     "pageList": "[5, 10, 25 ]",
     "pageSize": "5",
-   
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -21,13 +20,22 @@
             "title": "QrCode"
         },
         {
+            "title": "BranchName",
+            "field": "BranchName",
+            "filterControl": "select"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        },
+        {
             "field": "ItemName",
             "title": "ItemName"
         },
         {
             "field": "Rate",
             "title": "Rate",
-            "align":"right",
+            "align": "right",
             "footerFormatter": ""
         },
         {
@@ -51,11 +59,6 @@
             "field": "DCDate"
         },
         {
-            "title": "BranchName",
-            "field": "BranchName",
-            "filterControl": "select"
-        },
-        {
             "field": "location",
             "title": "Location"
         },
@@ -67,10 +70,6 @@
             "field": "EntryScan",
             "title": "Status",
             "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         }
     ]
 }
