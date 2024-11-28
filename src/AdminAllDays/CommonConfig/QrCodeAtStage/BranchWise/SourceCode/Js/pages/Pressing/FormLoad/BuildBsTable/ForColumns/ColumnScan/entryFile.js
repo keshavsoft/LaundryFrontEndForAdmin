@@ -28,7 +28,7 @@ function priceFormatter(data) {
     }, 0);
     let total= Math.floor(LocalTotal);
     return [
-        `<a class="like btn btn-info" target="blank" href="../../AsArray/HtmlFiles/Pressing.html" title="Show">`,
+        `<a class="like btn btn-info" target="blank" href="../../BranchFilter/HtmlFiles/Pressing.html" title="Show">`,
         `<i class="bi bi-qr-code"></i> `,
         total,
         '</a>',
