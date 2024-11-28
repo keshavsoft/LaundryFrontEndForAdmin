@@ -21,6 +21,15 @@
             "title": "QrCode"
         },
         {
+            "title": "BranchName",
+            "field": "BranchName",
+            "filterControl": "select"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        },
+        {
             "field": "ItemName",
             "title": "ItemName"
         },
@@ -46,11 +55,7 @@
             "title": "DC Date",
             "field": "DCDate"
         },
-        {
-            "title": "BranchName",
-            "field": "BranchName",
-            "filterControl": "select"
-        },
+        
         {
             "field": "location",
             "title": "DC Factory",
@@ -60,10 +65,7 @@
             "field": "PressingScan",
             "title": "Status",
             "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         }
+        
     ]
 }
