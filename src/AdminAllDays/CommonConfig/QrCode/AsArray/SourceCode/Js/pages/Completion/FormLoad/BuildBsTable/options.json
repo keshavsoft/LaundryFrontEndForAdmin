@@ -20,6 +20,16 @@
             "title": "QrCode"
         },
         {
+            "title": "BranchName",
+            "field": "BranchName",
+            "filterControl": "select"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        }
+    ,
+        {
             "field": "ItemName",
             "title": "ItemName"
         },
@@ -44,10 +54,6 @@
         {
             "title": "DC Date",
             "field": "DCDate"
-        }, {
-            "title": "BranchName",
-            "field": "BranchName",
-            "filterControl": "select"
         },
         {
             "field": "location",
@@ -58,10 +64,6 @@
             "field": "CompletionScan",
             "title": "Status",
             "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         }
     ]
 }
