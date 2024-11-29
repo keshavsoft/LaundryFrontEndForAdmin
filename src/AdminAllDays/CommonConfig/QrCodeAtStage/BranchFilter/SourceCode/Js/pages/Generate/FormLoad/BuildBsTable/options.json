@@ -4,6 +4,8 @@
     "searchable": "true",
     "idfield": "pk",
     "pagination": "true",
+    "pageList": "[5, 10, 25 ]",
+    "pageSize": "5",  
     "showFooter": "true",
     "data": [],
     "onClickRow": "",
@@ -18,12 +20,23 @@
             "title": "QrCode"
         },
         {
+            "title": "BranchName",
+            "field": "BranchName",
+            "filterControl": "select"
+        },
+        
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        },
+        {
             "field": "ItemName",
             "title": "ItemName"
         },
         {
             "field": "Rate",
             "title": "Rate",
+            "align":"right",
             "footerFormatter": ""
         },
         {
@@ -41,10 +54,6 @@
         {
             "title": "DC Date",
             "field": "DCDate"
-        }, {
-            "title": "BranchName",
-            "field": "BranchName",
-            "filterControl": "select"
         },
         {
             "field": "location",
@@ -55,10 +64,6 @@
             "field": "CompletionScan",
             "title": "Status",
             "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         }
     ]
 }

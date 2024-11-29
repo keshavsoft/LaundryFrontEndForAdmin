@@ -21,6 +21,11 @@
             "field": "pk",
             "title": "QrCode"
         },
+        
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        },
         {
             "field": "ItemName",
             "title": "Item Name"
@@ -51,10 +56,6 @@
         {
             "field": "Status",
             "title": "Status"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         }
     ]
 }
