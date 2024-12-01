@@ -19,12 +19,14 @@ const jVarLocalData = [
     },
     {
         BranchName: "Wanaparthy"
+    },
+    {
+        BranchName: "Nepal"
     }
 ];
 
-
 if ("content" in document.createElement("template")) {
-    const tbody = document.querySelector("#MainRowId");
+    const jVarLocalMainId = document.querySelector("#MainRowId");
 
     jVarLocalData.forEach(element => {
         const template = document.querySelector("#TemplateForCardId");
@@ -33,9 +35,8 @@ if ("content" in document.createElement("template")) {
         let td = clone.querySelector(".card-body h6");
         td.innerHTML = element.BranchName;
 
-        tbody.appendChild(clone);
+        jVarLocalMainId.appendChild(clone);
     });
-
 } else {
 };
 
