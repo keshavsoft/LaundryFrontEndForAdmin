@@ -39,10 +39,6 @@
         {
             "field": "CompanyName",
             "title": "CompanyName"
-        },
-        {
-            "field": "BranchName",
-            "title": "BranchName"
         }
     ]
 }
