@@ -10,9 +10,14 @@
         "url": "../../../../../laundryAdmin.html"
     },
     {
+        "name": "Master",
+        "icon": "bi bi-person-plus-fill",
+        "url":"../../Masters/HtmlFiles/"
+    },
+    {
         "name": "AllDays",
         "key": "Simple",
-        "icon": "bi bi-file-earmark",
+        "icon": "bi bi-calendar3",
         "children": [
             {
                 "name": "CommonConfig",
@@ -21,4 +26,5 @@
             }
         ]
     }
+    
 ]
