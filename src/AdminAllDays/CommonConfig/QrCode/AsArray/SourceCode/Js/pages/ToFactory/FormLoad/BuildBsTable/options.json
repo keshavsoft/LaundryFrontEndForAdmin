@@ -47,10 +47,6 @@
             "title": "BranchScan_DC"
         },
         {
-            "title": "DC Date",
-            "field": "DCDate"
-        },
-        {
             "title": "BranchName",
             "field": "BranchName",
             "filterControl": "select"

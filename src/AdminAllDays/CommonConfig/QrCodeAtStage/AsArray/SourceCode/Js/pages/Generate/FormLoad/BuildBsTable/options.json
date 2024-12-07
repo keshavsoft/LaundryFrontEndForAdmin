@@ -51,7 +51,7 @@
             "title": "DeliveryDateTime"
         },
         {
-            "field": "BranchScan_DC",
+            "field": "BranchScan",
             "title": "BranchScan_DC"
         },
         {
@@ -63,8 +63,8 @@
             "title": "Location"
         },
         {
-            "field": "BranchScan_FactoryName",
-            "title": "Branch Factory"
+            "field": "location",
+            "title": "DCFactory"
         },
         {
             "field": "EntryScan",

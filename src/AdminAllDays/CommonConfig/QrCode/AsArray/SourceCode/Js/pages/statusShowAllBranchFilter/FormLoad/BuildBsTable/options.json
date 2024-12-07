@@ -49,16 +49,12 @@
             "filterControl": "select"
         },
         {
-            "field": "Status",
-            "title": "Status"
-        },
-        {
             "title": "TimeSpan",
             "field": "TimeSpan"
         },
         {
             "field": "FactoryScan",
-            "title": "FactoryScan"
+            "title": "EntryScan"
         },
         {
             "field": "WashingScan",
