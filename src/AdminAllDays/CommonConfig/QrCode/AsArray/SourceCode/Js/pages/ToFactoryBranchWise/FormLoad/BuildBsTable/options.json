@@ -39,14 +39,6 @@
             "title": "DeliveryDateTime"
         },
         {
-            "field": "VoucherNumber",
-            "title": "DC #"
-        },
-        {
-            "title": "DC Date",
-            "field": "DCDate"
-        },
-        {
             "title": "BranchName",
             "field": "BranchName",
             "filterControl": "select"

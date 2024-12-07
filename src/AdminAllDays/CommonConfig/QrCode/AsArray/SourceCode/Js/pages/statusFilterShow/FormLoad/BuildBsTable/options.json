@@ -44,12 +44,8 @@
             "filterControl": "select"
         },
         {
-            "field": "Status",
-            "title": "ToFactoryScan"
-        },
-        {
             "field": "FactoryScan",
-            "title": "FactoryScan"
+            "title": "EntryScan"
         },
         {
             "field": "WashingScan",
