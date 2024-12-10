@@ -48,7 +48,7 @@
                     <div class="col-md-12">
                         <label class="col-md-4 col-form-label">Pcs</label>
                         <div class="col-md-8">
-                            <input name="Pcs" type="number" class="form-control" autocomplete="off">
+                            <input name="Pcs" id="Pcs" min="1" max="100" type="number" class="form-control" autocomplete="off">
                             <div class="invalid-feedback">
                                 Pcs Should not be empty!!
                             </div>
@@ -68,7 +68,7 @@
                     <div class="col-md-12">
                         <label class="col-md-4 col-form-label">Rate</label>
                         <div class="col-md-8">
-                            <input name="DryWashRate" type="number" class="form-control" autocomplete="off" required>
+                            <input name="DryWashRate" id="DryWashRate" min="1" max="1000" type="number" class="form-control" autocomplete="off" required>
                             <div class="invalid-feedback">
 
                                 WashRate Should not be empty!!
