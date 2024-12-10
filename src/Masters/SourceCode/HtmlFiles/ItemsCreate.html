@@ -39,7 +39,8 @@
                     <div class="col-md-12">
                         <label class="col-md-4 col-form-label">ItemName</label>
                         <div class="col-md-8">
-                            <input name="ItemName" type="text" class="form-control" autocomplete="off" required autofocus>
+                            <input name="ItemName" type="text" class="form-control" autocomplete="off" required
+                                autofocus>
                             <div class="invalid-feedback">
                                 ItemName Should not be empty!!
                             </div>
@@ -48,7 +49,8 @@
                     <div class="col-md-12">
                         <label class="col-md-4 col-form-label">Pcs</label>
                         <div class="col-md-8">
-                            <input name="Pcs" id="Pcs" min="1" max="100" type="number" class="form-control" autocomplete="off">
+                            <input name="Pcs" id="Pcs" min="1" max="100" type="number" class="form-control"
+                                autocomplete="off">
                             <div class="invalid-feedback">
                                 Pcs Should not be empty!!
                             </div>
@@ -68,7 +70,8 @@
                     <div class="col-md-12">
                         <label class="col-md-4 col-form-label">Rate</label>
                         <div class="col-md-8">
-                            <input name="DryWashRate" id="DryWashRate" min="1" max="1000" type="number" class="form-control" autocomplete="off" required>
+                            <input name="DryWashRate" id="DryWashRate" min="1" max="1000" type="number"
+                                class="form-control" autocomplete="off" required>
                             <div class="invalid-feedback">
 
                                 WashRate Should not be empty!!
@@ -90,5 +93,7 @@
 {% endblock %}
 
 {% block js %}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 <script type="module" src="../Js/pages/ItemsCreate/StartFunc.js"></script>
 {% endblock %}
