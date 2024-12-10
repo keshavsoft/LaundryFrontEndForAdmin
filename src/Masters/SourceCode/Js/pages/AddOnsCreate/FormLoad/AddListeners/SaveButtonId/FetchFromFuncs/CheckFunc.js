@@ -21,6 +21,13 @@ let StartFunc = () => {
                 return;
             }
         };
+        
+        if (LoopItem.name === 'AddOnRate') {
+            if ((LoopItem.value.trim().length < 4) === false) {
+                jVarLocalReturnTF = false;
+                return;
+            }
+        };
        
     });
 

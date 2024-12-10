@@ -20,7 +20,24 @@ let StartFunc = () => {
                 jVarLocalReturnTF = false;
                 return;
             }
+
         };
+        if (LoopItem.name === 'DryWashRate') {
+            if ((LoopItem.value.trim().length < 4) === false) {
+                jVarLocalReturnTF = false;
+                return;
+            }
+        };
+        if (LoopItem.name === 'Pcs') {
+            if ((LoopItem.value.trim().length < 4) === false) {
+                jVarLocalReturnTF = false;
+                return;
+            }
+
+        };
+        
+       
+      
        
     });
 
