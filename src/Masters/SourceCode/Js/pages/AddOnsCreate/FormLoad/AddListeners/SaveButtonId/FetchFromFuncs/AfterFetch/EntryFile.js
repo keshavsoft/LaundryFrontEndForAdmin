@@ -1,29 +1,20 @@
-import UrlJson from './url.json' with {type: 'json'};
+import { StartFunc as Status200 } from "./Status200.js";
+import { StartFunc as Status500 } from "./Status500.js";
 
-let StartFunc = ({ inRowPk }) => {
-    let LocalRowPk = inRowPk;
+let StartFunc = async ({ inResponse }) => {
+    let jVarLocalResponse = await inResponse;
 
-    if (LocalFuncForSingleTable({ inRowPk: LocalRowPk }) === false) {
-        LocalFuncForAllTables({ inRowPk: LocalRowPk });
-    };
-};
+    if (jVarLocalResponse.status === 200) {
+        let jVarLocalSavedPk = await jVarLocalResponse.text();
 
-const LocalFuncForSingleTable = ({ inRowPk }) => {
-    let LocalRowPk = inRowPk;
-
-    if (window.location.pathname.endsWith(`/${UrlJson.PresentUrl}`)) {
-        window.location.href = `${UrlJson.RedirectToUrl}?inRowPk=${LocalRowPk}`;
-        return true;
+        Status200({ inResponse: jVarLocalSavedPk });
     };
 
-    return false;
+    if (jVarLocalResponse.status === 500) {
+        let jVarLocalSavedPk = await jVarLocalResponse.text();
+
+        Status500({ inResponse: jVarLocalSavedPk });
+    };
 };
-
-const LocalFuncForAllTables = ({ inRowPk }) => {
-    let LocalRowPk = inRowPk;
-
-    window.location.href = `${jVarGlobalTableName}${UrlJson.RedirectToUrl}?inRowPk=${LocalRowPk}`;
-};
-
 
 export { StartFunc }
