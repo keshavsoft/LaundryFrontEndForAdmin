@@ -4,7 +4,9 @@ import { StartFunc as StartFuncFormLoad } from "./FormLoad/StartFunc.js";
 const StartFunc = () => {
     // let jVarLocalFromAdmin = LoginModal({ inSuccessFunc: StartFuncFormLoad });
     let jVarLocalFromAdmin = true;
-    if (jVarLocalFromAdmin) {
+    // let jVarLocalRate=document.getElementById("AddOnRate").value;
+    // console.log(jVarLocalRate);
+    if (jVarLocalFromAdmin ) {
         StartFuncFormLoad();
     };
 };
