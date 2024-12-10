@@ -7,12 +7,8 @@ let StartFunc = async () => {
 
     if (jVarLocalFromCheck) {
         let jVarLocalResponse = await StartFuncFetchFuncs();
+        StartFuncAfterFetch({ inResponse: jVarLocalResponse });
 
-        if (jVarLocalResponse.status === 200) {
-            let jVarLocalSavedPk = await jVarLocalResponse.text();
-
-            StartFuncAfterFetch({ inRowPk: jVarLocalSavedPk });
-        };
     };
 };
 
