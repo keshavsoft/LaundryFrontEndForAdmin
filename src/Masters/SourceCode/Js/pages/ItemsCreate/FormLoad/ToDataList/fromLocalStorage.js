@@ -1,11 +1,12 @@
 import { StartFunc as headerMenu } from "./headerMenu.js";
-import { StartFunc as fromLocalStorage } from "./fromLocalStorage.js";
 
 const StartFunc = () => {
-    headerMenu();
-    fromLocalStorage();
-    // jFLocalAddToItems({ inItemName: "Shirt" });
-    // jFLocalAddToItems({ inItemName: "Pant" });
+    const jVarLocalItemsData = localStorage.getItem("ItemNames");
+    const jVarLocalItemsDataAsJson = JSON.parse(jVarLocalItemsData);
+
+    jVarLocalItemsDataAsJson.forEach(element => {
+        jFLocalAddToItems({ inItemName: element.ItemName });
+    });
 };
 
 const jFLocalAddToItems = ({ inItemName }) => {
