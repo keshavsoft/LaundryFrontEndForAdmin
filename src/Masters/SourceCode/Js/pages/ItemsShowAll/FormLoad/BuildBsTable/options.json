@@ -18,11 +18,12 @@
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "Item Name"
         },
         {
             "field": "Pcs",
-            "title": "Pcs"
+            "title": "Pcs",
+            "align":"right"
         },
         {
             "field": "WashType",
@@ -30,7 +31,7 @@
         },
         {
             "field": "DryWashRate",
-            "title": "DryWashRate"
+            "title": "WashRate"
         }
     ]
 }
