@@ -1,4 +1,4 @@
-import { StartFunc as ToDataList } from "../ToDataList/StartFunc.js";
+import { StartFunc as ToDataList } from "../ToDataList/entryFile.js";
 
 const StartFunc = () => {
     if ("AllMastersData" in localStorage === false) {

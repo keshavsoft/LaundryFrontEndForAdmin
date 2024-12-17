@@ -1,6 +1,5 @@
-{% set title = 'Account Profile' %}
-
 {% extends 'src/Masters/SourceCode/Masters/simple.html' %}
+
 {% block content %}
 <div class="pagetitle">
     <h1 class="d-block d-sm-none">New Item</h1>
@@ -37,12 +36,13 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <label class="col-md-4 col-form-label">ItemName</label>
+                        <label class="col-md-4 col-form-label">Item Name</label>
                         <div class="col-md-8">
-                            <input name="ItemName" type="text" class="form-control" autocomplete="off" required
-                                autofocus>
+                            <input name="ItemName" type="text" class="form-control" autocomplete="off" required>
+                            <datalist id="ItemNameDataListId">
+                            </datalist>
                             <div class="invalid-feedback">
-                                ItemName Should not be empty!!
+                                Item Name Should not be empty!!
                             </div>
                         </div>
                     </div>
