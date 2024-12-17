@@ -23,7 +23,7 @@
         {
             "field": "Pcs",
             "title": "Pcs",
-            "align":"right"
+            "align": "right"
         },
         {
             "field": "WashType",
@@ -31,7 +31,8 @@
         },
         {
             "field": "DryWashRate",
-            "title": "WashRate"
+            "title": "WashRate",
+            "align": "right"
         }
     ]
 }
