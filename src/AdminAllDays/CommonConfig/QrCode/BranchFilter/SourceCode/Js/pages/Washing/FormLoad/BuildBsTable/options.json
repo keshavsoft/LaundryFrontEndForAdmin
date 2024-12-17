@@ -18,11 +18,11 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode"
+            "title": "Qr Code"
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "Item Name"
         },
         {
             "field": "Rate",
@@ -36,7 +36,7 @@
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Delivery DateTime"
         },
         {
             "field": "VoucherNumber",
@@ -47,7 +47,7 @@
             "field": "DCDate"
         },
         {
-            "title": "BranchName",
+            "title": "Branch Name",
             "field": "BranchName",
             "filterControl": "select"
         },
