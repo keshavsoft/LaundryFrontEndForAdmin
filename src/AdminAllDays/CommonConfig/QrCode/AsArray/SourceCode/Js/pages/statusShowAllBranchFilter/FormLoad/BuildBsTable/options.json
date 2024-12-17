@@ -22,7 +22,7 @@
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "Item Name"
         },
         {
             "field": "Rate",
@@ -36,7 +36,7 @@
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Delivery DateTime"
         },
         {
             "field": "location",
@@ -45,7 +45,7 @@
         },
         {
             "field": "BranchName",
-            "title": "BranchName",
+            "title": "Branch Name",
             "filterControl": "select"
         },
         {

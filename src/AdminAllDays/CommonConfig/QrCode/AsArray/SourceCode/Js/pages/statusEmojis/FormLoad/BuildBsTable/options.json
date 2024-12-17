@@ -39,7 +39,7 @@
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Delivery DateTime"
         },
         {
             "field": "location",
@@ -47,7 +47,7 @@
         },
         {
             "field": "BranchName",
-            "title": "BranchName"
+            "title": "Branch Name"
         },
         {
             "title": "TimeSpan",
