@@ -22,7 +22,7 @@
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "Item Name"
         },
         {
             "field": "BranchScan",
@@ -52,7 +52,7 @@
         },
         {
             "title": "TimeSpan",
-            "field": "TimeSpan"
+            "field": "Time Span"
         },
         {
             "field": "EntryScan",
