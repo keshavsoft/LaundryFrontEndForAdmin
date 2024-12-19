@@ -20,7 +20,7 @@
             "title": "QrCode"
         },
         {
-            "title": "BranchName",
+            "title": "Branch Name",
             "field": "BranchName",
             "filterControl": "select"
         },
@@ -30,7 +30,7 @@
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "Item Name"
         },
         {
             "field": "Rate",
@@ -49,11 +49,11 @@
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Delivery DateTime"
         },
         {
             "field": "BranchScan",
-            "title": "BranchScan_DC"
+            "title": "Branch Scan_DC"
         },
         {
             "title": "DC Date",
