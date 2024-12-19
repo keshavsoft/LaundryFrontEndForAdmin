@@ -14,11 +14,11 @@
         },
         {
             "field": "AddOnService",
-            "title": "AddOnService"
+            "title": "AddOn Service"
         },
         {
             "field": "AddOnRate",
-            "title": "AddOnRate"
+            "title": "AddOn Rate"
         }
     ]
 }

@@ -21,7 +21,7 @@
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "Item Name"
         },
         {
             "field": "Pcs",
@@ -30,7 +30,7 @@
         },
         {
             "field": "WashType",
-            "title": "WashType",
+            "title": "Wash Type",
             "filterControl": "select"
         },
         {

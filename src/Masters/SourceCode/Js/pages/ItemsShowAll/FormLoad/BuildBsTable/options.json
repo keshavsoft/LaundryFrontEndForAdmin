@@ -27,11 +27,11 @@
         },
         {
             "field": "WashType",
-            "title": "WashType"
+            "title": "Wash Type"
         },
         {
             "field": "DryWashRate",
-            "title": "WashRate",
+            "title": "Wash Rate",
             "align": "right"
         }
     ]

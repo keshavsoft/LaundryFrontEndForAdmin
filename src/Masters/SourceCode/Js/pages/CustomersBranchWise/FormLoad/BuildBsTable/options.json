@@ -15,7 +15,7 @@
         },
         {
             "field": "CustomerName",
-            "title": "CustomerName"
+            "title": "Customer Name"
         },
         {
             "field": "Mobile",
@@ -27,7 +27,7 @@
         },
         {
             "field": "GSTNumber",
-            "title": "GSTNumber"
+            "title": "GST Number"
         },
         {
             "field": "City",
@@ -39,11 +39,11 @@
         },
         {
             "field": "CompanyName",
-            "title": "CompanyName"
+            "title": "Company Name"
         },
         {
             "field": "BranchName",
-            "title": "BranchName",
+            "title": "Branch Name",
             "filterControl": "select"
         }
     ]
