@@ -57,19 +57,23 @@
         },
         {
             "field": "EntryScan",
-            "title": "Factory"
+            "title": "Factory",
+            "filterControl":"select"
         },
         {
             "field": "WashingScan",
-            "title": "Washing"
+            "title": "Washing",
+            "filterControl":"select"
         },
         {
             "field": "PressingScan",
-            "title": "Pressing"
+            "title": "Pressing",
+            "filterControl":"select"
         },
         {
             "field": "CompletionScan",
-            "title": "Completion"
+            "title": "Completion",
+            "filterControl":"select"
         }
         
     ]
