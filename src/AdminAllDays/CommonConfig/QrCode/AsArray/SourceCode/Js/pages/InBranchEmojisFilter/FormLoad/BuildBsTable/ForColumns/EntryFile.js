@@ -1,6 +1,10 @@
 import { StartFunc as ColumnOperate } from "./ColumnSerial/entryFile.js";
 import { StartFunc as ColumnRate } from "./ColumnRate/entryFile.js";
 import { StartFunc as ColumnBranchScan } from "./ColumnBranchScan/entryFile.js";
+import { StartFunc as ColumnEntryScan  } from "./ColumnEntryScan/entryFile.js";
+import { StartFunc as ColumnWashingScan } from "./ColumnWashingScan/entryFile.js";
+import { StartFunc as ColumnPressingScan } from "./ColumnPressingScan/entryFile.js";
+import { StartFunc as ColumnCompletionScan } from "./ColumnCompletionScan/entryFile.js";
 
 let StartFunc = ({ inColumns }) => {
     let LocalColumns = inColumns;
@@ -26,19 +30,19 @@ let StartFunc = ({ inColumns }) => {
     };
 
     if (LocalColumnEntryScan === undefined === false) {
-        ColumnBranchScan({ inFindColumn: LocalColumnEntryScan });
+        ColumnEntryScan({ inFindColumn: LocalColumnEntryScan });
     };
 
     if (LocalColumnWashingScan === undefined === false) {
-        ColumnBranchScan({ inFindColumn: LocalColumnWashingScan });
+        ColumnWashingScan({ inFindColumn: LocalColumnWashingScan });
     };
 
     if (LocalColumnPressingScan === undefined === false) {
-        ColumnBranchScan({ inFindColumn: LocalColumnPressingScan });
+        ColumnPressingScan({ inFindColumn: LocalColumnPressingScan });
     };
 
     if (LocalColumnCompletionScan === undefined === false) {
-        ColumnBranchScan({ inFindColumn: LocalColumnCompletionScan });
+        ColumnCompletionScan({ inFindColumn: LocalColumnCompletionScan });
     };
 };
 
