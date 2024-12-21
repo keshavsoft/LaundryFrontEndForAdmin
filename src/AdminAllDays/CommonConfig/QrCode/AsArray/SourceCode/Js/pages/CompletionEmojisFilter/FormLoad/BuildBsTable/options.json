@@ -3,7 +3,7 @@
     "search": "true",
     "searchable": "true",
     "idfield": "pk",
-    "pageList": "[5, 10, 25 ]",
+    "pageList": "[5, 10, 25, 50, 100, All ]",
     "pageSize": "5",
     "showFooter": "true",
     "data": [],
@@ -18,11 +18,11 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode"
+            "title": "Qr Code"
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "Item Name"
         },
         {
             "field": "BranchScan",
@@ -41,7 +41,7 @@
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Delivery DateTime"
         },
         {
             "field": "location",
@@ -49,27 +49,31 @@
         },
         {
             "field": "BranchName",
-            "title": "BranchName"
+            "title": "Branch Name"
         },
         {
-            "title": "TimeSpan",
+            "title": "Time Span",
             "field": "TimeSpan"
         },
         {
             "field": "EntryScan",
-            "title": "Factory"
+            "title": "Factory",
+             "filterControl":"select"
         },
         {
             "field": "WashingScan",
-            "title": "Washing"
+            "title": "Washing",
+             "filterControl":"select"
         },
         {
             "field": "PressingScan",
-            "title": "Pressing"
+            "title": "Pressing",
+             "filterControl":"select"
         },
         {
             "field": "CompletionScan",
-            "title": "Completion"
+            "title": "Completion",
+             "filterControl":"select"
         }
         
     ]
