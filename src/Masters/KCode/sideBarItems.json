@@ -74,5 +74,22 @@
                 "icon": "bi bi-grid-3x3"
             }
         ]
+    },
+    {
+        "name": "ItemService",
+        "key": "ItemService",
+        "icon": "bi bi-cart-fill",
+        "children": [
+            {
+                "name": "Create",
+                "url": "ItemServiceCreate.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Show",
+                "url": "ItemServiceShow.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
     }
 ]
