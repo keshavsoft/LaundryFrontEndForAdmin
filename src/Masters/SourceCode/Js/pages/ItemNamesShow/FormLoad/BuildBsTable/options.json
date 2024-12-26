@@ -13,8 +13,8 @@
             "formatter": "jFGlobalSerialColumn"
         },
         {
-            "field": "ItemNames",
-            "title": "ItemName"
+            "field": "ItemName",
+            "title": "ItemNames"
         }
     ]
 }
