@@ -76,6 +76,23 @@
         ]
     },
     {
+        "name": "ItemsV1",
+        "key": "V1",
+        "icon": "bi bi bi-briefcase-fill",
+        "children": [
+            {
+                "name": "Create",
+                "url": "V1ItemCreate.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Show",
+                "url": "V1ItemShowAll.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    },
+    {
         "name": "ItemService",
         "key": "ItemService",
         "icon": "bi bi-cart-fill",
