@@ -1,8 +1,7 @@
+import { StartFunc as ItemsDatalist } from './ItemsDatalist/EntryFile.js'
+
 const StartFunc = () => {
-    if ("AllMastersData" in localStorage) {
-        let jVarLocalHeaderToDataListId = document.getElementById('HeaderToDataListId');
-        jVarLocalHeaderToDataListId.click();
-    };
+    ItemsDatalist()
 };
 
 export { StartFunc };
