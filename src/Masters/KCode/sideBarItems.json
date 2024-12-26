@@ -91,5 +91,22 @@
                 "icon": "bi bi-grid-3x3"
             }
         ]
+    },
+    {
+        "name": "ItemNames",
+        "key": "ItemNames",
+        "icon": "bi bi-diagram-2-fill",
+        "children": [
+            {
+                "name": "Create",
+                "url": "ItemNamesCreate.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Show",
+                "url": "ItemNamesShow.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
     }
 ]
