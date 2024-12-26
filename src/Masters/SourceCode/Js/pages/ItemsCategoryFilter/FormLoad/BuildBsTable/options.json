@@ -30,7 +30,7 @@
             "align": "right"
         },
         {
-            "field": "WashType",
+            "field": "Service",
             "title": "Wash Type"
         },
         {
