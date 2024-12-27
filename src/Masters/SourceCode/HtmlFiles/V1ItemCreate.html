@@ -38,10 +38,9 @@
                     <div class="col-md-12">
                         <label class="col-md-4 col-form-label">Item Name</label>
                         <div class="col-md-8">
-                            <input name="ItemName" type="text" class="form-control" autocomplete="off"
-                                list="ItemNameDataListId" required>
-                            <datalist id="ItemNameDataListId">
-                            </datalist>
+                            <select id="ItemNameDataListId" class="form-select">
+                                <option value="">Select Item</option>
+                            </select>
                             <div class="invalid-feedback">
                                 Item Name Should not be empty!!
                             </div>
@@ -60,14 +59,11 @@
                     <div class="col-md-12">
                         <label class="col-md-4 col-form-label">Service</label>
                         <div class="col-md-8">
-                            <input name="Service" type="text" class="form-control" autocomplete="off" 
-                            list="ItemServiceDataListId" required>
-                            <datalist id="ItemServiceDataListId">
-                            </datalist>
+                            <select id="ItemServiceDataListId" class="form-select">
+                                <option value="">Select Service</option>
+                            </select>
                             <div class="invalid-feedback">
-
-                               Service Should not be empty!!
-
+                                Service Should not be empty!!
                             </div>
                         </div>
                     </div>
@@ -99,5 +95,7 @@
 {% block js %}
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+<!-- <script type="module" src="../Js/pages/V1ItemCreate/StartFunc.js"></script> -->
 <script type="module" src="../Js/pages/V1ItemCreate/StartFunc.js"></script>
+
 {% endblock %}
