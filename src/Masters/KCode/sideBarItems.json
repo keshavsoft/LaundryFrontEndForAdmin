@@ -10,28 +10,6 @@
         "url": "../../Menu/HtmlFiles/"
     },
     {
-        "name": "Customers",
-        "key": "Customers",
-        "icon": "bi bi-people-fill",
-        "children": [
-            {
-                "name": "Create",
-                "url": "CustomersCreate.html",
-                "icon": "bi bi-plus-square-fill"
-            },
-            {
-                "name": "Show",
-                "url": "CustomersShowAll.html",
-                "icon": "bi bi-grid-3x3"
-            },
-            {
-                "name": "BranchWise",
-                "url": "CustomersBranchWise.html",
-                "icon": "bi bi-grid-3x3"
-            }
-        ]
-    },
-    {
         "name": "AddOns",
         "key": "AddOns",
         "icon": "bi bi-x-diamond-fill",
@@ -44,6 +22,40 @@
             {
                 "name": "Show",
                 "url": "AddOnsShowAll.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    },
+    {
+        "name": "ItemType",
+        "key": "ItemNames",
+        "icon": "bi bi-diagram-2-fill",
+        "children": [
+            {
+                "name": "Create",
+                "url": "ItemNamesCreate.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Show",
+                "url": "ItemNamesShow.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    },
+    {
+        "name": "ItemService",
+        "key": "ItemService",
+        "icon": "bi bi-cart-fill",
+        "children": [
+            {
+                "name": "Create",
+                "url": "ItemServiceCreate.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Show",
+                "url": "ItemServiceShow.html",
                 "icon": "bi bi-grid-3x3"
             }
         ]
@@ -93,35 +105,23 @@
         ]
     },
     {
-        "name": "ItemService",
-        "key": "ItemService",
-        "icon": "bi bi-cart-fill",
+        "name": "Customers",
+        "key": "Customers",
+        "icon": "bi bi-people-fill",
         "children": [
             {
                 "name": "Create",
-                "url": "ItemServiceCreate.html",
-                "icon": "bi bi-grid-3x3"
+                "url": "CustomersCreate.html",
+                "icon": "bi bi-plus-square-fill"
             },
             {
                 "name": "Show",
-                "url": "ItemServiceShow.html",
-                "icon": "bi bi-grid-3x3"
-            }
-        ]
-    },
-    {
-        "name": "ItemType",
-        "key": "ItemNames",
-        "icon": "bi bi-diagram-2-fill",
-        "children": [
-            {
-                "name": "Create",
-                "url": "ItemNamesCreate.html",
+                "url": "CustomersShowAll.html",
                 "icon": "bi bi-grid-3x3"
             },
             {
-                "name": "Show",
-                "url": "ItemNamesShow.html",
+                "name": "BranchWise",
+                "url": "CustomersBranchWise.html",
                 "icon": "bi bi-grid-3x3"
             }
         ]
