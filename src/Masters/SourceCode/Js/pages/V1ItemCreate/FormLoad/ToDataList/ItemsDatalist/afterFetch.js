@@ -8,7 +8,7 @@ const StartFunc = (data) => {
 const jFLocalAddToItems = ({ inItemName }) => {
     const option = `<option value="${inItemName}">${inItemName}</option>`
     // var option = $('<option value="' + inItemName + '"></option>');
-    $('#ItemNameDataListId').append(option);
+    $('#ItemTypeSelectId').append(option);
 };
 
 export { StartFunc };
