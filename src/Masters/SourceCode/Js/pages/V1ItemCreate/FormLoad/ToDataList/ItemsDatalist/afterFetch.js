@@ -1,7 +1,7 @@
 const StartFunc = (data) => {
 
     data.forEach(element => {
-        jFLocalAddToItems({ inItemName: element.ItemName });
+        jFLocalAddToItems({ inItemName: element.ItemType });
     });
 };
 
