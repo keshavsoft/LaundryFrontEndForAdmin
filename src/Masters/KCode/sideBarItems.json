@@ -110,7 +110,7 @@
         ]
     },
     {
-        "name": "ItemNames",
+        "name": "ItemType",
         "key": "ItemNames",
         "icon": "bi bi-diagram-2-fill",
         "children": [

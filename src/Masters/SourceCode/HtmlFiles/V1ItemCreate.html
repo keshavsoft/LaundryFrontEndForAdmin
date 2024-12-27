@@ -23,7 +23,7 @@
                     <div class="col-md-12">
                         <label class="col-md-4 col-form-label">Category</label>
                         <div class="col-md-8">
-                            <select name="Category" class="form-select" required autofocus>
+                            <select name="Category" class="form-select" id="CategoryId" required autofocus>
                                 <option value="">Select Category</option>
                                 <option value="Men">Men</option>
                                 <option value="Women">Women</option>
@@ -36,11 +36,32 @@
                         </div>
                     </div>
                     <div class="col-md-12">
+                        <label class="col-md-4 col-form-label">Item Type</label>
+                        <div class="col-md-8">
+                            <select id="ItemTypeSelectId" class="form-select" name="ItemType">
+                                <option value="">Select Item Type</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Item ItemType Should not be empty!!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label class="col-md-4 col-form-label">Service</label>
+                        <div class="col-md-8">
+                            <select id="ItemServiceSelectId" class="form-select" name="Service">
+                                <option value="">Select Service</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Service Should not be empty!!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 ">
                         <label class="col-md-4 col-form-label">Item Name</label>
                         <div class="col-md-8">
-                            <select id="ItemNameDataListId" class="form-select">
-                                <option value="">Select Item</option>
-                            </select>
+                            <input id="ItemNameInputId" class="form-control" name="ItemName" readonly>
+                            </input>
                             <div class="invalid-feedback">
                                 Item Name Should not be empty!!
                             </div>
@@ -56,17 +77,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <label class="col-md-4 col-form-label">Service</label>
-                        <div class="col-md-8">
-                            <select id="ItemServiceDataListId" class="form-select">
-                                <option value="">Select Service</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Service Should not be empty!!
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="col-md-12">
                         <label class="col-md-4 col-form-label">Rate</label>
                         <div class="col-md-8">

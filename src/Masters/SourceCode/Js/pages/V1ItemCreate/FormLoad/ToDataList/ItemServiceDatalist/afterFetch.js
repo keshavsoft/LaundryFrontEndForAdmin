@@ -8,7 +8,7 @@ const StartFunc = (data) => {
 const jFLocalItemService = ({ inItemService }) => {
     // var option = $('<option value="' + inItemService + '"></option>');
     const option = `<option value="${inItemService}">${inItemService}</option>`
-    $('#ItemServiceDataListId').append(option);
+    $('#ItemServiceSelectId').append(option);
 };
 
 export { StartFunc };
