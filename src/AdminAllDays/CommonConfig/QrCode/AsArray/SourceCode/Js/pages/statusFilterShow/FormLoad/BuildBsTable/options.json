@@ -44,7 +44,7 @@
             "filterControl": "select"
         },
         {
-            "field": "FactoryScan",
+            "field": "EntryScan",
             "title": "EntryScan"
         },
         {
