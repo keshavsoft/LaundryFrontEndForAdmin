@@ -53,7 +53,7 @@
             "field": "TimeSpan"
         },
         {
-            "field": "FactoryScan",
+            "field": "EntryScan",
             "title": "EntryScan"
         },
         {
