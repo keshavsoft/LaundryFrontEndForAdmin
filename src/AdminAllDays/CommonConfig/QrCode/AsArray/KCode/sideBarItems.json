@@ -274,6 +274,11 @@
                 "name": "EmojisFilter",
                 "url": "PressingEmojisFilter.html",
                 "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "Return",
+                "url": "PressingReturn.html",
+                "icon": "bi bi-filter-circle"
             }
         ]
     },
