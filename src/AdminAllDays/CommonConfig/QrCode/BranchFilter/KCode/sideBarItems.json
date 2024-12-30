@@ -137,8 +137,8 @@
                 "icon": "bi bi-gear"
             },
             {
-                "name": "Return",
-                "url": "PressingReturn.html",
+                "name": "ReturnRewash",
+                "url": "PressingReturnRewash.html",
                 "icon": "bi bi-gear"
             }
         ]

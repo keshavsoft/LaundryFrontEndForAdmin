@@ -7,7 +7,7 @@
     "pagination": "true",
     "pageList": "[5, 10, 25 ]",
     "pageSize": "5",
-   
+   "filterControl": true,
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -62,7 +62,15 @@
         },
         {
             "title": "Return",
-            "field": "PressingRejectScan"
+            "field": "PressingRejectScan",
+            "filterControl": "select"
+
+        },
+        {
+            "title": "Rewash",
+            "field": "PressingRewash",
+            "filterControl": "select"
+
         }
 
     ]
