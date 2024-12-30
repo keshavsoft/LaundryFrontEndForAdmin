@@ -281,8 +281,8 @@
                 "icon": "bi bi-filter-circle"
             },
             {
-                "name": "PressingReturn",
-                "url": "PressingReturn.html",
+                "name": "Return & Rewash",
+                "url": "PressingReturnRewash.html",
                 "icon": "bi bi-filter-circle"
             }
         ]
