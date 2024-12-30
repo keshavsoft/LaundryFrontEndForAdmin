@@ -25,6 +25,11 @@
                 "icon": "bi bi-list"
             }
         ]
+    },
+    {
+        "name": "Accounts",
+        "icon": "bi bi-person-plus-fill",
+        "url":"../../Accounts/Payments/HtmlFiles/"
     }
     
 ]
