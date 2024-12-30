@@ -42,8 +42,8 @@
             "title": "DC #"
         },
         {
-            "title": "EntryScan_DCDate",
-            "field": "DCDate"
+            "title": "DCDate",
+            "field": "EntryScan_DCDate"
         },
         {
             "title": "BranchName",
