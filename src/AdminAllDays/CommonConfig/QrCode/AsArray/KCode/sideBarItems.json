@@ -200,6 +200,11 @@
                 "name": "EmojisFilter",
                 "url": "FactoryScanEmojisFilter.html",
                 "icon": "bi bi-filter-circle"
+            },
+            {
+                "name": "EntryReturn",
+                "url": "FactoryScanReturn.html",
+                "icon": "bi bi-filter-circle"
             }
         ]
     },
@@ -276,7 +281,7 @@
                 "icon": "bi bi-filter-circle"
             },
             {
-                "name": "Return",
+                "name": "PressingReturn",
                 "url": "PressingReturn.html",
                 "icon": "bi bi-filter-circle"
             }

@@ -4,10 +4,10 @@
     "searchable": "true",
     "idfield": "pk",
     "showFooter": "true",
-    "pageList": "[5, 10, 25 ]",
-    "pageSize": "5",
     "pagination": "true",
     "filterControl": true,
+    "pageList": "[5, 10, 25 ]",
+    "pageSize": "5", 
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -18,16 +18,18 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode"
+            "title": "QrCode",
+            "filtercontrol": "select"
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "ItemName",
+            "filtercontrol": "select"
         },
         {
             "field": "Rate",
             "title": "Rate",
-            "align": "right",
+            "align":"right",
             "footerFormatter": ""
         },
         {
@@ -43,7 +45,7 @@
             "title": "DC #"
         },
         {
-            "title": "DCDate",
+            "title": "DC Date",
             "field": "EntryScan_DCDate"
         },
         {
@@ -57,7 +59,7 @@
             "filterControl": "select"
         },
         {
-            "field": "PressingScan",
+            "field": "FactoryScan",
             "title": "Status",
             "filterControl": "select"
         },
@@ -67,8 +69,12 @@
         },
         {
             "title": "Return",
-            "field": "PressingRejectScan",
-            "filterControl": "select"
+            "field": "EntryReturnScan",
+            "filterControl":"select"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
         }
     ]
 }
