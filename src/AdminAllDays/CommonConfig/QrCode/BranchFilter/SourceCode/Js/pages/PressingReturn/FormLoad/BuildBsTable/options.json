@@ -18,13 +18,11 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode",
-            "filtercontrol": "select"
+            "title": "QrCode"
         },
         {
             "field": "ItemName",
-            "title": "ItemName",
-            "filtercontrol": "select"
+            "title": "ItemName"
         },
         {
             "field": "Rate",
@@ -59,13 +57,13 @@
             "filterControl": "select"
         },
         {
-            "field": "EntryScan",
-            "title": "Status",
-            "filterControl": "select"
-        },
-        {
             "title": "TimeSpan",
             "field": "TimeSpan"
+        },
+        {
+            "title": "Return",
+            "field": "PressingRejectScan"
         }
+
     ]
 }

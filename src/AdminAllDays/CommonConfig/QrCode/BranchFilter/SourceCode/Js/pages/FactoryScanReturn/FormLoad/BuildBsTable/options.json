@@ -59,13 +59,12 @@
             "filterControl": "select"
         },
         {
-            "field": "EntryScan",
-            "title": "Status",
-            "filterControl": "select"
-        },
-        {
             "title": "TimeSpan",
             "field": "TimeSpan"
+        },
+        {
+            "title": "Return",
+            "field": "EntryReturnScan"
         }
     ]
 }
