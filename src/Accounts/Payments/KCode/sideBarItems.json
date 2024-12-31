@@ -21,6 +21,11 @@
         "icon": "bi bi-border-all"
     },
     {
+        "name": "GSTShowAll",
+        "url": "PaymentsGSTShowAll.html",
+        "icon": "bi bi-border-all"
+    },
+    {
         "name": "Cash",
         "url": "PaymentsCash.html",
         "icon": "bi bi-cash-coin"
