@@ -65,12 +65,6 @@
             "field": "PressingRejectScan",
             "filterControl": "select"
 
-        },
-        {
-            "title": "Rewash",
-            "field": "PressingRewash",
-            "filterControl": "select"
-
         }
 
     ]
