@@ -93,6 +93,11 @@
                 "name": "ShowAll",
                 "url": "FactoryScan.html",
                 "icon": "bi bi-arrow-right"
+            },
+            {
+                "name": "FactoryReturn",
+                "url": "FactoryScanReturn.html",
+                "icon": "bi bi-arrow-right"
             }
         ]
     },
