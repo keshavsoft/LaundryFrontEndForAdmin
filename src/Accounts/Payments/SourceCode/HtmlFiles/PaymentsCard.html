@@ -16,25 +16,45 @@
 <div class="spinner-border" id="SpinnerId" role="status" style="display: none;">
     <span class="visually-hidden">Loading...</span>
 </div>
-<div class="row">
-    <div class="col-md-4">
-        <div class="form-group row align-items-centerv">
-            <label for="FromDateInputId" class="col-md-4 col-form-label text-right">From Date</label>
-            <div class="col-md-8">
-                <input id="FromDateInputId" type="date" class="form-control">
-            </div>
+<div class="row align-items-center">
+    <div class="col-lg-3 col-md-3">
+        <div class="form-group">
+            <label for="Branch" class="form-label">Select Branch</label>
+            <select id="Branch" class="form-control" name="Branch" required>
+                <option value="All">All</option>
+                <option value="KKD">KKD</option>
+                <option value="ANR">ANR</option>
+                <option value="CSO">CSO</option>
+                <option value="GD">GD</option>
+                <option value="GWK">GWK</option>
+                <option value="KPA">KPA</option>
+                <option value="LBC">LBC</option>
+                <option value="MSNvzm">MSNvzm</option>
+                <option value="MVP">MVP</option>
+                <option value="NGGOS">NGGOS</option>
+                <option value="PBS">PBS</option>
+                <option value="RandB">RandB</option>
+                <option value="SP">SP</option>
+                <option value="VUDA">VUDA</option>
+                <option value="VZM">VZM</option>
+                <option value="YD">YD</option>
+            </select>
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="form-group row align-items-center">
-            <label for="ToDateInputId" class="col-md-4 col-form-label text-right">To Date</label>
-            <div class="col-md-8">
-                <input id="ToDateInputId" type="date" class="form-control">
-            </div>
+    <div class="col-lg-4 col-md-4">
+        <div class="form-group">
+            <label for="FromDateInputId" class="form-label">From Date</label>
+            <input id="FromDateInputId" type="date" class="form-control">
         </div>
     </div>
-    <div class="col-md-4 d-flex align-items-center justify-content-end">
-        <button id="ShowButtonId" class="btn btn-success">Show</button>
+    <div class="col-lg-4 col-md-4">
+        <div class="form-group">
+            <label for="ToDateInputId" class="form-label">To Date</label>
+            <input id="ToDateInputId" type="date" class="form-control">
+        </div>
+    </div>
+    <div class="col-lg-1 col-md-2 d-flex align-items-end ">
+        <button id="ShowButtonId" class="btn btn-primary mt-4"><i class="bi bi-search"></i></button>
     </div>
 </div>
 <table id="table">
