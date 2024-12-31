@@ -122,6 +122,16 @@
                 "name": "ShowAll",
                 "url": "Pressing.html",
                 "icon": "bi bi-gear"
+            },
+            {
+                "name": "Return",
+                "url": "PressingReturn.html",
+                "icon": "bi bi-gear"
+            },
+            {
+                "name": "Rewash",
+                "url": "PressingRewash.html",
+                "icon": "bi bi-gear"
             }
         ]
     },
