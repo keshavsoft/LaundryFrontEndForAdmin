@@ -17,7 +17,7 @@
             "formatter": "jFLocalSerialColumn"
         },
         {
-            "field": "pk",
+            "field": "QrCodeId",
             "title": "QrCode"
         },
         {
@@ -43,7 +43,7 @@
             "title": "DC Factory"
         },
         {
-            "field": "BookingData.OrderData.BranchName",
+            "field": "BranchName",
             "title": "BranchName",
             "filterControl": "select"
         },
