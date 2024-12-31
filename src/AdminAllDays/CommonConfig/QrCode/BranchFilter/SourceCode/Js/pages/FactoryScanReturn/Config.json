@@ -1,4 +1,4 @@
 {
-    "GetUrl": "/Custom/Cleaning/Dashboard/Admin/Reports/Pos/AllDays/QrCodes/BranchFilter/FactoryScan",
-    "GetEndPoint": "FactoryScan"
+    "GetUrl": "/Custom/Cleaning/Dashboard/Admin/Reports/Pos/AllDays/QrCodes/BranchFilter/EntryFactoryReturn",
+    "GetEndPoint": "EntryFactoryReturn"
 }
