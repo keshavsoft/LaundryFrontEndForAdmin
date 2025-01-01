@@ -7,7 +7,7 @@
     "pagination":"true",
     "pageList": "[5, 10, 25 ]",
     "pageSize": "5",
-   
+   "filterControl": "true",
     "data": [],
     "onClickRow": "",
     "columns": [
