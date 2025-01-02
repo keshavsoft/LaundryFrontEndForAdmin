@@ -224,9 +224,10 @@ a:hover {
 /*how-it-work*/
 
 #how-it-work {
-    background-color: #fff;
-    padding: 100px 0;
-    background-color: #fff;
+    background-color: #d5e6f5;
+    padding: 20px 0;
+    height: 723px;
+    
 }
 
 #how-it-work h3 {
@@ -262,6 +263,15 @@ a:hover {
 
 .pt-20 {
     padding-top: 200px;
+}
+
+#how-it-work img{
+    height: 100px !important;
+    width: 105px !important;
+}
+
+#how-it-work .container .row .margin-bt:hover {
+    transform: translateY(-10px); /* Slide up by 20px */
 }
 
 /*services*/
