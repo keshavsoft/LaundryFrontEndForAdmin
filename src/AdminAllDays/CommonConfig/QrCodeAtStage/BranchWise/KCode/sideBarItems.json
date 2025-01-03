@@ -85,5 +85,17 @@
                 "icon": "bi bi-gear"
             }
         ]
+    },
+    {
+        "name": "InFactory",
+        "key": "FromFactory",
+        "icon": "bi bi-buildings",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "FromFactory.html",
+                "icon": "bi bi-gear"
+            }
+        ]
     }
 ]

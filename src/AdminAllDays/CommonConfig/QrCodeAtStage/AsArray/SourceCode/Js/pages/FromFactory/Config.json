@@ -2,6 +2,6 @@
     "routePath": "bin",
     "StartRoute": "binV4",
     "tableName": "Openings",
-    "GetUrl": "/Custom/Cleaning/Dashboard/Admin/Reports/Pos/AllDays/QrCodesAtStage/AllBranches/InCompletion",
+    "GetUrl": "Custom/Cleaning/Dashboard/Admin/Reports/Pos/AllDays/QrCodesAtStage/AllBranches/InCompletion",
     "GetEndPoint":"InCompletion"
 }
