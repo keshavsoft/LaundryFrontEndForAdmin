@@ -1,4 +1,4 @@
 {
-    "GetUrl": "/Custom/Cleaning/Dashboard/Admin/Reports/Pos/AllDays/QrCodes/BranchFilter/CompletionStart",
-    "GetEndPoint": "InGenerate"
+    "GetUrl": "/Custom/Cleaning/Dashboard/Admin/Reports/Pos/AllDays/QrCodesAtStage/BranchFilter/InCompletion",
+    "GetEndPoint": "InCompletion"
 }
