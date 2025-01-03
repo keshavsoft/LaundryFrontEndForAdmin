@@ -73,5 +73,17 @@
                 "icon": "bi bi-gear"
             }
         ]
+    },
+    {
+        "name": "InCompletion",
+        "key": "Completion",
+        "icon": "bi bi-truck-front",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "Completion.html",
+                "icon": "bi bi-gear"
+            }
+        ]
     }
 ]
