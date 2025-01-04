@@ -3,8 +3,8 @@
     "search": "true",
     "searchable": "true",
     "idfield": "pk",
-    "pagination": "true",
     "showFooter": "true",
+    "pagination": "true",
     "data": [],
     "onClickRow": "",
     "columns": [
