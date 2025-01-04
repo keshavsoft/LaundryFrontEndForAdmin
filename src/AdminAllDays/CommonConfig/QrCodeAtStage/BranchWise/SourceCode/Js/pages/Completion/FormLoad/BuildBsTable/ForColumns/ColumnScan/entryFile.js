@@ -7,7 +7,7 @@ let StartFunc = ({ inFindColumn }) => {
 let jVarLocalFormatterFunc = (value, row, index) => {
     const jVarLocalBranchName = row.BranchName;
         return [
-            `<a class="like btn btn-primary" target="blank" href="../../BranchFilter/HtmlFiles/Generate.html?BranchName=${jVarLocalBranchName}" title="Show">`,
+            `<a class="like btn btn-primary" target="blank" href="../../BranchFilter/HtmlFiles/Completion.html?BranchName=${jVarLocalBranchName}" title="Show">`,
             `<i class="bi bi-qr-code"></i> `,
             row.QrCount,
             '</a>',
@@ -28,7 +28,7 @@ function priceFormatter(data) {
     }, 0);
     let total= Math.floor(LocalTotal);
     return [
-        `<a class="like btn btn-info" target="blank" href="../../BranchFilter/HtmlFiles/Generate.html" title="Show">`,
+        `<a class="like btn btn-info" target="blank" href="../../BranchFilter/HtmlFiles/Pressing.html" title="Show">`,
         `<i class="bi bi-qr-code"></i> `,
         total,
         '</a>',
