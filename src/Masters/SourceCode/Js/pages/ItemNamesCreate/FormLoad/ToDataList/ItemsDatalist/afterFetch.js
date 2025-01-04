@@ -1,12 +1,13 @@
 const StartFunc = (data) => {
+
     data.forEach(element => {
-        jFLocalAddToItems({ inItemName: element.ItemName });
+        jFLocalAddToItems({ inItemName: element.ItemType });
     });
 };
 
 const jFLocalAddToItems = ({ inItemName }) => {
-    var option = $('<option value="' + inItemName + '"></option>');
-
+    const option = `<option value="${inItemName}">${inItemName}</option>`
+    // var option = $('<option value="' + inItemName + '"></option>');
     $('#ItemNameDataListId').append(option);
 };
 
