@@ -1344,7 +1344,7 @@ footer .social-links img {
     transform: translateX(-50%);
   }
  
-    /* Import Google Fonts */
+    /* Import Google Fonts
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@300;500;700&display=swap');
     
     #how-it-work {
@@ -1422,7 +1422,7 @@ footer .social-links img {
 
     .text-center {
         text-align: center;
-    }
+    } */
 
     /* Keyframe Animations */
     @keyframes fadeInUp {
@@ -1447,3 +1447,104 @@ footer .social-links img {
         }
     }
  
+
+    /* General Styling */
+.custom-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    /* box-shadow: 5px 5px 10px #cccccc, -5px -5px 10px #4b4646; */
+    box-shadow: 5px 5px 10px #68cee2, -5px -5px 10px #4b4646;
+    transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.custom-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    background: linear-gradient(145deg, #f0f0f0, #ffffff);
+    box-shadow: 10px 10px 20px #d4d4d4, -10px -10px 20px #68cee2;
+}
+
+.custom-card:hover .custom-heading {
+    color: #007bff;
+}
+
+.custom-card:hover p {
+    color: #333333;
+}
+
+/* Image Styling */
+.custom-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.custom-card:hover .custom-image {
+    transform: scale(1.1);
+}
+
+/* Heading Styling */
+.custom-heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #444444;
+}
+
+/* Subtext Styling */
+.text-muted {
+    color: #888888;
+    transition: color 0.3s ease;
+}
+.main-heading {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Sub Heading Style */
+.sub-heading {
+    font-size: 1.25rem;
+    color: #777;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* Card Hover Effect */
+/* .custom-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+} */
+
+/* Custom Card Image */
+/* .custom-image {
+    transition: transform 0.3s ease;
+} */
+
+/* .custom-card:hover .custom-image {
+    transform: scale(1.05);
+} */
+
+/* Keyframe Animation for Heading */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.main-heading, .sub-heading {
+    animation: fadeInUp 1s ease-out;
+}
