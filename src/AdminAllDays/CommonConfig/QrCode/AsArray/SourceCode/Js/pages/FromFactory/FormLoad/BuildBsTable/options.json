@@ -3,14 +3,12 @@
     "search": "true",
     "searchable": "true",
     "idfield": "pk",
+    "pagination": "true",
     "showFooter": "true",
+    "pageList": "[5, 10, 25 ]",
+    "pageSize": "5",  
     "data": [],
     "onClickRow": "",
-    "filterControl": true,
-    "pagination": "true",
-    "pageList": "[5, 10, 25 ]",
-    "pageSize": "5",
-   
     "columns": [
         {
             "field": "KS-Serial",
@@ -18,17 +16,22 @@
             "formatter": "jFLocalSerialColumn"
         },
         {
-            "field": "pk",
+            "field": "QrCodeId",
             "title": "QrCode"
         },
-        
+        {
+            "title": "BranchName",
+            "field": "BranchName",
+            "filterControl": "select"
+        },
         {
             "title": "TimeSpan",
             "field": "TimeSpan"
-        },
+        }
+    ,
         {
             "field": "ItemName",
-            "title": "Item Name"
+            "title": "ItemName"
         },
         {
             "field": "Rate",
@@ -45,17 +48,22 @@
             "title": "DeliveryDateTime"
         },
         {
-            "field": "location",
-            "title": "DC Factory"
+            "field": "VoucherNumber",
+            "title": "DC #"
         },
         {
-            "field": "BookingData.OrderData.BranchName",
-            "title": "BranchName",
+            "title": "DC Date",
+            "field": "DCDate"
+        },
+        {
+            "field": "location",
+            "title": "DC Factory",
             "filterControl": "select"
         },
         {
-            "field": "Status",
-            "title": "Status"
+            "field": "CompletionScan",
+            "title": "Status",
+            "filterControl": "select"
         }
     ]
 }

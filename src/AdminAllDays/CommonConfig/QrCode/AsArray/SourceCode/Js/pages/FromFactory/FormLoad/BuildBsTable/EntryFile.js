@@ -11,4 +11,3 @@ const StartFunc = () => {
 };
 
 export { StartFunc };
-
