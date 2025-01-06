@@ -14,7 +14,8 @@
         },
         {
             "field": "ItemService",
-            "title": "ItemService"
+            "title": "ItemService",
+            "align": "right"
         }
     ]
 }
