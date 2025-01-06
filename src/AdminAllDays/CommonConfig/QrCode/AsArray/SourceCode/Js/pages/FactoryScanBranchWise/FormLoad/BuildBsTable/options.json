@@ -28,6 +28,10 @@
             "filtercontrol": "select"
         },
         {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        },
+        {
             "field": "Rate",
             "title": "Rate",
             "align":"right",
@@ -63,10 +67,6 @@
             "field": "FactoryScan",
             "title": "Status",
             "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         }
     ]
 }

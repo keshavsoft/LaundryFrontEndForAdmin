@@ -26,6 +26,10 @@
             "width": "300"
         },
         {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        },
+        {
             "field": "Rate",
             "title": "Rate",
             "width": "200",
@@ -55,10 +59,6 @@
             "field": "BranchScan_FactoryName",
             "title": "Factory",
             "width": "200"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         }
     ]
 }
