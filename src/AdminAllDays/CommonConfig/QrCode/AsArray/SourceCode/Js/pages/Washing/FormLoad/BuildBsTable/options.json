@@ -25,6 +25,10 @@
             "title": "ItemName"
         },
         {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        },
+        {
             "field": "Rate",
             "title": "Rate",
             "align":"right",
@@ -52,10 +56,6 @@
             "field": "WashingScan",
             "title": "Status",
             "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         }
     ]
 }

@@ -10,10 +10,10 @@ let jVarLocalFormatterFunc = (data) => {
         };
         return +row[field];
     }).reduce(function (sum, i) {
-        return sum + i
+        return '₹'+sum + i
     }, 0);
 
-    return Math.floor(LocalTotal);
+    return '₹'+Math.floor(LocalTotal);
 
 };
 

@@ -28,6 +28,10 @@
             "filtercontrol": "select"
         },
         {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        },
+        {
             "field": "Rate",
             "title": "Rate",
             "filtercontrol": "select",
@@ -56,10 +60,6 @@
             "field": "Status",
             "title": "Status",
             "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         }
     ]
 }

@@ -24,6 +24,10 @@
             "title": "ItemName"
         },
         {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        },
+        {
             "field": "Rate",
             "title": "Rate",
             "align":"right",
@@ -44,10 +48,6 @@
         {
             "field": "BranchName",
             "title": "BranchName"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         },
         {
             "field": "EntryScan",
