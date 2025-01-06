@@ -43,7 +43,7 @@
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Delivery Date"
         },
         {
             "field": "EntryScan_DC",
@@ -64,7 +64,7 @@
             "filterControl": "select"
         },
         {
-            "field": "FactoryScan",
+            "field": "EntryScan",
             "title": "Status",
             "filterControl": "select"
         }

@@ -7,7 +7,7 @@ let StartFunc = ({ inColumns }) => {
     let LocalColumns = inColumns;
     let LocalColumnOperateFine = LocalColumns.find(element => element.field === "KS-Serial");
     let LocalColumnRate = LocalColumns.find(element => element.field === "Rate");
-    let LocalColumnStatus = LocalColumns.find(element => element.field === "FactoryScan");
+    let LocalColumnStatus = LocalColumns.find(element => element.field === "EntryScan");
     let LocalColumnReturn = LocalColumns.find(element => element.field === "EntryReturnScan");
 
     if (LocalColumnOperateFine === undefined === false) {

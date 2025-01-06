@@ -162,12 +162,12 @@
     },
     {
         "name": "FromFactory",
-        "key": "branchWise",
+        "key": "From",
         "icon": "bi bi-diagram-2",
         "children": [
             {
                 "name": "Show All",
-                "url": "branchWiseShowAll.html",
+                "url": "FromFactory.html",
                 "icon": "bi bi-diagram-3"
             }
         ]

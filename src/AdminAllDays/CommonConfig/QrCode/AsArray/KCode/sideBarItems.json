@@ -331,7 +331,7 @@
     },
     {
         "name": "FromFactory",
-        "key": "branchWise",
+        "key": "From",
         "icon": "bi bi-diagram-2",
         "children": [
             {

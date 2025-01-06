@@ -48,12 +48,12 @@
             "title": "DeliveryDateTime"
         },
         {
-            "field": "VoucherNumber",
+            "field": "EntryScan_DC",
             "title": "DC #"
         },
         {
             "title": "DC Date",
-            "field": "DCDate"
+            "field": "EntryScan_DCDate"
         },
         {
             "field": "location",
@@ -61,7 +61,7 @@
             "filterControl": "select"
         },
         {
-            "field": "CompletionScan",
+            "field": "FactoryToBranchScan",
             "title": "Status",
             "filterControl": "select"
         }
