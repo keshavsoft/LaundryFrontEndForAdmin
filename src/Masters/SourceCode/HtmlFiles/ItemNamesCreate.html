@@ -2,14 +2,14 @@
 
 {% block content %}
 <div class="pagetitle">
-    <h1 class="d-block d-sm-none">ItemNames</h1>
-    <h1 class="d-none d-sm-block">ItemNames</h1>
+    <h1 class="d-block d-sm-none">New Item</h1>
+    <h1 class="d-none d-sm-block">New Item</h1>
     <nav class="d-none d-sm-block">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
             <li class="breadcrumb-item">Admin</li>
             <li class="breadcrumb-item">Masters</li>
-            <li class="breadcrumb-item">ItemNames</li>
+            <li class="breadcrumb-item">Items</li>
             <li class="breadcrumb-item active">Create</li>
         </ol>
     </nav>
@@ -20,20 +20,72 @@
         <div class="col">
             <form onsubmit="return false" id="FormId">
                 <div class="row ColumnsRow">
+                    <div class="col-md-12">
+                        <label class="col-md-4 col-form-label">Category</label>
+                        <div class="col-md-8">
+                            <select name="Category" class="form-select" id="CategoryId" required autofocus>
+                                <option value="">Select Category</option>
+                                <option value="Men">Men</option>
+                                <option value="Women">Women</option>
+                                <option value="Kids">Kids</option>
+                                <option value="Others">Others</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Category Should not be empty!!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label class="col-md-4 col-form-label">Item Type</label>
+                        <div class="col-md-8">
+                            <select id="ItemTypeSelectId" class="form-select" name="ItemType">
+                                <option value="">Select Item Type</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Item ItemType Should not be empty!!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label class="col-md-4 col-form-label">Service</label>
+                        <div class="col-md-8">
+                            <select id="ItemServiceSelectId" class="form-select" name="Service">
+                                <option value="">Select Service</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Service Should not be empty!!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 ">
+                        <label class="col-md-4 col-form-label">Item Name</label>
+                        <div class="col-md-8">
+                            <input id="ItemNameInputId" class="form-control" name="ItemName" readonly>
+                            </input>
+                            <div class="invalid-feedback">
+                                Item Name Should not be empty!!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label class="col-md-4 col-form-label">Pcs</label>
+                        <div class="col-md-8">
+                            <input name="Pcs" id="Pcs" min="1" max="100" type="number" class="form-control"
+                                autocomplete="off">
+                            <div class="invalid-feedback">
+                                Pcs Should not be empty!!
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-md-12">
-                        <label class="col-md-4 col-form-label">ItemType</label>
-
+                        <label class="col-md-4 col-form-label">Rate</label>
                         <div class="col-md-8">
-
-                            <input name="ItemType" type="text" class="form-control" autocomplete="off"
-                                list="ItemNameDataListId" required>
-                            <datalist id="ItemNameDataListId">
-                            </datalist>
-
+                            <input name="DryWashRate" id="DryWashRate" min="1" max="1000" type="number"
+                                class="form-control" autocomplete="off" required>
                             <div class="invalid-feedback">
 
-                                ItemType Should not be empty!!
+                                WashRate Should not be empty!!
 
                             </div>
                         </div>
@@ -54,6 +106,7 @@
 {% block js %}
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-<!-- <script type="module" src="../Js/pages/ItemNamesCreate/StartFunc.js"></script> -->
+<!-- <script type="module" src="../Js/pages/V1ItemCreate/StartFunc.js"></script> -->
 <script type="module" src="../Js/pages/ItemNamesCreate/StartFunc.js"></script>
+
 {% endblock %}
