@@ -48,7 +48,7 @@
             "filterControl": "select"
         },
         {
-            "field": "Status",
+            "field": "CompletionScan",
             "title": "Status"
         },
         {

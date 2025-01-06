@@ -8,12 +8,12 @@ let jVarLocalFormatterFunc = (data) => {
         if (row[field] === undefined) {
             return 0;
         };
-        return +row[field];
+        return + row[field];
     }).reduce(function (sum, i) {
         return sum + i
     }, 0);
 
-    return Math.floor(LocalTotal);
+    return  Math.floor(LocalTotal);
 
 };
 

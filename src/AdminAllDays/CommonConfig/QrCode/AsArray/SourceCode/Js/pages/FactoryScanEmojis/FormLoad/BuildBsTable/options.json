@@ -44,7 +44,7 @@
         },
         {
             "field": "DeliveryDateTime",
-            "title": "Delivery DateTime"
+            "title": "Delivery Date"
         },
         {
             "field": "location",

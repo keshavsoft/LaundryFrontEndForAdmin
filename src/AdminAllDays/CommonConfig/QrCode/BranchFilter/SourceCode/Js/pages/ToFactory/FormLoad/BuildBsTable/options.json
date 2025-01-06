@@ -64,7 +64,7 @@
             "title": "Branch Factory"
         },
         {
-            "field": "EntryScan",
+            "field": "BranchScan",
             "title": "Status",
             "filterControl": "select"
         },
