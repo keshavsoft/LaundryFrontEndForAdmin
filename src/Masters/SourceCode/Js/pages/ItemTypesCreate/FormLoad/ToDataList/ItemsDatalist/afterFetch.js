@@ -1,5 +1,6 @@
-const StartFunc = (data) => {
+const jVarCommonDataListId="ItemNameDataListId";
 
+const StartFunc = (data) => {
     data.forEach(element => {
         jFLocalAddToItems({ inItemName: element.ItemType });
     });
@@ -8,7 +9,7 @@ const StartFunc = (data) => {
 const jFLocalAddToItems = ({ inItemName }) => {
     const option = `<option value="${inItemName}">${inItemName}</option>`
     // var option = $('<option value="' + inItemName + '"></option>');
-    $('#ItemTypeSelectId').append(option);
+    $(`#${jVarCommonDataListId}`).append(option);
 };
 
 export { StartFunc };

@@ -28,17 +28,17 @@
     },
     {
         "name": "ItemType",
-        "key": "ItemNames",
+        "key": "ItemTypes",
         "icon": "bi bi-diagram-2-fill",
         "children": [
             {
                 "name": "Create",
-                "url": "ItemNamesCreate.html",
+                "url": "ItemTypesCreate.html",
                 "icon": "bi bi-grid-3x3"
             },
             {
                 "name": "Show",
-                "url": "ItemNamesShow.html",
+                "url": "ItemTypesShow.html",
                 "icon": "bi bi-grid-3x3"
             }
         ]
@@ -61,45 +61,18 @@
         ]
     },
     {
-        "name": "Items",
-        "key": "Items",
+        "name": "ItemNames",
+        "key": "ItemNames",
         "icon": "bi bi bi-briefcase-fill",
         "children": [
             {
                 "name": "Create",
-                "url": "ItemsCreate.html",
+                "url": "ItemNamesCreate.html",
                 "icon": "bi bi-grid-3x3"
             },
             {
                 "name": "Show",
-                "url": "ItemsShowAll.html",
-                "icon": "bi bi-grid-3x3"
-            },
-            {
-                "name": "CategoryFilter",
-                "url": "ItemsCategoryFilter.html",
-                "icon": "bi bi-grid-3x3"
-            },
-            {
-                "name": "WashTypeFilter",
-                "url": "ItemsWashTypeFilter.html",
-                "icon": "bi bi-grid-3x3"
-            }
-        ]
-    },
-    {
-        "name": "ItemsV1",
-        "key": "V1",
-        "icon": "bi bi bi-briefcase-fill",
-        "children": [
-            {
-                "name": "Create",
-                "url": "V1ItemCreate.html",
-                "icon": "bi bi-grid-3x3"
-            },
-            {
-                "name": "Show",
-                "url": "V1ItemShowAll.html",
+                "url": "ItemNamesShow.html",
                 "icon": "bi bi-grid-3x3"
             }
         ]

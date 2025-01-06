@@ -13,8 +13,26 @@
             "formatter": "jFGlobalSerialColumn"
         },
         {
-            "field": "ItemType",
-            "title": "ItemType"
+            "field": "Category",
+            "title": "Category"
+        },
+        {
+            "field": "ItemName",
+            "title": "Item Name"
+        },
+        {
+            "field": "Pcs",
+            "title": "Pcs",
+            "align": "right"
+        },
+        {
+            "field": "Service",
+            "title": "Wash Type"
+        },
+        {
+            "field": "DryWashRate",
+            "title": "Wash Rate",
+            "align": "right"
         }
     ]
 }
