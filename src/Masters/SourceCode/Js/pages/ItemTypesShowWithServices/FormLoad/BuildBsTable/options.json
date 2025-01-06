@@ -13,13 +13,8 @@
             "formatter": "jFGlobalSerialColumn"
         },
         {
-            "field": "AddOnService",
-            "title": "AddOn Service"
-        },
-        {
-            "field": "AddOnRate",
-            "title": "AddOn Rate",
-            "align": "right"
+            "field": "ItemType",
+            "title": "ItemType"
         }
     ]
 }

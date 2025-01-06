@@ -14,7 +14,8 @@
         },
         {
             "field": "ItemType",
-            "title": "ItemType"
+            "title": "ItemType",
+            "align": "right"
         }
     ]
 }

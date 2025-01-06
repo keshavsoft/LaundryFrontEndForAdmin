@@ -40,6 +40,11 @@
                 "name": "Show",
                 "url": "ItemTypesShow.html",
                 "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "TypesWithServices",
+                "url": "ItemTypesShowWithServices.html",
+                "icon": "bi bi-grid-3x3"
             }
         ]
     },
