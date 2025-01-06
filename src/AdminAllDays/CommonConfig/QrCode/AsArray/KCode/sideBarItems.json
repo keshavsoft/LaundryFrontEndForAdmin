@@ -336,7 +336,7 @@
         "children": [
             {
                 "name": "Show All",
-                "url": "branchWiseShowAll.html",
+                "url": "FromFactory.html",
                 "icon": "bi bi-diagram-3"
             }
         ]
