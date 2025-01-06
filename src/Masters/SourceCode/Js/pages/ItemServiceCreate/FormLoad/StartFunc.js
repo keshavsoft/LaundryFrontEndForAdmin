@@ -7,9 +7,9 @@ import { StartFunc as StartFuncFromUrlParams } from "./FromUrlParams/EntryFile.j
 const StartFunc = async () => {
     StartFuncFromUrlParams();
     StartFuncAddListeners();
-    ToLocalStorage();
+    // ToLocalStorage();
     ToDataList();
-    ShowOnDom();
+    // ShowOnDom();
 
 };
 
