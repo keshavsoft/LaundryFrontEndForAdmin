@@ -25,6 +25,20 @@
             "title": "ItemName"
         },
         {
+            "field": "BranchScan",
+            "title": "Status",
+            "filterControl": "select"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        },
+        {
+            "title": "BranchName",
+            "field": "BranchName",
+            "filterControl": "select"
+        },
+        {
             "field": "Rate",
             "title": "Rate",
             "align":"right",
@@ -52,26 +66,12 @@
             "field": "EntryScan_DCDate"
         },
         {
-            "title": "BranchName",
-            "field": "BranchName",
-            "filterControl": "select"
-        },
-        {
             "field": "location",
             "title": "Location"
         },
         {
             "field": "BranchScan_FactoryName",
             "title": "Branch Factory"
-        },
-        {
-            "field": "BranchScan",
-            "title": "Status",
-            "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         }
     ]
 }

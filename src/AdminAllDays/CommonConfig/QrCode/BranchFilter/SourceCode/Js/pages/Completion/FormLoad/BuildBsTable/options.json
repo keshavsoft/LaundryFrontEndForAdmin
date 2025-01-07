@@ -25,6 +25,25 @@
             "title": "ItemName"
         },
         {
+            "field": "CompletionScan",
+            "title": "Status",
+            "filterControl": "select"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        },
+        {
+            "title": "BranchName",
+            "field": "BranchName",
+            "filterControl": "select"
+        },
+        {
+            "field": "location",
+            "title": "DC Factory",
+            "filterControl": "select"
+        },
+        {
             "field": "Rate",
             "title": "Rate",
             "align":"right",
@@ -46,24 +65,6 @@
         {
             "title": "DC Date",
             "field": "EntryScan_DCDate"
-        }, {
-            "title": "BranchName",
-            "field": "BranchName",
-            "filterControl": "select"
-        },
-        {
-            "field": "location",
-            "title": "DC Factory",
-            "filterControl": "select"
-        },
-        {
-            "field": "CompletionScan",
-            "title": "Status",
-            "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         }
     ]
 }
