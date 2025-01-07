@@ -19,6 +19,16 @@
             "filterControl":"select"
         },
         {
+            "field": "ItemType",
+            "title": "Item Type",
+            "filterControl":"select"
+        },
+        {
+            "field": "Service",
+            "title": "Wash Type",
+            "filterControl":"select"
+        },
+        {
             "field": "ItemName",
             "title": "Item Name"
         },
@@ -26,10 +36,6 @@
             "field": "Pcs",
             "title": "Pcs",
             "align": "right"
-        },
-        {
-            "field": "Service",
-            "title": "Wash Type"
         },
         {
             "field": "DryWashRate",
