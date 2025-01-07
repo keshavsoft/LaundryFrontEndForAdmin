@@ -220,7 +220,7 @@ a:hover {
 /*how-it-work*/
 
 #how-it-work {
-    background-color: #d5e6f5;
+    background-color: #f6f9ff;
     padding: 20px 0;
     height: 723px;
 }
@@ -1449,13 +1449,16 @@ footer .social-links img {
  
 
     /* General Styling */
+    body{
+        background: #f6f9ff !important;
+    }
 .custom-card {
     border: none;
     border-radius: 15px;
     overflow: hidden;
     background: linear-gradient(145deg, #ffffff, #f0f0f0);
     /* box-shadow: 5px 5px 10px #cccccc, -5px -5px 10px #4b4646; */
-    box-shadow: 5px 5px 10px #68cee2, -5px -5px 10px #4b4646;
+    box-shadow: 5px 5px 10px #0133fc, -5px -5px 10px #4b4646;
     transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -1463,7 +1466,8 @@ footer .social-links img {
 .custom-card:hover {
     transform: translateY(-10px) scale(1.05);
     background: linear-gradient(145deg, #f0f0f0, #ffffff);
-    box-shadow: 10px 10px 20px #d4d4d4, -10px -10px 20px #68cee2;
+    box-shadow: 10px 10px 20px #d4d4d4, -10px -10px 20px #0133fc;
+
 }
 
 .custom-card:hover .custom-heading {
