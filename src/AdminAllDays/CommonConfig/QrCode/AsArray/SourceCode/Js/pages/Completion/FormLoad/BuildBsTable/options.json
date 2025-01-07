@@ -25,6 +25,11 @@
             "filterControl": "select"
         },
         {
+            "field": "CompletionScan",
+            "title": "Status",
+            "filterControl": "select"
+        },
+        {
             "title": "TimeSpan",
             "field": "TimeSpan"
         }
@@ -60,11 +65,6 @@
         {
             "field": "location",
             "title": "DC Factory",
-            "filterControl": "select"
-        },
-        {
-            "field": "CompletionScan",
-            "title": "Status",
             "filterControl": "select"
         }
     ]

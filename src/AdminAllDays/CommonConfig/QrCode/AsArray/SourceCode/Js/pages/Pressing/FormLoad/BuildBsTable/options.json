@@ -20,6 +20,11 @@
             "title": "QrCode"
         },
         {
+            "field": "PressingScan",
+            "title": "Status",
+            "filterControl": "select"
+        },
+        {
             "field": "ItemName",
             "title": "ItemName"
         },
@@ -59,11 +64,6 @@
         {
             "field": "location",
             "title": "DC Factory",
-            "filterControl": "select"
-        },
-        {
-            "field": "PressingScan",
-            "title": "Status",
             "filterControl": "select"
         }
     ]

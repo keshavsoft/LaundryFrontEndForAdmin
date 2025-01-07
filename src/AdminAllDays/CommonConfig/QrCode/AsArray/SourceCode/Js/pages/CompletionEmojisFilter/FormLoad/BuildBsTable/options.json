@@ -30,6 +30,26 @@
             "filterControl":"select"
         },
         {
+            "field": "EntryScan",
+            "title": "Factory",
+             "filterControl":"select"
+        },
+        {
+            "field": "WashingScan",
+            "title": "Washing",
+             "filterControl":"select"
+        },
+        {
+            "field": "PressingScan",
+            "title": "Pressing",
+             "filterControl":"select"
+        },
+        {
+            "field": "CompletionScan",
+            "title": "Completion",
+             "filterControl":"select"
+        },
+        {
             "title": "Time Span",
             "field": "TimeSpan"
         },
@@ -56,26 +76,6 @@
         {
             "field": "BranchName",
             "title": "Branch Name"
-        },
-        {
-            "field": "EntryScan",
-            "title": "Factory",
-             "filterControl":"select"
-        },
-        {
-            "field": "WashingScan",
-            "title": "Washing",
-             "filterControl":"select"
-        },
-        {
-            "field": "PressingScan",
-            "title": "Pressing",
-             "filterControl":"select"
-        },
-        {
-            "field": "CompletionScan",
-            "title": "Completion",
-             "filterControl":"select"
         }
         
     ]

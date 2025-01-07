@@ -28,6 +28,22 @@
       "title": "Branch Scan"
     },
     {
+      "field": "EntryScan",
+      "title": "Factory"
+    },
+    {
+      "field": "WashingScan",
+      "title": "Washing"
+    },
+    {
+      "field": "PressingScan",
+      "title": "Pressing"
+    },
+    {
+      "field": "CompletionScan",
+      "title": "Completion"
+    },
+    {
       "title": "Time Span",
       "field": "TimeSpan"
     },
@@ -54,23 +70,6 @@
     {
       "field": "BranchName",
       "title": "Branch Name"
-    },
-    
-    {
-      "field": "EntryScan",
-      "title": "Factory"
-    },
-    {
-      "field": "WashingScan",
-      "title": "Washing"
-    },
-    {
-      "field": "PressingScan",
-      "title": "Pressing"
-    },
-    {
-      "field": "CompletionScan",
-      "title": "Completion"
     }
   ]
 }

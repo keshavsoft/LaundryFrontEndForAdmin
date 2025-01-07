@@ -26,6 +26,22 @@
             "title": "ItemName"
         },
         {
+            "field": "EntryScan",
+            "title": "EntryScan"
+        },
+        {
+            "field": "WashingScan",
+            "title": "WashingScan"
+        },
+        {
+            "field": "PressingScan",
+            "title": "PressingScan"
+        },
+        {
+            "field": "CompletionScan",
+            "title": "CompletionScan"
+        },
+        {
             "field": "OrderDateTime",
             "title": "Order DateTime"
         },
@@ -42,22 +58,6 @@
             "field": "BranchName",
             "title": "BranchName",
             "filterControl": "select"
-        },
-        {
-            "field": "EntryScan",
-            "title": "EntryScan"
-        },
-        {
-            "field": "WashingScan",
-            "title": "WashingScan"
-        },
-        {
-            "field": "PressingScan",
-            "title": "PressingScan"
-        },
-        {
-            "field": "CompletionScan",
-            "title": "CompletionScan"
         }
     ]
 }

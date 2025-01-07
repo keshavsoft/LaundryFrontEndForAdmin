@@ -28,6 +28,12 @@
             "width": "300"
         },
         {
+            "field": "BranchScan_FactoryName",
+            "title": "Factory",
+            "width": "200",
+            "filterControl": "select"
+        },
+        {
             "title": "TimeSpan",
             "field": "TimeSpan"
         },
@@ -61,12 +67,6 @@
         {
             "field": "location",
             "title": "Location",
-            "filterControl": "select"
-        },
-        {
-            "field": "BranchScan_FactoryName",
-            "title": "Factory",
-            "width": "200",
             "filterControl": "select"
         }
     ]
