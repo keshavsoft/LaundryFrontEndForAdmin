@@ -28,6 +28,11 @@
             "filtercontrol": "select"
         },
         {
+            "field": "EntryScan",
+            "title": "Status",
+            "filterControl": "select"
+        },
+        {
             "title": "TimeSpan",
             "field": "TimeSpan"
         },
@@ -63,11 +68,6 @@
         {
             "field": "location",
             "title": "DC Factory",
-            "filterControl": "select"
-        },
-        {
-            "field": "EntryScan",
-            "title": "Status",
             "filterControl": "select"
         }
     ]

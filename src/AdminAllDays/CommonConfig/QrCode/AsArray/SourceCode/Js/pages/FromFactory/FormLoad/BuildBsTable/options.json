@@ -25,10 +25,14 @@
             "filterControl": "select"
         },
         {
+            "field": "FactoryToBranchScan",
+            "title": "Status",
+            "filterControl": "select"
+        },
+        {
             "title": "TimeSpan",
             "field": "TimeSpan"
-        }
-    ,
+        },
         {
             "field": "ItemName",
             "title": "ItemName"
@@ -60,11 +64,6 @@
         {
             "field": "location",
             "title": "DC Factory",
-            "filterControl": "select"
-        },
-        {
-            "field": "FactoryToBranchScan",
-            "title": "Status",
             "filterControl": "select"
         }
     ]

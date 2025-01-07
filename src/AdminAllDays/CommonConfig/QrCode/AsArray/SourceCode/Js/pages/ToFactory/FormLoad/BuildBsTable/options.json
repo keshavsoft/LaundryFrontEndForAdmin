@@ -25,6 +25,11 @@
             "title": "ItemName"
         },
         {
+            "field": "BranchScan",
+            "title": "Status",
+            "filterControl": "select"
+        },
+        {
             "title": "TimeSpan",
             "field": "TimeSpan"
         },
@@ -58,17 +63,8 @@
             "filterControl": "select"
         },
         {
-            "field": "location",
-            "title": "Location"
-        },
-        {
             "field": "BranchScan_FactoryName",
             "title": "Branch Factory"
-        },
-        {
-            "field": "BranchScan",
-            "title": "Status",
-            "filterControl": "select"
         }
     ]
 }

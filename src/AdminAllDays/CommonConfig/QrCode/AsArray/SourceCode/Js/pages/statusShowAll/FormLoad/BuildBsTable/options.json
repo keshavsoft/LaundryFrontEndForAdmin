@@ -24,6 +24,22 @@
             "title": "ItemName"
         },
         {
+            "field": "EntryScan",
+            "title": "FactoryScan"
+        },
+        {
+            "field": "WashingScan",
+            "title": "WashingScan"
+        },
+        {
+            "field": "PressingScan",
+            "title": "PressingScan"
+        },
+        {
+            "field": "CompletionScan",
+            "title": "CompletionScan"
+        },
+        {
             "title": "TimeSpan",
             "field": "TimeSpan"
         },
@@ -50,22 +66,6 @@
         {
             "field": "BranchName",
             "title": "BranchName"
-        },
-        {
-            "field": "EntryScan",
-            "title": "FactoryScan"
-        },
-        {
-            "field": "WashingScan",
-            "title": "WashingScan"
-        },
-        {
-            "field": "PressingScan",
-            "title": "PressingScan"
-        },
-        {
-            "field": "CompletionScan",
-            "title": "CompletionScan"
         }
     ]
 }

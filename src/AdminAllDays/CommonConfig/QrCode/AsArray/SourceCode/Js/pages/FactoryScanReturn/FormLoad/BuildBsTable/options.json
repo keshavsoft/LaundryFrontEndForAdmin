@@ -27,6 +27,16 @@
             "filtercontrol": "select"
         },
         {
+            "field": "EntryScan",
+            "title": "Status",
+            "filterControl": "select"
+        },
+        {
+            "title": "Return",
+            "field": "EntryReturnScan",
+            "filterControl":"select"
+        },
+        {
             "title": "TimeSpan",
             "field": "TimeSpan"
         },
@@ -63,20 +73,6 @@
             "field": "location",
             "title": "DC Factory",
             "filterControl": "select"
-        },
-        {
-            "field": "EntryScan",
-            "title": "Status",
-            "filterControl": "select"
-        },
-        {
-            "title": "Return",
-            "field": "EntryReturnScan",
-            "filterControl":"select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         }
     ]
 }

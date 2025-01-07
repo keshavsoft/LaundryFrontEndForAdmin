@@ -25,6 +25,16 @@
             "title": "ItemName"
         },
         {
+            "field": "PressingScan",
+            "title": "Status",
+            "filterControl": "select"
+        },
+        {
+            "title": "Return",
+            "field": "PressingRejectScan",
+            "filterControl": "select"
+        },
+        {
             "title": "TimeSpan",
             "field": "TimeSpan"
         },
@@ -60,16 +70,6 @@
         {
             "field": "location",
             "title": "DC Factory",
-            "filterControl": "select"
-        },
-        {
-            "field": "PressingScan",
-            "title": "Status",
-            "filterControl": "select"
-        },
-        {
-            "title": "Return",
-            "field": "PressingRejectScan",
             "filterControl": "select"
         }
         

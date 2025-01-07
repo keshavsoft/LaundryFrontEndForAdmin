@@ -4,12 +4,11 @@
     "searchable": "true",
     "idfield": "pk",
     "showFooter": "true",
-    "pagination":"true",
+    "pagination": "true",
     "filterControl": true,
     "data": [],
     "pageList": "[5, 10, 25 ]",
     "pageSize": "5",
-   
     "onClickRow": "",
     "columns": [
         {
@@ -30,13 +29,19 @@
         {
             "title": "TimeSpan",
             "field": "TimeSpan"
-        },{
+        },
+        {
+            "field": "Status",
+            "title": "Status",
+            "filterControl": "select"
+        },
+        {
             "title": "Rate",
             "field": "Rate",
-            "align":"right",
+            "align": "right",
             "filtercontrol": "select",
             "formatter": "",
-            "footerFormatter":""
+            "footerFormatter": ""
         },
         {
             "field": "OrderDateTime",
@@ -54,11 +59,6 @@
         {
             "field": "BranchName",
             "title": "Branch Name",
-            "filterControl": "select"
-        },
-        {
-            "field": "Status",
-            "title": "Status",
             "filterControl": "select"
         }
     ]
