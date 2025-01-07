@@ -21,13 +21,17 @@
             "title": "Item Name"
         },
         {
+            "field": "Service",
+            "title": "Wash Type"
+        },
+        {
+            "field": "ItemType",
+            "title": "Item Type"
+        },
+        {
             "field": "Pcs",
             "title": "Pcs",
             "align": "right"
-        },
-        {
-            "field": "Service",
-            "title": "Wash Type"
         },
         {
             "field": "DryWashRate",
