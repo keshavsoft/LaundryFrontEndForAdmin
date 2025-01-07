@@ -11,6 +11,7 @@ const StartFunc = ({ mode, inFilesArray }) => {
             filename: filename + '.html',
             sidebarItems,
             isDev: mode === 'development'
+            
         };
     });
 
