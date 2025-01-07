@@ -26,19 +26,6 @@
             "title": "ItemName"
         },
         {
-            "field": "OrderDateTime",
-            "title": "Order DateTime"
-        },
-        {
-            "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
-        },
-        {
-            "field": "location",
-            "title": "Factory",
-            "filterControl": "select"
-        },
-        {
             "field": "BranchName",
             "title": "BranchName",
             "filterControl": "select"
@@ -62,6 +49,19 @@
         {
             "field": "CompletionScan",
             "title": "CompletionScan"
+        },
+        {
+            "field": "OrderDateTime",
+            "title": "Order DateTime"
+        },
+        {
+            "field": "DeliveryDateTime",
+            "title": "DeliveryDateTime"
+        },
+        {
+            "field": "location",
+            "title": "Factory",
+            "filterControl": "select"
         }
     ]
 }

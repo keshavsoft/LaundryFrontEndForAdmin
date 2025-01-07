@@ -25,6 +25,19 @@
             "title": "Item Name"
         },
         {
+            "field": "CompletionScan",
+            "title": "Status"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        },
+        {
+            "field": "BranchName",
+            "title": "BranchName",
+            "filterControl": "select"
+        },
+        {
             "field": "Rate",
             "title": "Rate",
             "align":"right",
@@ -42,19 +55,6 @@
         {
             "field": "location",
             "title": "DC Factory"
-        },
-        {
-            "field": "BranchName",
-            "title": "BranchName",
-            "filterControl": "select"
-        },
-        {
-            "field": "CompletionScan",
-            "title": "Status"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         }
     ]
 }

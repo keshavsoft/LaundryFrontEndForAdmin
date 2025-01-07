@@ -28,6 +28,16 @@
             "filtercontrol": "select"
         },
         {
+            "field": "BranchName",
+            "title": "Branch Name",
+            "filtercontrol": "select"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan",
+            "filtercontrol": "select"
+        },
+        {
             "field": "Rate",
             "title": "Rate",
             "align":"right",
@@ -47,16 +57,6 @@
         {
             "field": "location",
             "title": "DC Factory",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "BranchName",
-            "title": "Branch Name",
-            "filtercontrol": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan",
             "filtercontrol": "select"
         }
     ]

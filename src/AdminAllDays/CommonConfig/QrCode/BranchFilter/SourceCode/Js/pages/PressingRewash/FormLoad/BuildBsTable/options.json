@@ -25,6 +25,16 @@
             "title": "ItemName"
         },
         {
+            "title": "Return",
+            "field": "PressingRewash",
+            "filterControl": "select"
+
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        },
+        {
             "field": "Rate",
             "title": "Rate",
             "align":"right",
@@ -56,16 +66,6 @@
             "field": "location",
             "title": "DC Factory",
             "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
-        },
-        {
-            "title": "Return",
-            "field": "PressingRewash",
-            "filterControl": "select"
-
         }
 
     ]
