@@ -1,20 +1,22 @@
-let StartFunc = ({ inFindColumn }) => {
-    inFindColumn.footerFormatter = jVarLocalFormatterFunc;
+const StartFunc = ({ inFindColumn }) => {
+    inFindColumn.formatter = symbolFormatPrice;
+    inFindColumn.footerFormatter  = priceFormatter;
 };
 
-let jVarLocalFormatterFunc = (data) => {
-    var field = "Rate";
-    let LocalTotal = data.map(function (row) {
-        if (row[field] === undefined) {
-            return 0;
-        };
-        return +row[field];
+function priceFormatter(data) {
+    var field = this.field
+    return '₹ ' + data.map(function (row) {
+        return +row.Rate
     }).reduce(function (sum, i) {
-        return '₹'+sum + i
-    }, 0);
+        return sum + i
+    }, 0)
+}
+function symbolFormatPrice(data) {
+    var field = this.field
+    return '₹ '+data;
 
-    return '₹'+Math.floor(LocalTotal);
+ }
 
-};
+
 
 export { StartFunc };

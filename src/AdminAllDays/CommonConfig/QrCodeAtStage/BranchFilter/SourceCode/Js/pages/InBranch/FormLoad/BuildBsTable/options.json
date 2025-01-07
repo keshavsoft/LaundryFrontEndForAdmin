@@ -60,7 +60,7 @@
         },
         {
             "title": "DC Date",
-            "field": "DCDate"
+            "field": "BranchScan_Date"
         },
         {
             "field": "location",

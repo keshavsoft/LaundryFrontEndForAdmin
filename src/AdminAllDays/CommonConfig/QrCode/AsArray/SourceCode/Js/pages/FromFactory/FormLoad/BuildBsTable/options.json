@@ -34,10 +34,12 @@
             "title": "ItemName"
         },
         {
-            "field": "Rate",
             "title": "Rate",
+            "field": "Rate",
             "align":"right",
-            "footerFormatter": ""
+            "filtercontrol": "select",
+            "formatter": "",
+            "footerFormatter":""
         },
         {
             "field": "OrderDateTime",

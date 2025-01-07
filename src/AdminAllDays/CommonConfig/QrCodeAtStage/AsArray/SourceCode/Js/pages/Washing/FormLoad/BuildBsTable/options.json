@@ -50,12 +50,12 @@
             "title": "Delivery DateTime"
         },
         {
-            "field": "VoucherNumber",
+            "field": "EntryScan_DC",
             "title": "DC #"
         },
         {
             "title": "DC Date",
-            "field": "DCDate"
+            "field": "EntryScan_DCDate"
         },
         
         {

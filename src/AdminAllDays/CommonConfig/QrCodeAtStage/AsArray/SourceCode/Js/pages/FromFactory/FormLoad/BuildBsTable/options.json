@@ -52,12 +52,12 @@
             "title": "Delivery DateTime"
         },
         {
-            "field": "BranchScan",
+            "field": "BranchScan_DC",
             "title": "Branch Scan_DC"
         },
         {
             "title": "DC Date",
-            "field": "DCDate"
+            "field": "EntryScan_DCDate"
         },
         {
             "field": "location",
@@ -68,7 +68,7 @@
             "title": "DCFactory"
         },
         {
-            "field": "EntryScan",
+            "field": "CompletedScanFactory",
             "title": "Status",
             "filterControl": "select"
         }
