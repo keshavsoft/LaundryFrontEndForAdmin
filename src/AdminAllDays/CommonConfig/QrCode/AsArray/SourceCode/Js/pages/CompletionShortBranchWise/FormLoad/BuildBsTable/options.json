@@ -29,13 +29,14 @@
         {
             "title": "TimeSpan",
             "field": "TimeSpan"
-        },
-        {
-            "field": "Rate",
+        },{
             "title": "Rate",
-            "width": "200",
+            "field": "Rate",
             "align":"right",
-            "footerFormatter": ""
+            "filtercontrol": "select",
+            "formatter": "",
+            "width": "200",
+            "footerFormatter":""
         },
         {
             "field": "OrderNo",

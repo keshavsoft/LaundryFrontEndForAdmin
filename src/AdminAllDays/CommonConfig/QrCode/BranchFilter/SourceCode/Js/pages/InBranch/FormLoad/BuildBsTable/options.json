@@ -34,8 +34,8 @@
             "field": "Rate",
             "title": "Rate",
             "align":"right",
-            "filtercontrol": "select",
-            "footerFormatter": ""
+            "footerFormatter": "",
+            "formatter":"symbolFormat"
         },
         {
             "field": "OrderDateTime",

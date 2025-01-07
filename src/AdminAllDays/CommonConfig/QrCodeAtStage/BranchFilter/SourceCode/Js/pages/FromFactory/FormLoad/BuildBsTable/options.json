@@ -49,12 +49,12 @@
             "title": "Delivery DateTime"
         },
         {
-            "field": "VoucherNumber",
+            "field": "EntryScan_DC",
             "title": "DC #"
         },
         {
             "title": "DC Date",
-            "field": "DCDate"
+            "field": "EntryScan_DCDate"
         },
         {
             "field": "location",
@@ -62,7 +62,7 @@
             "filterControl": "select"
         },
         {
-            "field": "CompletionScan",
+            "field": "CompletedScanFactory",
             "title": "Status",
             "filterControl": "select"
         }

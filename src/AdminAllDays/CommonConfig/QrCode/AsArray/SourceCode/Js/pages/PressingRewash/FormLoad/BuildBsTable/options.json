@@ -29,10 +29,12 @@
             "field": "TimeSpan"
         },
         {
-            "field": "Rate",
             "title": "Rate",
-            "align": "right",
-            "footerFormatter": ""
+            "field": "Rate",
+            "align":"right",
+            "filtercontrol": "select",
+            "formatter": "",
+            "footerFormatter":""
         },
         {
             "field": "OrderDateTime",
