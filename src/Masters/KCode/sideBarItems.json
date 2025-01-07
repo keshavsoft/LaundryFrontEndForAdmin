@@ -10,6 +10,11 @@
         "url": "../../Menu/HtmlFiles/Menu.html"
     },
     {
+        "name": "Dashboard",
+        "url": "index.html",
+        "icon": "bi bi-grid-fill"
+    },
+    {
         "name": "AddOns",
         "key": "AddOns",
         "icon": "bi bi-x-diamond-fill",
