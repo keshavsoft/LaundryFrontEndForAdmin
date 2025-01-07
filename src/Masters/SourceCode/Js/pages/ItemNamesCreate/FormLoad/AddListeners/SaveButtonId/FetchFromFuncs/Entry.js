@@ -19,7 +19,7 @@ const jFLocalCreateItemName = () => {
     let jVarLocalItemTypeSelect = jFLocalItemTypeSelectId();
     let jFLocalItemServiceSelectValue = jFLocalItemServiceSelectId();
 
-    let jVarLocalItemValue = `${jVarLocalCategoryValue}  ${jVarLocalItemTypeSelect} ${jFLocalItemServiceSelectValue}`;
+    let jVarLocalItemValue = `${jVarLocalCategoryValue} ${jVarLocalItemTypeSelect} ${jFLocalItemServiceSelectValue}`;
     jFLocalToInputItemNameInputId(jVarLocalItemValue);
 };
 let jFLocalToInputItemNameInputId = (inValue) => {
