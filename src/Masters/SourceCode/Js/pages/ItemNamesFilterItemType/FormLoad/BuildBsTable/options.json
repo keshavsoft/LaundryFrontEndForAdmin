@@ -15,8 +15,8 @@
         },
         {
             "field": "Category",
-            "title": "Category",
-            "filterControl":"select"
+            "title": "Category"
+            
         },
         {
             "field": "ItemType",
@@ -25,8 +25,7 @@
         },
         {
             "field": "Service",
-            "title": "Wash Type",
-            "filterControl":"select"
+            "title": "Wash Type"
         },
         {
             "field": "ItemName",

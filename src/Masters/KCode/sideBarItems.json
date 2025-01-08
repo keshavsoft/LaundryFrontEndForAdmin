@@ -86,8 +86,13 @@
                 "icon": "bi bi-grid-3x3"
             },
             {
-                "name": "Filter",
-                "url": "ItemNamesFilter.html",
+                "name": "Category Filter",
+                "url": "ItemNamesFilterCategory.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Item Type Filter",
+                "url": "ItemNamesFilterItemType.html",
                 "icon": "bi bi-grid-3x3"
             }
         ]
