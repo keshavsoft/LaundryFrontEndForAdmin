@@ -10,7 +10,8 @@ const StartFunc = ({ mode, inFilesArray }) => {
             web_title: "Mazer Admin Dashboard",
             filename: filename + '.html',
             sidebarItems,
-            isDev: mode === 'development'
+            isDev: mode === 'development',
+            title:filename
         };
     });
 
