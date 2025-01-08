@@ -94,7 +94,14 @@
                 "name": "Item Type Filter",
                 "url": "ItemNamesFilterItemType.html",
                 "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Wash Type Filter",
+                "url": "ItemNamesFilterItemType.html",
+                "icon": "bi bi-grid-3x3"
             }
+
+
         ]
     },
     {
