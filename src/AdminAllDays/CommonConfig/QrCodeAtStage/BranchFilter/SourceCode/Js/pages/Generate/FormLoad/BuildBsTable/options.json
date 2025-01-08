@@ -49,14 +49,6 @@
             "title": "Delivery DateTime"
         },
         {
-            "field": "EntryScan_DC",
-            "title": "DC #"
-        },
-        {
-            "title": "DC Date",
-            "field": "EntryScan_DCDate"
-        },
-        {
             "field": "location",
             "title": "DC Factory",
             "filterControl": "select"
