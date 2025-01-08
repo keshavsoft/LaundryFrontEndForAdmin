@@ -30,6 +30,11 @@
         "name": "Accounts",
         "icon": "bi bi-person-plus-fill",
         "url":"../../Accounts/Payments/HtmlFiles/"
+    },
+    {
+        "name": "Download",
+        "icon": "bi bi-download",
+        "url":"https://washtex5.keshavsoft.com/utility/src/backup"
     }
     
 ]
