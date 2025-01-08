@@ -56,10 +56,6 @@
             "title": "Branch Scan_DC"
         },
         {
-            "title": "DC Date",
-            "field": "DCDate"
-        },
-        {
             "field": "location",
             "title": "Location"
         },
