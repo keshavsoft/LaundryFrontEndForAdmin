@@ -5,9 +5,8 @@
     "idfield": "pk",
     "showFooter": "true",
     "pagination": "true",
-    "pageList": "[5, 10, 25 ]",
+    "pageList":"[10,25,50,100,all]",
     "pageSize": "5",
-   
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -25,7 +24,7 @@
             "title": "Total QrCodes",
             "field": "QrShow",
             "footerFormatter": "",
-             "align":"right"
+            "align":"right"
         }
     ]
 }
