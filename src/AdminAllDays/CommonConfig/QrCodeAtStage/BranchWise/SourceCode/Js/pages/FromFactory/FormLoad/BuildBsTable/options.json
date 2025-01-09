@@ -4,6 +4,7 @@
     "searchable": "true",
     "idfield": "pk",
     "pagination": "true",
+    "pageList":"[10,25,50,100,all]",
     "showFooter": "true",
     "data": [],
     "onClickRow": "",
