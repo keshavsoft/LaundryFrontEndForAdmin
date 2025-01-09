@@ -2,7 +2,7 @@
     {
         "name": "Home",
         "icon": "bi bi-grid",
-        "url": "/laundry.html"
+        "url": "../../../../index.html"
     },
     {
         "name": "Parent",
@@ -32,7 +32,7 @@
         "url":"../../Accounts/Payments/HtmlFiles/"
     },
     {
-        "name": "LoginUsers",
+        "name": "ShowUsers",
         "icon": "bi bi-box-arrow-in-right",
         "url":"../../../../LoginUsers/HtmlFiles/LaundryShow.html"
     },
