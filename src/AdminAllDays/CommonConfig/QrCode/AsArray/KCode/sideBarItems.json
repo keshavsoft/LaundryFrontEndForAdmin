@@ -2,7 +2,7 @@
     {
         "name": "Home",
         "icon": "bi bi-grid",
-        "url": "/laundry.html"
+        "url": "../../../../../Menu/HtmlFiles/index.html"
     },
     {
         "name": "Parent",
