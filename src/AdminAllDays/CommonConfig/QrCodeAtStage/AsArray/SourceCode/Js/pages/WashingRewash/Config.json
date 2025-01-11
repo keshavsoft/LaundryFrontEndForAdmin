@@ -1,0 +1,7 @@
+{
+    "routePath": "bin",
+    "StartRoute": "binV4",
+    "tableName": "Openings",
+    "GetUrl": "Cleaning/Dashboard/Admin/Reports/Pos/AllDays/QrCodesAtStage/AllBranches/InRewash",
+    "GetEndPoint":"InRewash"
+}

@@ -59,6 +59,11 @@
                 "name": "ShowAll",
                 "url": "Washing.html",
                 "icon": "bi bi-droplet-half"
+            },
+            {
+                "name": "Rewash",
+                "url": "WashingRewash.html",
+                "icon": "bi bi-droplet-half"
             }
         ]
     },
