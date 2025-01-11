@@ -1,5 +1,6 @@
 const StartFunc = (data) => {
-    jFLocalToInputQrCodeId(data)
+    let localQrCodedata = data.JsonData
+    jFLocalToInputQrCodeId(localQrCodedata)
 };
 
 let jFLocalToInputQrCodeId = (inValue) => {
