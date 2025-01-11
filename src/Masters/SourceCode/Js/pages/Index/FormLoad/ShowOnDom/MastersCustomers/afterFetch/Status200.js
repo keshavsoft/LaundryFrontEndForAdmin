@@ -1,6 +1,5 @@
 const StartFunc = (data) => {
-    let localCustomerdata = data.JsonData
-    jFLocalToInputCustomersID(localCustomerdata)
+    jFLocalToInputCustomersID(data)
 };
 
 let jFLocalToInputCustomersID = (inValue) => {
