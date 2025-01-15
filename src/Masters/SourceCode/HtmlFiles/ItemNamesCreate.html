@@ -38,22 +38,22 @@
                     <div class="col-md-12">
                         <label class="col-md-4 col-form-label">Item Type</label>
                         <div class="col-md-8">
-                            <select id="ItemTypeSelectId" class="form-select" name="ItemType">
+                            <select id="ItemTypeSelectId" class="form-select" name="ItemType" required>
                                 <option value="">Select Item Type</option>
                             </select>
                             <div class="invalid-feedback">
-                                Item ItemType Should not be empty!!
+                                ItemType Should not be empty!!
                             </div>
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <label class="col-md-4 col-form-label">Service</label>
+                        <label class="col-md-4 col-form-label">Item Service</label>
                         <div class="col-md-8">
                             <select id="ItemServiceSelectId" class="form-select" name="Service">
                                 <option value="">Select Service</option>
                             </select>
                             <div class="invalid-feedback">
-                                Service Should not be empty!!
+                                Item Service Should not be empty!!
                             </div>
                         </div>
                     </div>
@@ -84,9 +84,7 @@
                             <input name="DryWashRate" id="DryWashRate" min="1" max="1000" type="number"
                                 class="form-control" autocomplete="off" required>
                             <div class="invalid-feedback">
-
                                 WashRate Should not be empty!!
-
                             </div>
                         </div>
                     </div>
