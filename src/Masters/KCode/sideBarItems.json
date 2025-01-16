@@ -99,6 +99,11 @@
                 "name": "Wash Type Filter",
                 "url": "ItemNamesFilterItemType.html",
                 "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "CreateInCard",
+                "url": "ItemNamesCreateInCard.html",
+                "icon": "bi bi-grid-3x3"
             }
 
 
