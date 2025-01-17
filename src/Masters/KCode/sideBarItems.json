@@ -28,6 +28,16 @@
                 "name": "Show",
                 "url": "AddOnsShowAll.html",
                 "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Alter",
+                "url": "AddOnsAlter.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Delete",
+                "url": "AddOnsDelete.html",
+                "icon": "bi bi-grid-3x3"
             }
         ]
     },
@@ -49,6 +59,16 @@
             {
                 "name": "TypesWithServices",
                 "url": "ItemTypesShowWithServices.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Alter",
+                "url": "ItemTypesAlter.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Delete",
+                "url": "ItemTypesDelete.html",
                 "icon": "bi bi-grid-3x3"
             }
         ]
@@ -105,8 +125,6 @@
                 "url": "ItemNamesCreateInCard.html",
                 "icon": "bi bi-grid-3x3"
             }
-
-
         ]
     },
     {
