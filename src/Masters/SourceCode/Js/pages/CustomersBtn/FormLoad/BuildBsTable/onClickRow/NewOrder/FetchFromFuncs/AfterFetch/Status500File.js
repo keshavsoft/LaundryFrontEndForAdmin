@@ -1,13 +1,13 @@
-import ConfigJson from '../../../../../Config.json' with {type: 'json'};
+import ConfigJson from '../../../../../../Config.json' with {type: 'json'};
 
-let StartFunc = ({ inresponse }) => {
+let StartFunc = ({ inrowData }) => {
     Swal.fire({
         title: "Error Alert",
-        text: `${inresponse}`,
+        text: `${inrowData}`,
         icon: "error",
         confirmButtonColor: "#3085d6",
         showDenyButton: true,
-        denyButtonText: `Add ItemsV1`,
+        denyButtonText: `Add Items`,
         denyButtonColor: "#008000",
     }).then((result) => {
         if (result.isConfirmed || result.isDismissed) {
@@ -15,7 +15,7 @@ let StartFunc = ({ inresponse }) => {
         };
         
         if (result.isDenied) {
-            window.location.href = ConfigJson.Urls.NewOrderButtonId.RedirectUrl['500Status'];
+            window.location.href = ConfigJson['500Status'];
         };
     });
 };

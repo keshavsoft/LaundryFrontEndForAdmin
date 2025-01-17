@@ -5,8 +5,8 @@ let StartFunc = ({ inFindColumn }) => {
 let jVarLocalFormatterFunc = (value, row, index) => {
     
     return [
-        `<a class="like btn btn-primary" href="/Laundry/Branch/NewOrders/HtmlFiles/AddItems.html" title="Orders">`,
-         `<i class="bi bi-eye"></i>`
+        `<a class="like btn " href="#" title="Orders">`,
+         `<i class="bi bi-stack"></i>`
 
     ].join('')
 
