@@ -21,7 +21,10 @@
         {
             "field": "Delete",
             "title": "Delete",
-            "align": "left"
+            "align": "left",
+            "formatter":""
         }
+        
+
     ]
 }
