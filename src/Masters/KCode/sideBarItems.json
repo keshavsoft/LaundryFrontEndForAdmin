@@ -96,6 +96,16 @@
                 "icon": "bi bi-grid-3x3"
             },
             {
+                "name": "Alter",
+                "url": "ItemNamesAlter.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Delete",
+                "url": "ItemNamesDelete.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
                 "name": "Category Filter",
                 "url": "ItemNamesFilterCategory.html",
                 "icon": "bi bi-grid-3x3"
@@ -132,6 +142,17 @@
             {
                 "name": "Show",
                 "url": "CustomersShowAll.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Alter",
+                "url": "CustomersEdit.html",
+                "icon": "bi bi-grid-3x3"
+            }
+            ,
+            {
+                "name": "Delete",
+                "url": "CustomersDelete.html",
                 "icon": "bi bi-grid-3x3"
             },
             {
