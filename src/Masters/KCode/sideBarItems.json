@@ -67,6 +67,16 @@
                 "name": "Show",
                 "url": "ItemServiceShow.html",
                 "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Delete",
+                "url": "ItemServiceDelete.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Alter",
+                "url": "ItemServiceAlter.html",
+                "icon": "bi bi-grid-3x3"
             }
         ]
     },
