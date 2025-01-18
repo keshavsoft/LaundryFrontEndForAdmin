@@ -3,7 +3,7 @@
     "search": "true",
     "searchable": "true",
     "idfield": "pk",
-    "pageList":"[10,25,50,100,all]",
+    "pageList": "[10,25,50,100,all]",
     "pageSize": "5",
     "showFooter": "true",
     "data": [],
@@ -32,6 +32,10 @@
             "title": "Factory"
         },
         {
+            "field": "EntryReturnScan",
+            "title": "Entry Return"
+        },
+        {
             "field": "WashingScan",
             "title": "Washing"
         },
@@ -40,8 +44,20 @@
             "title": "Pressing"
         },
         {
+            "field": "PressingRejectScan",
+            "title": "Process Return"
+        },
+        {
+            "field": "PressingRewash",
+            "title": "Rewash"
+        },
+        {
             "field": "CompletionScan",
             "title": "Completion"
+        },
+        {
+            "field": "FactoryToBranchScan",
+            "title": "FFC Scan"
         },
         {
             "title": "Time Span",
@@ -50,10 +66,10 @@
         {
             "title": "Rate",
             "field": "Rate",
-            "align":"right",
+            "align": "right",
             "filtercontrol": "select",
             "formatter": "",
-            "footerFormatter":""
+            "footerFormatter": ""
         },
         {
             "field": "OrderDateTime",

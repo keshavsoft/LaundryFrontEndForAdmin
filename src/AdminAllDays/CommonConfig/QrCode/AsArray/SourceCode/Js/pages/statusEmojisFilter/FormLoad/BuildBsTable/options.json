@@ -3,7 +3,7 @@
     "search": "true",
     "searchable": "true",
     "idfield": "pk",
-    "pageList":"[10,25,50,100,all]",
+    "pageList": "[10,25,50,100,all]",
     "pageSize": "5",
     "showFooter": "true",
     "data": [],
@@ -27,27 +27,47 @@
         {
             "field": "BranchScan",
             "title": "Branch",
-            "filterControl":"select"
+            "filterControl": "select"
         },
         {
             "field": "EntryScan",
             "title": "Factory",
-            "filterControl":"select"
+            "filterControl": "select"
+        },
+        {
+            "field": "EntryReturnScan",
+            "title": "Entry Return",
+            "filterControl": "select"
         },
         {
             "field": "WashingScan",
             "title": "Washing",
-            "filterControl":"select"
+            "filterControl": "select"
         },
         {
             "field": "PressingScan",
             "title": "Pressing",
-            "filterControl":"select"
+            "filterControl": "select"
+        },
+        {
+            "field": "PressingRejectScan",
+            "title": "Process Return",
+            "filterControl": "select"
+        },
+        {
+            "field": "PressingRewash",
+            "title": "Rewash",
+            "filterControl": "select"
         },
         {
             "field": "CompletionScan",
             "title": "Completion",
-            "filterControl":"select"
+            "filterControl": "select"
+        },
+        {
+            "field": "FactoryToBranchScan",
+            "title": "FFC Scan",
+            "filterControl": "select"
         },
         {
             "title": "Time Span",
@@ -56,10 +76,10 @@
         {
             "title": "Rate",
             "field": "Rate",
-            "align":"right",
+            "align": "right",
             "filtercontrol": "select",
             "formatter": "",
-            "footerFormatter":""
+            "footerFormatter": ""
         },
         {
             "field": "OrderDateTime",
@@ -77,6 +97,5 @@
             "field": "BranchName",
             "title": "Branch Name"
         }
-        
     ]
 }
