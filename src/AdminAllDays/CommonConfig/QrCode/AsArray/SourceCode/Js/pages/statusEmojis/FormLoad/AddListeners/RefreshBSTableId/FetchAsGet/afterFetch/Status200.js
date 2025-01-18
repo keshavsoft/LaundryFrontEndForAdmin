@@ -1,4 +1,4 @@
-let StartFunc = ({ inData }) => {
+const StartFunc = (inData) => {
     var $table = $('#table');
 
     $table.bootstrapTable("load", inData);

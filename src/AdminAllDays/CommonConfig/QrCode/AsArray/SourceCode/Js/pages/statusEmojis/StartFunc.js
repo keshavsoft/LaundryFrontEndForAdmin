@@ -7,6 +7,7 @@ const StartFunc = () => {
 
     // let jVarLocalFromAdmin = LoginModal({ inSuccessFunc: StartFuncShowOnDom });
     let jVarLocalFromAdmin = true;
+
     if (jVarLocalFromAdmin) {
         StartFuncShowOnDom().then();
     };
