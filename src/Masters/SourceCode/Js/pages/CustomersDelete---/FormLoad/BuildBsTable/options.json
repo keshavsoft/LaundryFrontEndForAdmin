@@ -42,9 +42,8 @@
             "title": "Company Name"
         },
         {
-            "field": "Delete",
-            "title": "Delete",
-            "formatter": "jFLocalOptsFormater"
+            "field": "Ks-Opt",
+            "title": "Delete"
         }
     ]
 }
