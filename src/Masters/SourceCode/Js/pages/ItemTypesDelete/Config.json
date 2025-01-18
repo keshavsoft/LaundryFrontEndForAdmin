@@ -1,1 +1,6 @@
-{"routePath":"bin","tableName":"Openings"}
+{
+    "StartRoute": "binV4",
+    "tableName": "MastersItemTypes",
+    "GetUrl": "/binV4/MastersItemTypes/Show/DataOnly",
+    "DeleteUrl": "/binV4/MastersItemTypes/Delete"
+}

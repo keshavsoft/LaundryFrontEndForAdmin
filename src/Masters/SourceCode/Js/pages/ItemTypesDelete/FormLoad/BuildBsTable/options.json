@@ -21,7 +21,7 @@
         {
             "field": "Delete",
             "title": "Delete",
-            "formatter": "jFLocalOptsForAddOnOnModalFormater"
+            "formatter": "jFLocalOptsFormater"
         }
     ]
 }
