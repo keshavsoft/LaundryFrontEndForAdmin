@@ -1,5 +1,0 @@
-{
-    "StartRoute": "binV4",
-    "tableName":"MastersItems",
-    "Url": "/binV4/MastersItems/Delete/"
-}

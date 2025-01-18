@@ -40,8 +40,8 @@
             "align": "right"
         },
         {
-            "field": "KS-Opts",
-            "title": "Delete",
+            "field": "Delete",
+            "title": "KS-Opts",
             "width": 100
         }
     ]
