@@ -35,19 +35,39 @@
             "filterControl":"select"
         },
         {
+            "field": "EntryReturnScan",
+            "title": "Entry Return",
+            "filterControl": "select"
+        },
+        {
             "field": "WashingScan",
             "title": "Washing",
-            "filterControl":"select"
+            "filterControl": "select"
         },
         {
             "field": "PressingScan",
             "title": "Pressing",
-            "filterControl":"select"
+            "filterControl": "select"
+        },
+        {
+            "field": "PressingRejectScan",
+            "title": "Process Return",
+            "filterControl": "select"
+        },
+        {
+            "field": "PressingRewash",
+            "title": "Rewash",
+            "filterControl": "select"
         },
         {
             "field": "CompletionScan",
             "title": "Completion",
-            "filterControl":"select"
+            "filterControl": "select"
+        },
+        {
+            "field": "FactoryToBranchScan",
+            "title": "FFC Scan",
+            "filterControl": "select"
         },
         {
             "title": "Time Span",

@@ -30,19 +30,34 @@
         {
             "field": "EntryScan",
             "title": "Factory"
-        },
-        {
+        },{
+            "field": "EntryReturnScan",
+            "title": "Entry Return"
+          },
+          {
             "field": "WashingScan",
             "title": "Washing"
-        },
-        {
+          },
+          {
             "field": "PressingScan",
             "title": "Pressing"
-        },
-        {
+          },
+          {
+            "field": "PressingRejectScan",
+            "title": "Process Return"
+          },
+          {
+            "field": "PressingRewash",
+            "title": "Rewash"
+          },
+          {
             "field": "CompletionScan",
             "title": "Completion"
-        },
+          },
+          {
+            "field": "FactoryToBranchScan",
+            "title": "FFC Scan"
+          },
         {
             "title": "TimeSpan",
             "field": "TimeSpan"

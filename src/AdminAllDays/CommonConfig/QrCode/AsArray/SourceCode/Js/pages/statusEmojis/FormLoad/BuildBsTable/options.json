@@ -32,6 +32,10 @@
       "title": "Factory"
     },
     {
+      "field": "EntryReturnScan",
+      "title": "Entry Return"
+    },
+    {
       "field": "WashingScan",
       "title": "Washing"
     },
@@ -40,20 +44,16 @@
       "title": "Pressing"
     },
     {
-      "field": "CompletionScan",
-      "title": "Completion"
-    },
-    {
-      "field": "EntryReturnScan",
-      "title": "Factory Return"
-    },
-    {
       "field": "PressingRejectScan",
       "title": "Process Return"
     },
     {
       "field": "PressingRewash",
       "title": "Rewash"
+    },
+    {
+      "field": "CompletionScan",
+      "title": "Completion"
     },
     {
       "field": "FactoryToBranchScan",
