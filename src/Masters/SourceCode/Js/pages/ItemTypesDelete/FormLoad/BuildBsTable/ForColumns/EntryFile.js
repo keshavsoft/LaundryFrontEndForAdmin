@@ -1,7 +1,12 @@
-import ColumnsJson from './columns.json' with {type: 'json'};
+import { StartFunc as StartFuncColumnopts } from "./Columnopts/entryFile.js";
 
-const StartFunc = () => {
-    return ColumnsJson;
-};
+let StartFunc = ({ inColumns }) => {
+    let LocalColumns = inColumns;
+    let LocalColumnopts = LocalColumns.find(element => element.field === "Delete");
+    
+    if (LocalColumnopts === undefined === false) {
+        StartFuncColumnopts({ inFindColumn: LocalColumnopts });
+    };
+}
 
 export { StartFunc };
