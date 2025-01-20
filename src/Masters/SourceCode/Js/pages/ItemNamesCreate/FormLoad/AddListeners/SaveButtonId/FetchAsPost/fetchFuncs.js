@@ -1,9 +1,9 @@
 import { StartFunc as StartFuncFetchHeaders } from "./FetchHeaders/entryFile.js";
-// import UrlJson from "./Config.json" with { type: "json" };
+import { StartFunc as ItemNameGenerate } from "./ItemNameGenerate.js";
 import ConfigJson from '../../../../Config.json' with {type: 'json'};
 
 let StartFunc = async () => {
-    // let jVarLocalFetchUrl = UrlJson.PostUrl;
+    ItemNameGenerate();
     const jVarLocalStartUrl = ConfigJson.routePath;
     const jVarLocalTableName = ConfigJson.tableName;
     let jVarLocalFetchUrl = `/${jVarLocalStartUrl}/${jVarLocalTableName}/Create`;
