@@ -3,12 +3,12 @@
     "search": "true",
     "searchable": "true",
     "idfield": "pk",
-    "pageList":"[10,25,50,100,all]",
-    "pageSize":"5",
     "showFooter": "true",
     "data": [],
     "onClickRow": "",
     "pagination": "true",
+    "pageList": "[10,25,50,all]",
+    "pageSize":"5",
     "columns": [
         {
             "field": "KS-Serial",
@@ -24,7 +24,7 @@
             "title": "Total QrCodes",
             "field": "QrShow",
             "footerFormatter": "",
-             "align":"right"
+            "align":"right"
         }
     ]
 }
