@@ -1,15 +1,15 @@
 {% extends 'src/Masters/SourceCode/Masters/simple.html' %}
 {% block content %}
 <div class="pagetitle">
-    <h1 class="d-block d-sm-none">ItemService</h1>
-    <h1 class="d-none d-sm-block">ItemService</h1>
+    <h1 class="d-block d-sm-none">ItemTypes</h1>
+    <h1 class="d-none d-sm-block">ItemTypes</h1>
     <nav class="d-none d-sm-block">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">Home</a></li>
             <li class="breadcrumb-item"><a href="../../Menu/HtmlFiles/index.html">Admin</a></li>
             <li class="breadcrumb-item"><a href="../HtmlFiles/index.html">Masters</a></li>
-            <li class="breadcrumb-item">ItemService</li>
-            <li class="breadcrumb-item active">Create</li>
+            <li class="breadcrumb-item">ItemTypes</li>
+            <li class="breadcrumb-item active">Alter</li>
         </ol>
     </nav>
 </div><!-- End Page Title -->
@@ -21,18 +21,18 @@
                 <div class="row ColumnsRow">
 
                     <div class="col-md-12">
-                        <label class="col-md-4 col-form-label">ItemService</label>
+                        <label class="col-md-4 col-form-label">ItemType</label>
 
                         <div class="col-md-8">
 
-                            <input name="ItemService" type="text" class="form-control" autocomplete="off"
-                                list="ItemServiceDataListId" id="ItemServiceSelectId" required autofocus>
-                            <datalist id="ItemServiceDataListId">
+                            <input name="ItemTypes" type="text" class="form-control" autocomplete="off"
+                                list="ItemTypeDataListId" id="ItemTypeSelectId" required autofocus>
+                            <datalist id="ItemTypeDataListId">
 
 
                                 <div class="invalid-feedback">
 
-                                    ItemService Should not be empty!!
+                                    ItemType Should not be empty!!
 
                                 </div>
                         </div>
@@ -53,5 +53,5 @@
 {% block js %}
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-<script type="module" src="../Js/pages/ItemServiceUpdate/StartFunc.js"></script>
+<script type="module" src="../Js/pages/ItemTypesUpdate/StartFunc.js"></script>
 {% endblock %}

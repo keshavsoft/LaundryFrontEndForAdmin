@@ -3,8 +3,8 @@ let StartFunc = ({ inDataToShow }) => {
     console.log(jVarLocalData);
     
     // jFLocalToInnerHtmlyourUsernameTextId({ inyourCategory: jVarLocalData.Category })
-    // jFLocalToInnerHtmlyourPasswordTextId({ inyourItemType: jVarLocalData.ItemType });
-    jFLocalToInnerHtmlUserMobileTextId({ inYourServices: jVarLocalData.ItemService });
+    jFLocalToInnerHtmlyourPasswordTextId({ inyourItemType: jVarLocalData.ItemType });
+    // jFLocalToInnerHtmlUserMobileTextId({ inYourServices: jVarLocalData.ItemService });
     // jFLocalToInnerHtmlyourBranchTextId({ inyourPcs: jVarLocalData.Pcs });
     // jFLocalToInputyourMobileTextId({ inYourRate: jVarLocalData.DryWashRate });
     // jFLocalToInputyourName({ inYourName: jVarLocalData.ItemName });
