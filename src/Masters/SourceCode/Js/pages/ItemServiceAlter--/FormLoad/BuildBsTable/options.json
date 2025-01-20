@@ -11,7 +11,7 @@
         {
             "field": "KS-Serial",
             "title": "#",
-            "formatter": "jFGlobalSerialColumn"
+            "formatter": ""
         },
         {
             "field": "ItemService",
@@ -19,7 +19,7 @@
             "align": "left"
         },
         {
-            "field": "KS-Opts",
+            "field": "Alter",
             "title": "Alter",
             "align": "left",
             "formatter":""

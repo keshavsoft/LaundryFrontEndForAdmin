@@ -1,19 +1,12 @@
-import { StartFunc as FooterFormatterFuncs } from "./FooterFormatterFuncs/entryFile.js";
-import { StartFunc as ColumnSerial } from "./ColumnSerial/entryFile.js";
+import { StartFunc as StartFuncColumnopts } from "./Columnopts/entryFile.js";
 
 let StartFunc = ({ inColumns }) => {
     let LocalColumns = inColumns;
-    let LocalColumnRate = LocalColumns.find(element => element.field === "Alter");
-    let LocalColumnSerial = LocalColumns.find(element => element.field === "KS-Serial");
-
-    if (LocalColumnRate === undefined === false) {
-        FooterFormatterFuncs({ inFindColumn: LocalColumnRate });
-    };
-    if (LocalColumnSerial === undefined === false) {
-        ColumnSerial({ inFindColumn: LocalColumnSerial });
-    };
+    let LocalColumnopts = LocalColumns.find(element => element.field === "KS-Opts");
     
-    
-};
+    if (LocalColumnopts === undefined === false) {
+        StartFuncColumnopts({ inFindColumn: LocalColumnopts });
+    };
+}
 
 export { StartFunc };
