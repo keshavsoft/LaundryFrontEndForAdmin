@@ -1,19 +1,10 @@
-import { StartFunc as NewOrder } from "./NewOrder/EntryFile.js";
-
+import { StartFunc as StartFuncNav } from "./Nav/EntryFile.js";
 const StartFunc = (row, $element, field) => {
-    if (field === 'Orders') {
-
-        Swal.fire({
-            title: "NewOrder",
-            confirmButtonText: "Yes",
-            showDenyButton: true
-        }).then((result) => {
-            if (result.isConfirmed) {
-                NewOrder({ inrowData: row });
-
-            };
-        });
-    }
+    console.log("row : ", row);
+        
+    if (field === "KS-Opts") {
+        StartFuncNav({ inRowpk: row.UuId });
+    };
 };
 
 export { StartFunc };
