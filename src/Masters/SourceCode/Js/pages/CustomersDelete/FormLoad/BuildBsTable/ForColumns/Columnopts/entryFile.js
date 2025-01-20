@@ -4,9 +4,9 @@ let StartFunc = ({ inFindColumn }) => {
 
 function jFLocalOptsFormater(value, row, index) {
     return [
-        `<a href="#" class="link-danger">`,
-        `<i class="bi bi-trash3 ms-3"></i>`,
-        `</a>`
+      `<a class="like btn btn-danger" href="#" title="Delete">`,
+        '<i class="bi bi-trash3-fill"></i>',
+        '</a>',
     ].join('');
 };
 

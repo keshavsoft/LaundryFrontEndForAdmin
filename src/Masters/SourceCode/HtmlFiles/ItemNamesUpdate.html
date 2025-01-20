@@ -21,71 +21,62 @@
             <form onsubmit="return false" id="FormId">
                 <div class="row ColumnsRow">
                     <div class="col-12">
-                        <label class="col-12 col-form-label">Category</label>
+                        <!-- <label class="col-12 col-form-label">Category</label> -->
                         <div class="col-xl-3">
-                            <select name="Category" class="form-select" id="CategoryId" required autofocus>
-                                <option value="">Select Category</option>
-                                <option value="Men">Men</option>
-                                <option value="Women">Women</option>
-                                <option value="Kids">Kids</option>
-                                <option value="Others">Others</option>
-                            </select>
+                            <label for="CategoryId">Category</label>
+                            <input type="text" name="Category" class="form-control" id="CategoryId" required autofocus placeholder="Enter Category" readonly/>
+                            
                             <div class="invalid-feedback">
                                 Category Should not be empty!!
                             </div>
                         </div>
                     </div>
                     <div class="col-12">
-                        <label class="col-12 col-form-label">Item Type</label>
                         <div class="col-xl-3">
-                            
-                            <select id="ItemTypeSelectId" class="form-select" name="ItemType" required>
-                                <option value="">Select Item Type</option>
-                            </select>
+                            <label class="col-12 col-form-label">Item Type</label>
+                            <input id="ItemTypeSelectId" class="form-control" name="ItemType" placeholder="Enter Item Type" required readonly/>
                             <div class="invalid-feedback">
-                                ItemType Should not be empty!!
+                                Item Type Should not be empty!!
                             </div>
                         </div>
                     </div>
+                    
                     <div class="col-12">
-                        <label class="col-12 col-form-label">Item Service</label>
                         <div class="col-xl-3">
-                            <select id="ItemServiceSelectId" class="form-select" name="Service" required>
-                                <option value="">Select Service</option>
-                            </select>
+                            <label class="col-12 col-form-label">Item Service</label>
+                            <input id="ItemServiceSelectId" class="form-control" name="Service" placeholder="Enter Service" required readonly/>
                             <div class="invalid-feedback">
                                 Item Service Should not be empty!!
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 ">
-                        <label class="col-12 col-form-label">Item Name</label>
-                        <div class="col-xl-5">
-                            <input id="ItemNameInputId" class="form-control" name="ItemName" readonly>
-                            </input>
+                    
+                    <div class="col-12">
+                        <div class="col-xl-3 col-5">
+                            <label class="col-12 col-form-label">Item Name</label>
+                            <input id="ItemNameInputId" class="form-control" name="ItemName" readonly placeholder="Item Name"  required readonly/>
                             <div class="invalid-feedback">
                                 Item Name Should not be empty!!
                             </div>
                         </div>
                     </div>
+                    
                     <div class="col-12">
-                        <label class="col-12 col-form-label">Pcs</label>
                         <div class="col-xl-1 col-5">
-                            <input name="Pcs" id="Pcs" min="1" max="100" type="number" class="form-control"
-                                autocomplete="off">
+                            <label class="col-12 col-form-label">Pcs</label>
+                            <input name="Pcs" id="Pcs" min="1" max="100" type="number" class="form-control" autocomplete="off" required readonly/>
                             <div class="invalid-feedback">
                                 Pcs Should not be empty!!
                             </div>
                         </div>
                     </div>
-
+                    
                     <div class="col-12">
-                        <label class="col-12 col-form-label">Rate</label>
                         <div class="col-xl-2 col-8">
-                            <input name="DryWashRate" id="DryWashRate" min="1" max="1000" type="number"
-                                class="form-control" autocomplete="off" required>
+                            <label class="col-12 col-form-label">Rate</label>
+                            <input name="DryWashRate" id="DryWashRate" min="1" max="1000" type="number" class="form-control" autocomplete="off" required />
                             <div class="invalid-feedback">
-                                WashRate Should not be empty!!
+                                Wash Rate Should not be empty!!
                             </div>
                         </div>
                     </div>

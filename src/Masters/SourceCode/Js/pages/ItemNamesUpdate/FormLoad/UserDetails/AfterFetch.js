@@ -7,6 +7,7 @@ let StartFunc = ({ inDataToShow }) => {
     jFLocalToInnerHtmlUserMobileTextId({ inYourServices: jVarLocalData.Service });
     jFLocalToInnerHtmlyourBranchTextId({ inyourPcs: jVarLocalData.Pcs });
     jFLocalToInputyourMobileTextId({ inYourRate: jVarLocalData.DryWashRate });
+    jFLocalToInputyourName({ inYourName: jVarLocalData.ItemName });
     // jFLocalToInputVoucherNumberDCDetailsTextId({ inVoucherNumberDCDetailsTextId: jVarLocalData.pk });
     // jFLocalToInputDateTextDCDetailsId({ inDateTextDCDetailsId: jVarLocalData.Date });
     // jFLocalToInputDescriptionTextDCDetailsId({ inDescriptionTextDCDetailsId: jVarLocalData.Description });
@@ -46,7 +47,12 @@ let jFLocalToInputyourMobileTextId = ({ inYourRate }) => {
     jVarLocalpkDCDetailsTextId.value = inYourRate;
     
 };
-
+let jFLocalToInputyourName = ({ inYourName }) => {
+    let jVarLocalHtmlId = 'ItemNameInputId';
+    let jVarLocalpkDCDetailsTextId = document.getElementById(jVarLocalHtmlId);
+    jVarLocalpkDCDetailsTextId.value = inYourName;
+    
+};
 // let jFLocalToInputVoucherNumberDCDetailsTextId = ({ inVoucherNumberDCDetailsTextId }) => {
 //     let jVarLocalHtmlId = 'VoucherNumberDCDetailsTextId';
 //     let jVarLocalVoucherNumberDCDetailsTextId = document.getElementById(jVarLocalHtmlId);
