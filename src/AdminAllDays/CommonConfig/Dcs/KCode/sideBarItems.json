@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Home",
+        "icon": "bi bi-grid",
+        "url": "../../../../Menu/HtmlFiles/index.html"
+    },
+    {
+        "name": "Parent",
+        "icon": "bi bi-arrow-90deg-left",
+        "url":"../../../CommonConfig/Menu/HtmlFiles/"
+    },
+    {
+        "name": "Dcs",
+        "icon": "bi bi-ui-checks",
+        "key":"All",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "All.html",
+                "icon": "bi bi-list"
+            }
+        ]
+    }
+   
+]
