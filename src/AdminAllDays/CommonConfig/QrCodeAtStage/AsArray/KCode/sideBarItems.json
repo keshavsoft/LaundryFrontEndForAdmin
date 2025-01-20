@@ -87,13 +87,25 @@
         ]
     },
     {
-        "name": "InFactory",
+        "name": "FromFactory",
         "key": "FromFactory",
         "icon": "bi bi-buildings",
         "children": [
             {
                 "name": "ShowAll",
                 "url": "FromFactory.html",
+                "icon": "bi bi-gear"
+            }
+        ]
+    },
+    {
+        "name": "Delivery",
+        "key": "Delivery",
+        "icon": "bi bi-truck",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "Delivery.html",
                 "icon": "bi bi-gear"
             }
         ]
