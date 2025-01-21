@@ -21,6 +21,15 @@
             "title": "Branch Name"
         },
         {
+            "field": "QrMax",
+            "title": "Max QR"
+        },
+        {
+            "field": "QrMin",
+            "title": "Min QR"
+        },
+        
+        {
             "title": "Total QrCodes",
             "field": "QrShow",
             "footerFormatter": "",
