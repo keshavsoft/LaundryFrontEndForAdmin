@@ -1,10 +1,10 @@
-import { StartFunc as StartFuncFuncToRun } from "./ButtonClickFunc.js";
+import { StartFunc as StartFuncfetchasGet } from "./fetchasGet/entryFile.js";
 
 let StartFunc = () => {
     let jVarLocalRefreshBSTableId = document.getElementById("RefreshBSTableId");
 
     if (jVarLocalRefreshBSTableId === null === false) {
-        jVarLocalRefreshBSTableId.addEventListener("click", StartFuncFuncToRun);
+        jVarLocalRefreshBSTableId.addEventListener("click", StartFuncfetchasGet);
     };
 };
 
