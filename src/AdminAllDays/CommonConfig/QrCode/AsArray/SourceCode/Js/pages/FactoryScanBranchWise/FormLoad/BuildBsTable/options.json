@@ -19,7 +19,11 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode",
+            "title": "QrCode"
+        },
+        {
+            "field": "OrderNumber",
+            "title": "Order ID",
             "filtercontrol": "select"
         },
         {
@@ -69,6 +73,14 @@
             "field": "location",
             "title": "DC Factory",
             "filterControl": "select"
+        },
+        {
+            "field": "CustomerName",
+            "title": "Customer Name"
+        },
+        {
+            "field": "CustomerMobileNumber",
+            "title": "Mobile Number"
         }
     ]
 }

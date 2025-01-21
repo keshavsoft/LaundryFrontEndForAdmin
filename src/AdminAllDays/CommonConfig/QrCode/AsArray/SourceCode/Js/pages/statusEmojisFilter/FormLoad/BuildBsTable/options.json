@@ -21,8 +21,9 @@
             "title": "Qr Code"
         },
         {
-            "field": "ItemName",
-            "title": "Item Name"
+            "field": "OrderNumber",
+            "title": "Order ID",
+            "filterControl": "select"
         },
         {
             "field": "BranchScan",
@@ -96,6 +97,14 @@
         {
             "field": "BranchName",
             "title": "Branch Name"
+        },
+        {
+            "field": "CustomerName",
+            "title": "Customer Name"
+        },
+        {
+            "field": "CustomerMobileNumber",
+            "title": "Mobile Number"
         }
     ]
 }

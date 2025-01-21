@@ -21,6 +21,10 @@
             "width": "100"
         },
         {
+            "field": "OrderNumber",
+            "title": "Order ID"
+        },
+        {
             "field": "ItemName",
             "title": "ItemName",
             "width": "300"
@@ -61,6 +65,14 @@
             "field": "BranchScan_FactoryName",
             "title": "Factory",
             "width": "200"
+        },
+        {
+            "field": "CustomerName",
+            "title": "Customer Name"
+        },
+        {
+            "field": "CustomerMobileNumber",
+            "title": "Mobile Number"
         }
     ]
 }

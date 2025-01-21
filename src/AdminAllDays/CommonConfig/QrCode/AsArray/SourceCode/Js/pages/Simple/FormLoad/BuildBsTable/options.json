@@ -22,6 +22,10 @@
             "filtercontrol": "select"
         },
         {
+            "field": "OrderNumber",
+            "title": "Order ID"
+        },
+        {
             "field": "ItemName",
             "title": "Item Name",
             "filtercontrol": "select"
@@ -48,6 +52,14 @@
             "title": "Time Span",
             "field": "TimeSpan",
             "filtercontrol": "select"
+        },
+        {
+            "field": "CustomerName",
+            "title": "Customer Name"
+        },
+        {
+            "field": "CustomerMobileNumber",
+            "title": "Mobile Number"
         }
     ]
 }
