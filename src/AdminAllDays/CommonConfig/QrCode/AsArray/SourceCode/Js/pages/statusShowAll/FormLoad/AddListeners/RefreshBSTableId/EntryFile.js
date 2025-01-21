@@ -1,4 +1,5 @@
-import { StartFunc as StartFuncFuncToRun } from "./ButtonClickFunc.js";
+import { StartFunc as StartFuncFuncToRun } from "./FetchAsGet/entryFile.js";
+
 
 let StartFunc = () => {
     const arrClass = document.querySelectorAll(".RefreshBSTableClass");
