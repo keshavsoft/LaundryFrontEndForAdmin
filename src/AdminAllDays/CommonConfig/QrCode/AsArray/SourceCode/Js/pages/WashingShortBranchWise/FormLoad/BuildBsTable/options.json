@@ -23,6 +23,11 @@
             "width": "100"
         },
         {
+            "field": "OrderNumber",
+            "title": "Order ID",
+            "width": "100"
+        },
+        {
             "field": "ItemName",
             "title": "ItemName",
             "width": "300"
@@ -69,6 +74,14 @@
             "title": "Order #",
             "width": "100",
             "filterControl": "select"
+        },
+        {
+            "field": "CustomerName",
+            "title": "Customer Name"
+        },
+        {
+            "field": "CustomerMobileNumber",
+            "title": "Mobile Number"
         }
     ]
 }

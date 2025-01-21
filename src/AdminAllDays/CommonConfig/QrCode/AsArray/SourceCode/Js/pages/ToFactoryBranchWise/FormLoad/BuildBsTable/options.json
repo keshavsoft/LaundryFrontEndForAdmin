@@ -3,10 +3,10 @@
     "search": "true",
     "searchable": "true",
     "idfield": "pk",
+    "pagination": "true",
     "pageList":"[10,25,50,100,all]",
     "pageSize": "5",  
     "showFooter": "true",
-    "pagination": "true",
     "filterControl": true,
     "data": [],
     "onClickRow": "",
@@ -19,6 +19,11 @@
         {
             "field": "QrCodeId",
             "title": "QrCode"
+        },
+        {
+            "field": "OrderNumber",
+            "title": "Order ID",
+            "filterControl": "select"
         },
         {
             "field": "ItemName",
@@ -58,6 +63,14 @@
             "field": "location",
             "title": "DC Factory",
             "filterControl": "select"
+        },
+        {
+            "field": "CustomerName",
+            "title": "Customer Name"
+        },
+        {
+            "field": "CustomerMobileNumber",
+            "title": "Mobile Number"
         }
     ]
 }

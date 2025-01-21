@@ -22,6 +22,11 @@
             "filtercontrol": "select"
         },
         {
+            "field": "OrderNumber",
+            "title": "Order ID",
+            "filterControl": "select"
+        },
+        {
             "field": "ItemName",
             "title": "Item Name",
             "filtercontrol": "select"
@@ -60,6 +65,14 @@
             "field": "BranchName",
             "title": "Branch Name",
             "filterControl": "select"
+        },
+        {
+            "field": "CustomerName",
+            "title": "Customer Name"
+        },
+        {
+            "field": "CustomerMobileNumber",
+            "title": "Mobile Number"
         }
     ]
 }

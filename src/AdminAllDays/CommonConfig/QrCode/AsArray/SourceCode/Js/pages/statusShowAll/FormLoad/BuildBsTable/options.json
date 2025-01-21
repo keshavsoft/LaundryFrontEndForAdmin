@@ -20,6 +20,10 @@
             "title": "QrCode"
         },
         {
+            "field": "OrderNumber",
+            "title": "Order ID"
+        },
+        {
             "field": "ItemName",
             "title": "ItemName"
         },
@@ -66,6 +70,14 @@
         {
             "field": "BranchName",
             "title": "BranchName"
+        },
+        {
+            "field": "CustomerName",
+            "title": "Customer Name"
+        },
+        {
+            "field": "CustomerMobileNumber",
+            "title": "Mobile Number"
         }
     ]
 }
