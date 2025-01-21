@@ -8,7 +8,7 @@
     "onClickRow": "",
     "pagination": "true",
     "pageList": "[10,25,50,all]",
-    "pageSize":"5",
+    "pageSize": "5",
     "columns": [
         {
             "field": "KS-Serial",
@@ -28,12 +28,11 @@
             "field": "QrMin",
             "title": "Min QR"
         },
-        
         {
             "title": "Total QrCodes",
             "field": "QrShow",
             "footerFormatter": "",
-            "align":"right"
+            "align": "right"
         }
     ]
 }
