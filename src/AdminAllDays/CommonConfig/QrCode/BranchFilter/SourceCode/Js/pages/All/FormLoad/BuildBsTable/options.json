@@ -23,6 +23,11 @@
             "filtercontrol": "select"
         },
         {
+            "field": "OrderNumber",
+            "title": "Order ID",
+            "filterControl": "select"
+        },
+        {
             "field": "ItemName",
             "title": "Item Name",
             "filtercontrol": "select"
@@ -58,6 +63,14 @@
             "field": "location",
             "title": "DC Factory",
             "filtercontrol": "select"
+        },
+        {
+            "field": "CustomerName",
+            "title": "Customer Name"
+        },
+        {
+            "field": "CustomerMobileNumber",
+            "title": "Mobile Number"
         }
     ]
 }
