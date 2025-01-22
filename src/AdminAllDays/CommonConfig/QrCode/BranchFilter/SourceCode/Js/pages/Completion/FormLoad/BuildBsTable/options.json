@@ -21,6 +21,12 @@
             "title": "QrCode"
         },
         {
+            "field": "OrderNumber",
+            "title": "Order ID",
+            "filterControl": "select"
+        },
+        
+        {
             "field": "ItemName",
             "title": "ItemName"
         },
@@ -65,6 +71,14 @@
         {
             "title": "DC Date",
             "field": "EntryScan_DCDate"
+        },
+        {
+            "field": "CustomerName",
+            "title": "Customer Name"
+        },
+        {
+            "field": "CustomerMobileNumber",
+            "title": "Mobile Number"
         }
     ]
 }

@@ -19,6 +19,12 @@
         {
             "field": "QrCodeId",
             "title": "QrCode"
+            
+        },
+        {
+            "field": "OrderNumber",
+            "title": "Order ID",
+            "filterControl": "select"
         },
         {
             "field": "ItemName",
@@ -51,6 +57,14 @@
         {
             "field": "location",
             "title": "OrderFactory"
+        },
+        {
+            "field": "CustomerName",
+            "title": "Customer Name"
+        },
+        {
+            "field": "CustomerMobileNumber",
+            "title": "Mobile Number"
         }
     ]
 }
