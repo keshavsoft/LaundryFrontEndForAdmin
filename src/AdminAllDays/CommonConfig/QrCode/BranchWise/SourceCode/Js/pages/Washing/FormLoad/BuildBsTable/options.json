@@ -22,11 +22,13 @@
         },
         {
             "field": "QrMax",
-            "title": "Max QR"
+            "title": "Max QR",
+            "align":"right"
         },
         {
             "field": "QrMin",
-            "title": "Min QR"
+            "title": "Min QR",
+            "align":"right"
         },
         {
             "title": "Total QrCodes",
