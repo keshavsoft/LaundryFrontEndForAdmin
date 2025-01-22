@@ -5,9 +5,9 @@
     "idfield": "pk",
     "showFooter": "true",
     "pagination": "true",
-    "pageList":"[10,25,50,100,all]",
+    "pageList": "[10,25,50,100,all]",
     "pageSize": "5",
-   "filterControl": "true",
+    "filterControl": "true",
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -22,10 +22,18 @@
             "title": "Branch Name"
         },
         {
+            "field": "QrMax",
+            "title": "Max QR"
+        },
+        {
+            "field": "QrMin",
+            "title": "Min QR"
+        },
+        {
             "title": "Total QrCodes",
             "field": "QrShow",
             "footerFormatter": "",
-             "align":"right"
+            "align": "right"
         }
     ]
 }
