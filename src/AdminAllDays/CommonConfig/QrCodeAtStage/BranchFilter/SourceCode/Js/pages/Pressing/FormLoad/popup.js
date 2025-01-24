@@ -13,8 +13,17 @@ let StartFunc = () => {
             text: "Choose a BranchName",
             input: 'select',
             inputOptions: {
-                'KKD': 'KKD',
-                'ANR': 'ANR'
+               'KKD': 'KKD',
+                'ANFO': 'ANFO',
+                'GD': 'GD',
+                'CSO': 'CSO',
+                'SP': 'SP',
+                'KPA': 'KPA',
+                'LBC': 'LBC',
+                'GWK': 'GWK',
+                'VRNB': 'VRNB',
+                'MSNvzm': 'MSNvzm',
+                'VG':'VG'
             },
             inputPlaceholder: 'Select a branch',
             showCancelButton: true,
