@@ -137,7 +137,7 @@
             },
             {
                 "name": "Wash Type Filter",
-                "url": "ItemNamesFilterItemType.html",
+                "url": "ItemNamesFilterWashType.html",
                 "icon": "bi bi-grid-3x3"
             },
             {
