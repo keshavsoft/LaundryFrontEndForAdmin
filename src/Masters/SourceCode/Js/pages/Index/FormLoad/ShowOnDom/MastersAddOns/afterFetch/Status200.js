@@ -1,6 +1,7 @@
 const StartFunc = (data) => {
     let localAddondata = data.JsonData
     jFLocalToInputAddonsId(localAddondata)
+    jFLocalToInputAddonsCount(localAddondata)
 };
 
 let jFLocalToInputAddonsId = (inValue) => {
@@ -9,6 +10,17 @@ let jFLocalToInputAddonsId = (inValue) => {
 
     if (jVarLocalAddonsId === null === false) {
         jVarLocalAddonsId.innerHTML = inValue;
+        
+    };
+};
+
+let jFLocalToInputAddonsCount = (inValue) => {
+    let jVarLocalHtmlId = 'AddonsCount';
+    let jVarLocalAddonsCount = document.getElementById(jVarLocalHtmlId);
+
+    if (jVarLocalAddonsCount === null === false) {
+        jVarLocalAddonsCount.innerHTML = inValue;
+        
     };
 };
 

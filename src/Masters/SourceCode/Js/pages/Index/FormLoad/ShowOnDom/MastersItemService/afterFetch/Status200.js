@@ -1,6 +1,8 @@
 const StartFunc = (data) => {
     let localItemServicedata = data.JsonData
     jFLocalToInputItemServicesId(localItemServicedata)
+    jFLocalToInputItemServicesCount(localItemServicedata)
+
 };
 
 let jFLocalToInputItemServicesId = (inValue) => {
@@ -9,6 +11,15 @@ let jFLocalToInputItemServicesId = (inValue) => {
 
     if (jVarLocalItemServicesId === null === false) {
         jVarLocalItemServicesId.innerHTML = inValue;
+    };
+};
+
+let jFLocalToInputItemServicesCount = (inValue) => {
+    let jVarLocalHtmlId = 'ItemServicesCount';
+    let jVarLocalItemServicesCount = document.getElementById(jVarLocalHtmlId);
+
+    if (jVarLocalItemServicesCount === null === false) {
+        jVarLocalItemServicesCount.innerHTML = inValue;
     };
 };
 
