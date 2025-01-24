@@ -1,6 +1,7 @@
 const StartFunc = (data) => {
     let localCustomerdata = data.JsonData
     jFLocalToInputCustomersID(localCustomerdata)
+    jFLocalToInputCustomersCount(localCustomerdata)
 };
 
 let jFLocalToInputCustomersID = (inValue) => {
@@ -9,6 +10,15 @@ let jFLocalToInputCustomersID = (inValue) => {
 
     if (jVarLocalCustomersID === null === false) {
         jVarLocalCustomersID.innerHTML = inValue;
+    };
+};
+
+let jFLocalToInputCustomersCount = (inValue) => {
+    let jVarLocalHtmlId = 'CustomersCount';
+    let jVarLocalCustomersCount = document.getElementById(jVarLocalHtmlId);
+
+    if (jVarLocalCustomersCount === null === false) {
+        jVarLocalCustomersCount.innerHTML = inValue;
     };
 };
 
