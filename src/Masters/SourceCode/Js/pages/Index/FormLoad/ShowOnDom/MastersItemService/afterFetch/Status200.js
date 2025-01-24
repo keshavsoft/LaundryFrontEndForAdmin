@@ -1,5 +1,5 @@
 const StartFunc = (data) => {
-    let localItemServicedata = data.JsonData
+    let localItemServicedata = data.Count
     jFLocalToInputItemServicesId(localItemServicedata)
     jFLocalToInputItemServicesCount(localItemServicedata)
 
