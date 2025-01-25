@@ -21,21 +21,26 @@
         {
             "field": "QrMax",
             "title": "Max QR",
-            "align":"right",
-            "class": "d-none d-sm-table-cell"
+            "align":"right"
         },
         {
             "field": "QrMin",
             "title": "Min QR",
-            "align":"right",
-            "class": "d-none d-sm-table-cell"
+            "align":"right"
+        },
+        {
+            "field": "OrderDateMin",
+            "title": "OrderDateMin"
+        },
+        {
+            "field": "OrderDateMax",
+            "title": "OrderDateMax"
         },
         {
             "title": "Total QrCodes",
             "field": "QrShow",
             "footerFormatter": "",
             "align": "right"
-            
         }
     ]
 }
