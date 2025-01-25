@@ -158,5 +158,17 @@
                 "icon": "bi bi-diagram-3"
             }
         ]
+    },
+    {
+        "name": "Delivery",
+        "key": "Delivery",
+        "icon": "bi bi-truck",
+        "children": [
+            {
+                "name": "Show All",
+                "url": "Delivery.html",
+                "icon": "bi bi-diagram-3"
+            }
+        ]
     }
 ]
