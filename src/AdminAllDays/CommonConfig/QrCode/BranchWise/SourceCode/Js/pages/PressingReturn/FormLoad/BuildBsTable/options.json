@@ -23,12 +23,14 @@
         {
             "field": "QrMax",
             "title": "Max QR",
-            "align":"right"
+            "align":"right",
+            "class": "d-none d-sm-table-cell"
         },
         {
             "field": "QrMin",
             "title": "Min QR",
-            "align":"right"
+            "align":"right",
+            "class": "d-none d-sm-table-cell"
         },
         {
             "title": "Total QrCodes",
