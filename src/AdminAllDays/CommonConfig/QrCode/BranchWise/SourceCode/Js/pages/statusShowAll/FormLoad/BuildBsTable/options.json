@@ -34,8 +34,8 @@
             "title": "Total QrCodes",
             "field": "QrShow",
             "footerFormatter": "",
-            "align": "right",
-            "class": "d-none d-sm-table-cell"
+            "align": "right"
+            
         }
     ]
 }
