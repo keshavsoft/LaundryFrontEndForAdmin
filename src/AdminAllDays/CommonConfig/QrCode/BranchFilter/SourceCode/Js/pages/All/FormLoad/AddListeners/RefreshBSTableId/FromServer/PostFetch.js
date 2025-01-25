@@ -4,6 +4,7 @@ import CommonConfig from '../../../../../CommonConfig.json' with {type: 'json'};
 let StartFunc = async () => {
     let jVarLocalGetStartUrl = CommonConfig.GetStartUrl;
     let jVarLocalGetEndPoint = ConfigJson.GetEndPoint;
+    
     let jVarLocalBranchName = getUrlQueryParams({ inGetKey: "BranchName" });
     let response = await fetch(`${jVarLocalGetStartUrl}/${jVarLocalGetEndPoint}/${jVarLocalBranchName}`);
 

@@ -1,4 +1,7 @@
+import { StartFunc as BranchDatalist } from "./BranchDatalist/EntryFile.js";
+
 let StartFunc = () => {
+    let branch=BranchDatalist();
     let jVarLocalBranchName = getUrlQueryParams({ inGetKey: "BranchName" });
 
     if (jVarLocalBranchName === null || jVarLocalBranchName == "") {
@@ -12,9 +15,11 @@ let StartFunc = () => {
             title: "WelCome!",
             text: "Choose a BranchName",
             input: 'select',
-            inputOptions: {
-                'KKD': 'KKD',
-                'ANR': 'ANR'
+            didOpen: () => {
+                const input = Swal.getInput();
+                if (input) {
+                    input.setAttribute('id', 'BranchDatalist'); // Set the custom ID
+                }
             },
             inputPlaceholder: 'Select a branch',
             showCancelButton: true,
