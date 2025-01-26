@@ -30,11 +30,11 @@
         },
         {
             "field": "OrderDateMin",
-            "title": "OrderDateMin"
+            "title": "FirstOrderDate"
         },
         {
             "field": "OrderDateMax",
-            "title": "OrderDateMax"
+            "title": "LastOrderDate"
         },
         {
             "title": "Total QrCodes",
