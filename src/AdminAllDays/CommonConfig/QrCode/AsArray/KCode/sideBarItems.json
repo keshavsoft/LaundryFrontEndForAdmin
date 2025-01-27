@@ -56,7 +56,7 @@
     },
     {
         "name": "Status",
-        "key": "status",
+        "key": "Status",
         "icon": "bi bi-bar-chart",
         "children": [
             {
@@ -88,7 +88,7 @@
     },
     {
         "name": "InBranch",
-        "key": "In",
+        "key": "InBranch",
         "icon": "bi bi-building",
         "children": [
             {
@@ -115,7 +115,7 @@
     },
     {
         "name": "ToFactory",
-        "key": "To",
+        "key": "ToFactory",
         "icon": "bi bi-arrow-right-circle",
         "children": [
             {
@@ -167,7 +167,7 @@
     },
     {
         "name": "FactoryScan",
-        "key": "Factory",
+        "key": "FactoryScan",
         "icon": "bi bi-geo-fill",
         "children": [
             {
@@ -330,7 +330,7 @@
     },
     {
         "name": "FromFactory",
-        "key": "From",
+        "key": "FromFactory",
         "icon": "bi bi-diagram-2",
         "children": [
             {
@@ -356,8 +356,8 @@
                 "icon": "bi bi-diagram-3"
             },
             {
-                "name": "Completion",
-                "url": "CompletionFF.html",
+                "name": "Completion Over",
+                "url": "DeliveryFFCompletion.html",
                 "icon": "bi bi-diagram-3"
             },
             {
