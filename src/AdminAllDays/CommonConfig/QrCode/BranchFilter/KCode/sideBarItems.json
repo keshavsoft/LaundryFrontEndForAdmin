@@ -50,7 +50,7 @@
     },
     {
         "name": "Status",
-        "key": "status",
+        "key": "Status",
         "icon": "bi bi-bar-chart",
         "children": [
             {
@@ -62,7 +62,7 @@
     },
     {
         "name": "InBranch",
-        "key": "inBranch",
+        "key": "InBranch",
         "icon": "bi bi-building",
         "children": [
             {
@@ -82,7 +82,7 @@
     },
     {
         "name": "ToFactory",
-        "key": "To",
+        "key": "ToFactory",
         "icon": "bi bi-arrow-right-circle",
         "children": [
             {
@@ -99,7 +99,7 @@
     },
     {
         "name": "FactoryScan",
-        "key": "Factory",
+        "key": "FactoryScan",
         "icon": "bi bi-geo-fill",
         "children": [
             {
@@ -162,7 +162,7 @@
     },
     {
         "name": "FromFactory",
-        "key": "From",
+        "key": "FromFactory",
         "icon": "bi bi-diagram-2",
         "children": [
             {
@@ -178,6 +178,22 @@
         "icon": "bi bi-truck",
         "children": [
             {
+                "name": "Entry Return",
+                "url": "EntryReturn.html",
+                "icon": "bi bi-gear"
+            },
+            {
+                "name": "Process Return",
+                "url": "ProcessReturn.html",
+                "icon": "bi bi-gear"
+            },
+            {
+                "name": "Completion",
+                "url": "DeliveryFFCompletion.html",
+                "icon": "bi bi-gear"
+            },
+            {
+                
                 "name": "Show All",
                 "url": "Delivery.html",
                 "icon": "bi bi-diagram-3"
