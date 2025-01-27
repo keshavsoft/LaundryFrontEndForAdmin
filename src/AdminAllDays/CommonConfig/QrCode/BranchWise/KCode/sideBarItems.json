@@ -165,6 +165,21 @@
         "icon": "bi bi-truck",
         "children": [
             {
+                "name": "EntryReturn",
+                "url": "EntryReturn.html",
+                "icon": "bi bi-gear"
+            },
+            {
+                "name": "ProcessReturn",
+                "url": "ProcessReturn.html",
+                "icon": "bi bi-gear"
+            },
+            {
+                "name": "Completion",
+                "url": "DeliveryFFCompletion.html",
+                "icon": "bi bi-gear"
+            },
+            {
                 "name": "Show All",
                 "url": "Delivery.html",
                 "icon": "bi bi-diagram-3"
