@@ -7,6 +7,7 @@
     "showFooter": "true",
     "pageList":"[10,25,50,100,all]",
     "pageSize": "5",  
+    "filterControl": true,
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -29,7 +30,7 @@
             "filterControl": "select"
         },
         {
-            "field": "FactoryToBranchScan",
+            "field": "F_F_Pressing_Return_Scan",
             "title": "Status",
             "filterControl": "select"
         },
@@ -68,7 +69,7 @@
         {
             "field": "location",
             "title": "DC Factory",
-            "filterControl": "select"
+            "filtercontrol": "select"
         },
         {
             "field": "CustomerName",
