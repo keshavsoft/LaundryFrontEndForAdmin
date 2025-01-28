@@ -153,18 +153,6 @@
         "icon": "bi bi-diagram-2",
         "children": [
             {
-                "name": "Show All",
-                "url": "FromFactory.html",
-                "icon": "bi bi-diagram-3"
-            }
-        ]
-    },
-    {
-        "name": "Delivery",
-        "key": "Delivery",
-        "icon": "bi bi-truck",
-        "children": [
-            {
                 "name": "EntryReturn",
                 "url": "EntryReturn.html",
                 "icon": "bi bi-gear"
@@ -179,6 +167,19 @@
                 "url": "DeliveryFFCompletion.html",
                 "icon": "bi bi-gear"
             },
+            {
+                "name": "Show All",
+                "url": "FromFactory.html",
+                "icon": "bi bi-diagram-3"
+            }
+        ]
+    },
+    {
+        "name": "Delivery",
+        "key": "Delivery",
+        "icon": "bi bi-truck",
+        "children": [
+            
             {
                 "name": "Show All",
                 "url": "Delivery.html",
