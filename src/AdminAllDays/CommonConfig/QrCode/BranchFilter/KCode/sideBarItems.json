@@ -7,7 +7,7 @@
     {
         "name": "Parent",
         "icon": "bi bi-arrow-90deg-left",
-        "url":"../../../../CommonConfig/Menu/HtmlFiles/"
+        "url": "../../../../CommonConfig/Menu/HtmlFiles/"
     },
     {
         "name": "Parent-QrCodes",
@@ -17,7 +17,8 @@
                 "name": "AsArray",
                 "url": "../../AsArray/HtmlFiles/",
                 "icon": "bi bi-list"
-            },{
+            },
+            {
                 "name": "BranchWise",
                 "url": "../../BranchWise/HtmlFiles/",
                 "icon": "bi bi-list"
@@ -166,18 +167,6 @@
         "icon": "bi bi-diagram-2",
         "children": [
             {
-                "name": "Show All",
-                "url": "FromFactory.html",
-                "icon": "bi bi-diagram-3"
-            }
-        ]
-    },
-    {
-        "name": "Delivery",
-        "key": "Delivery",
-        "icon": "bi bi-truck",
-        "children": [
-            {
                 "name": "Entry Return",
                 "url": "EntryReturn.html",
                 "icon": "bi bi-gear"
@@ -193,7 +182,18 @@
                 "icon": "bi bi-gear"
             },
             {
-                
+                "name": "Show All",
+                "url": "FromFactory.html",
+                "icon": "bi bi-diagram-3"
+            }
+        ]
+    },
+    {
+        "name": "Delivery",
+        "key": "Delivery",
+        "icon": "bi bi-truck",
+        "children": [
+            {
                 "name": "Show All",
                 "url": "Delivery.html",
                 "icon": "bi bi-diagram-3"
