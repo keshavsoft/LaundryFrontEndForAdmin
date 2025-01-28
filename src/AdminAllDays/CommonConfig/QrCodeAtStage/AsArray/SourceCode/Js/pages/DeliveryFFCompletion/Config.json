@@ -1,0 +1,7 @@
+{
+    "routePath": "bin",
+    "StartRoute": "binV4",
+    "tableName": "Openings",
+    "GetUrl": "/Custom/Cleaning/Dashboard/Admin/Reports/Pos/AllDays/QrCodesAtStage/AllBranches/To_Delivery_Scan",
+    "GetEndPoint":"To_Delivery_Scan"
+}

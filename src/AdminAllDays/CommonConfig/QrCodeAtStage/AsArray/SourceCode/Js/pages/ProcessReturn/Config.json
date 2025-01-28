@@ -1,0 +1,7 @@
+{
+    "routePath": "bin",
+    "StartRoute": "binV4",
+    "tableName": "Openings",
+    "GetUrl": "/Custom/Cleaning/Dashboard/Admin/Reports/Pos/AllDays/QrCodesAtStage/AllBranches/F_F_Pressing_Return_Scan",
+    "GetEndPoint":"F_F_Pressing_Return_Scan"
+}

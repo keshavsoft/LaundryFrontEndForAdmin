@@ -7,7 +7,7 @@
     {
         "name": "Parent",
         "icon": "bi bi-arrow-90deg-left",
-        "url":"../../../../CommonConfig/Menu/HtmlFiles/"
+        "url": "../../../../CommonConfig/Menu/HtmlFiles/"
     },
     {
         "name": "Parent-QrCodes",
@@ -23,7 +23,6 @@
                 "url": "../../BranchWise/HtmlFiles/",
                 "icon": "bi bi-list"
             }
-
         ]
     },
     {
@@ -88,9 +87,24 @@
     },
     {
         "name": "FromFactory",
-        "key": "FromFactory",
+        "key": "From",
         "icon": "bi bi-buildings",
         "children": [
+            {
+                "name": "InEntryReturn",
+                "url": "EntryReturn.html",
+                "icon": "bi bi-gear"
+            },
+            {
+                "name": "InProcessReturn",
+                "url": "ProcessReturn.html",
+                "icon": "bi bi-gear"
+            },
+            {
+                "name": "InCompletion",
+                "url": "DeliveryFFCompletion.html",
+                "icon": "bi bi-gear"
+            },
             {
                 "name": "ShowAll",
                 "url": "FromFactory.html",
