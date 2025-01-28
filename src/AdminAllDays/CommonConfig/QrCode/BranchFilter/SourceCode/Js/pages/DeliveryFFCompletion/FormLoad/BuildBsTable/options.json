@@ -30,17 +30,18 @@
             "title": "Item Name"
         },
         {
-            "field": "CompletionScan",
-            "title": "Status"
+            "field": "BranchName",
+            "title": "BranchName",
+            "filterControl": "select"
+        },
+        {
+            "field": "F_F_Completion_Scan",
+            "title": "Status",
+            "filterControl": "select"
         },
         {
             "title": "TimeSpan",
             "field": "TimeSpan"
-        },
-        {
-            "field": "BranchName",
-            "title": "BranchName",
-            "filterControl": "select"
         },
         {
             "field": "Rate",

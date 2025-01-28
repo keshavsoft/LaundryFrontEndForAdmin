@@ -8,7 +8,6 @@
     "onClickRow": "",
     "pageList":"[10,25,50,100,all]",
     "pageSize": "5",
-   
     "filterControl": true,
     "columns": [
         {
@@ -30,17 +29,18 @@
             "title": "Item Name"
         },
         {
-            "field": "CompletionScan",
-            "title": "Status"
+            "field": "BranchName",
+            "title": "BranchName",
+            "filterControl": "select"
+        },
+        {
+            "field": "To_Delivery_Scan",
+            "title": "Status",
+            "filterControl": "select"
         },
         {
             "title": "TimeSpan",
             "field": "TimeSpan"
-        },
-        {
-            "field": "BranchName",
-            "title": "BranchName",
-            "filterControl": "select"
         },
         {
             "field": "Rate",
