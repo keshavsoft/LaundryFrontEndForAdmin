@@ -1,0 +1,77 @@
+{
+    "toolbar": "#toolbar",
+    "search": "true",
+    "searchable": "true",
+    "idfield": "pk",
+    "showFooter": "true",
+    "pagination": "true",
+    "pageList":"[10,25,50,100,all]",
+    "pageSize": "5",
+    "filterControl": true,
+    "data": [],
+    "onClickRow": "",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFLocalSerialColumn"
+        },
+        {
+            "field": "QrCodeId",
+            "title": "QrCode"
+        },
+        {
+            "title": "Branch Name",
+            "field": "BranchName",
+            "filterControl": "select"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
+        },
+        {
+            "field": "ItemName",
+            "title": "Item Name"
+        },
+        {
+            "field": "Rate",
+            "title": "Rate",
+            "align": "right",
+            "footerFormatter": "",
+            "formatter":"symbolFormat"
+        },
+        {
+            "field": "OrderNo",
+            "title": "Order #"
+        },
+        {
+            "field": "OrderDateTime",
+            "title": "Order DateTime"
+        },
+        {
+            "field": "DeliveryDateTime",
+            "title": "Delivery DateTime"
+        },
+        {
+            "field": "BranchScan_DC",
+            "title": "Branch Scan_DC"
+        },
+        {
+            "title": "DC Date",
+            "field": "EntryScan_DCDate"
+        },
+        {
+            "field": "location",
+            "title": "Location"
+        },
+        {
+            "field": "location",
+            "title": "DCFactory"
+        },
+        {
+            "field": "CompletedScanFactory",
+            "title": "Status",
+            "filterControl": "select"
+        }
+    ]
+}
