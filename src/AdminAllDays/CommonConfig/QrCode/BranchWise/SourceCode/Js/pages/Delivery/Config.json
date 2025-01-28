@@ -1,4 +1,4 @@
 {
-    "GetUrl": "/Custom/Cleaning/Dashboard/Admin/Reports/Pos/AllDays/QrCodes/BranchWise/FactoryToBranch",
-    "GetEndPoint": "FactoryToBranch"
+    "GetUrl": "/Custom/Cleaning/Dashboard/Admin/Reports/Pos/AllDays/QrCodes/BranchWise/Delivery",
+    "GetEndPoint": "Delivery"
 }
