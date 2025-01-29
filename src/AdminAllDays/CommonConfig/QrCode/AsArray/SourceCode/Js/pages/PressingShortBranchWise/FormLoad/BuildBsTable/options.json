@@ -63,6 +63,11 @@
             "filterControl": "select"
         },
         {
+            "field": "location",
+            "title": "Location",
+            "filterControl": "select"
+        },
+        {
             "field": "BranchScan_FactoryName",
             "title": "Factory",
             "width": "200",

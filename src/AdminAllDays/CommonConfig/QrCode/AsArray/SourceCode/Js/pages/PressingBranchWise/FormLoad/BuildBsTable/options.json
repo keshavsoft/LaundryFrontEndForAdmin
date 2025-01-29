@@ -64,7 +64,7 @@
         },
         {
             "field": "location",
-            "title": "Factory",
+            "title": "DC Factory",
             "filterControl": "select"
         },
         {
