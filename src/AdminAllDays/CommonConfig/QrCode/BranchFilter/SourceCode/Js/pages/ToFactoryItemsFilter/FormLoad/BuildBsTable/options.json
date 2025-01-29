@@ -18,21 +18,21 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode"
+            "title": "Qr"
         },
         {
             "field": "OrderNumber",
-            "title": "Order ID",
+            "title": "Or_ID",
+            "filterControl": "select"
+        },
+        {
+            "title": "Branch",
+            "field": "BranchName",
             "filterControl": "select"
         },
         {
             "field": "ItemName",
-            "title": "ItemName",
-            "filterControl": "select"
-        },
-        {
-            "field": "BranchScan",
-            "title": "Status",
+            "title": "Item",
             "filterControl": "select"
         },
         {
@@ -40,8 +40,8 @@
             "field": "TimeSpan"
         },
         {
-            "title": "BranchName",
-            "field": "BranchName",
+            "field": "BranchScan",
+            "title": "Branch",
             "filterControl": "select"
         },
         {
@@ -57,18 +57,18 @@
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime"
+            "title": "Order_Dt"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Delivery_Dt"
         },
         {
             "field": "BranchScan_DC",
-            "title": "BranchScan_DC"
+            "title": "Branch_DC"
         },
         {
-            "title": "DC Date",
+            "title": "Entry_DCDate",
             "field": "EntryScan_DCDate"
         },
         {
@@ -76,16 +76,12 @@
             "title": "Location"
         },
         {
-            "field": "BranchScan_FactoryName",
-            "title": "Branch Factory"
-        },
-        {
             "field": "CustomerName",
-            "title": "Customer Name"
+            "title": "Customer"
         },
         {
             "field": "CustomerMobileNumber",
-            "title": "Mobile Number"
+            "title": "Mobile"
         }
     ]
 }
