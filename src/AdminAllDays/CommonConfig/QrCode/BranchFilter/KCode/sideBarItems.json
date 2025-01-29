@@ -51,7 +51,7 @@
     },
     {
         "name": "Status",
-        "key": "Status",
+        "key": "status",
         "icon": "bi bi-bar-chart",
         "children": [
             {
@@ -63,7 +63,7 @@
     },
     {
         "name": "InBranch",
-        "key": "InBranch",
+        "key": "inBranch",
         "icon": "bi bi-building",
         "children": [
             {
@@ -163,27 +163,27 @@
     },
     {
         "name": "FromFactory",
-        "key": "FromFactory",
+        "key": "FF",
         "icon": "bi bi-diagram-2",
         "children": [
             {
                 "name": "Entry Return",
-                "url": "EntryReturn.html",
+                "url": "FFEntryReturn.html",
                 "icon": "bi bi-gear"
             },
             {
                 "name": "Process Return",
-                "url": "ProcessReturn.html",
+                "url": "FFProcessReturn.html",
                 "icon": "bi bi-gear"
             },
             {
                 "name": "Completion",
-                "url": "DeliveryFFCompletion.html",
+                "url": "FFCompletion.html",
                 "icon": "bi bi-gear"
             },
             {
                 "name": "Show All",
-                "url": "FromFactory.html",
+                "url": "FFFromFactory.html",
                 "icon": "bi bi-diagram-3"
             }
         ]
