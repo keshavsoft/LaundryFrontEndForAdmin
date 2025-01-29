@@ -330,7 +330,7 @@
     },
     {
         "name": "FromFactory",
-        "key": "Factory",
+        "key": "FF",
         "icon": "bi bi-diagram-2",
         "children": [
             {

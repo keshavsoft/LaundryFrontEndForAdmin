@@ -5,8 +5,8 @@
     "idfield": "pk",
     "pagination": "true",
     "showFooter": "true",
-    "pageList":"[10,25,50,100,all]",
-    "pageSize": "5",  
+    "pageList": "[10,25,50,100,all]",
+    "pageSize": "5",
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -17,16 +17,20 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode"
+            "title": "Qr"
         },
         {
             "field": "OrderNumber",
-            "title": "Order ID"
+            "title": "Ord_ID"
         },
         {
-            "title": "BranchName",
+            "title": "Branch",
             "field": "BranchName",
             "filterControl": "select"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
         },
         {
             "field": "CompletionScan",
@@ -34,33 +38,28 @@
             "filterControl": "select"
         },
         {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
-        }
-    ,
-        {
             "field": "ItemName",
             "title": "ItemName"
         },
         {
             "title": "Rate",
             "field": "Rate",
-            "align":"right",
+            "align": "right",
             "filtercontrol": "select",
             "formatter": "",
-            "footerFormatter":""
+            "footerFormatter": ""
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime"
+            "title": "Order_Dt"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Delivery_Dt"
         },
         {
             "field": "EntryScan_DC",
-            "title": "DC #"
+            "title": "DC"
         },
         {
             "title": "DC Date",
@@ -73,11 +72,11 @@
         },
         {
             "field": "CustomerName",
-            "title": "Customer Name"
+            "title": "Customer"
         },
         {
             "field": "CustomerMobileNumber",
-            "title": "Mobile Number"
+            "title": "Mobile"
         }
     ]
 }
