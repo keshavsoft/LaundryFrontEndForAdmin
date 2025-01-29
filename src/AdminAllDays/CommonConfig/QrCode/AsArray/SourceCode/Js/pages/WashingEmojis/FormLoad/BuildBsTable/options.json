@@ -44,10 +44,6 @@
             "title": "Factory"
         },
         {
-            "field": "EntryReturnScan",
-            "title": "Entry_C"
-        },
-        {
             "field": "WashingScan",
             "title": "Wash"
         },

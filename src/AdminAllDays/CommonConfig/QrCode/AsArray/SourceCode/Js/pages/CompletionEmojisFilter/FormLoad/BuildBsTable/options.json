@@ -22,7 +22,7 @@
         },
         {
             "field": "OrderNumber",
-            "title": "Order ID"
+            "title": "Or_ID"
         },
         {
             "field": "BranchName",
@@ -30,12 +30,12 @@
             "filterControl":"select"
         },
         {
-            "title": "Time Span",
-            "field": "TimeSpan"
-        },
-        {
             "field": "ItemName",
             "title": "Item"
+        },
+        {
+            "title": "Time Span",
+            "field": "TimeSpan"
         },
         {
             "field": "BranchScan",

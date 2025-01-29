@@ -17,8 +17,8 @@
             "formatter": "jFLocalSerialColumn"
         },
         {
-            "field": "Qr",
-            "title": "QrCode"
+            "field": "QrCodeId",
+            "title": "Qr"
         },
         
         {

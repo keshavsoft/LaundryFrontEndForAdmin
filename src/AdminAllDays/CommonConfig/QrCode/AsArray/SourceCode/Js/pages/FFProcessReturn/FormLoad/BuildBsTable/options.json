@@ -18,29 +18,29 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode"
+            "title": "Qr"
         },
         {
             "field": "OrderNumber",
-            "title": "Order ID"
+            "title": "Or_ID"
         },
         {
-            "title": "BranchName",
+            "title": "Branch",
             "field": "BranchName",
             "filterControl": "select"
         },
         {
-            "field": "F_F_Pressing_Return_Scan",
-            "title": "Status",
-            "filterControl": "select"
+            "field": "ItemName",
+            "title": "Item"
         },
         {
             "title": "TimeSpan",
             "field": "TimeSpan"
         },
         {
-            "field": "ItemName",
-            "title": "ItemName"
+            "field": "F_F_Pressing_Return_Scan",
+            "title": "Pro_Ret",
+            "filterControl": "select"
         },
         {
             "title": "Rate",
@@ -52,32 +52,32 @@
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime"
+            "title": "Order_Dt"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Delivery_Dt"
         },
         {
             "field": "EntryScan_DC",
-            "title": "DC #"
+            "title": "En_DC #"
         },
         {
-            "title": "DC Date",
+            "title": "En_DC_Dt",
             "field": "EntryScan_DCDate"
         },
         {
             "field": "location",
-            "title": "DC Factory",
+            "title": "Factory",
             "filtercontrol": "select"
         },
         {
             "field": "CustomerName",
-            "title": "Customer Name"
+            "title": "Customer"
         },
         {
             "field": "CustomerMobileNumber",
-            "title": "Mobile Number"
+            "title": "Mobile"
         }
     ]
 }

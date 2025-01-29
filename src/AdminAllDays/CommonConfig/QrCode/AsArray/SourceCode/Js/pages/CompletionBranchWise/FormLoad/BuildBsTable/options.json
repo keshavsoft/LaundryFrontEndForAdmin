@@ -67,16 +67,16 @@
         }, 
         {
             "field": "location",
-            "title": "DC Factory",
+            "title": "Factory",
             "filterControl": "select"
         },
         {
             "field": "CustomerName",
-            "title": "Customer Name"
+            "title": "Customer"
         },
         {
             "field": "CustomerMobileNumber",
-            "title": "Mobile Number"
+            "title": "Mobile"
         }
 
     ]

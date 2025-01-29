@@ -46,11 +46,6 @@
              "filterControl":"select"
         },
         {
-            "field": "EntryReturnScan",
-            "title": "Entry_C",
-            "filterControl": "select"
-        },
-        {
             "field": "WashingScan",
             "title": "Wash",
             "filterControl": "select"
