@@ -58,6 +58,10 @@
             "width": "100"
         },
         {
+            "field": "location",
+            "title": "Location"
+        },
+        {
             "field": "BranchScan_FactoryName",
             "title": "Factory",
             "width": "200"
