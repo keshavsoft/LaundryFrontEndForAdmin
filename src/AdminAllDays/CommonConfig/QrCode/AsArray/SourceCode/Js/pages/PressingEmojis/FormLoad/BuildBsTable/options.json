@@ -17,87 +17,86 @@
         },
         {
             "field": "QrCodeId",
-            "title": "Qr Code"
+            "title": "Qr"
         },
         {
             "field": "OrderNumber",
-            "title": "Order ID"
+            "title": "Ord_ID"
         },
         {
-            "field": "ItemName",
-            "title": "Item Name"
-        },
-        {
-            "field": "BranchScan",
+            "field": "BranchName",
             "title": "Branch"
         },
         {
-            "field": "EntryScan",
-            "title": "Factory"
-        },
-        {
-            "field": "EntryReturnScan",
-            "title": "Entry Return"
-        },
-        {
-            "field": "WashingScan",
-            "title": "Washing"
-        },
-        {
-            "field": "PressingScan",
-            "title": "Pressing"
-        },
-        {
-            "field": "PressingRejectScan",
-            "title": "Process Return"
-        },
-        {
-            "field": "PressingRewash",
-            "title": "Rewash"
-        },
-        {
-            "field": "CompletionScan",
-            "title": "Completion"
-        },
-        {
-            "field": "FactoryToBranchScan",
-            "title": "FFC Scan"
+            "field": "ItemName",
+            "title": "Item"
         },
         {
             "title": "Time Span",
             "field": "TimeSpan"
         },
         {
+            "field": "BranchScan",
+            "title": "Branch",
+            "filterControl":"select"
+        },
+        {
+            "field": "EntryScan",
+            "title": "Factory",
+             "filterControl":"select"
+        },
+        {
+            "field": "EntryReturnScan",
+            "title": "Entry_C",
+            "filterControl": "select"
+        },
+        {
+            "field": "WashingScan",
+            "title": "Wash",
+            "filterControl": "select"
+        },
+        {
+            "field": "PressingScan",
+            "title": "Pro",
+            "filterControl": "select"
+        },
+        {
+            "field": "PressingRejectScan",
+            "title": "Pro_C",
+            "filterControl": "select"
+        },
+        {
+            "field": "PressingRewash",
+            "title": "Rewash",
+            "filterControl": "select"
+        },
+        {
             "title": "Rate",
             "field": "Rate",
-            "align": "right",
+            "align":"right",
             "filtercontrol": "select",
             "formatter": "",
-            "footerFormatter": ""
+            "footerFormatter":""
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime"
+            "title": "Order_Dt"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "Delivery DateTime"
+            "title": "Delivery_Dt"
         },
         {
             "field": "location",
-            "title": "DC Factory"
-        },
-        {
-            "field": "BranchName",
-            "title": "Branch Name"
+            "title": "Factory"
         },
         {
             "field": "CustomerName",
-            "title": "Customer Name"
+            "title": "Customer"
         },
         {
             "field": "CustomerMobileNumber",
-            "title": "Mobile Number"
+            "title": "Mobile"
         }
     ]
 }

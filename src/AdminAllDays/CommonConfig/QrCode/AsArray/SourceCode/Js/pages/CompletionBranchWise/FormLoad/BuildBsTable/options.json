@@ -18,24 +18,28 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode"
+            "title": "Qr"
         },
         {
             "field": "OrderNumber",
-            "title": "Order ID"
+            "title": "Ord_ID"
+        },{
+            "title": "Branch",
+            "field": "BranchName",
+            "filterControl": "select"
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "Item"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
         },
         {
             "field": "CompletionScan",
             "title": "Status",
             "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         },
         {
             "title": "Rate",
@@ -47,11 +51,11 @@
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime"
+            "title": "Order_Dt"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Delivery_Dt"
         },
         {
             "field": "EntryScan_DC",
@@ -60,11 +64,7 @@
         {
             "title": "DC Date",
             "field": "EntryScan_DCDate"
-        }, {
-            "title": "BranchName",
-            "field": "BranchName",
-            "filterControl": "select"
-        },
+        }, 
         {
             "field": "location",
             "title": "DC Factory",
