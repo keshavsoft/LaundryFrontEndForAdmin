@@ -4,6 +4,8 @@ import { StartFunc as ColumnBranchScan } from "./ColumnBranchScan/entryFile.js";
 import { StartFunc as ColumnFactoryReturn } from "./ColumnFactoryReturn/entryFile.js";
 import { StartFunc as ColumnProcessReturn } from "./ColumnProcessReturn/entryFile.js";
 import { StartFunc as ColumnRewash } from "./ColumnRewash/entryFile.js";
+import { StartFunc as ColumnFFEScan } from "./ColumnFFEScan/entryFile.js";
+import { StartFunc as ColumnFFPScan } from "./ColumnFFPScan/entryFile.js";
 import { StartFunc as ColumnFFCScan } from "./ColumnFFCScan/entryFile.js";
 
 let StartFunc = ({ inColumns }) => {
@@ -19,6 +21,8 @@ let StartFunc = ({ inColumns }) => {
     let LocalColumnRewash = LocalColumns.find(element => element.field === "PressingRewash");
     let LocalColumnProcessReturn = LocalColumns.find(element => element.field === "PressingRejectScan");
     let LocalColumnFactoryReturn = LocalColumns.find(element => element.field === "EntryReturnScan");
+    let LocalColumnFFEScan = LocalColumns.find(element => element.field === "F_F_Entry_Return_Scan");
+    let LocalColumnFFPScan = LocalColumns.find(element => element.field === "F_F_Pressing_Return_Scan");
     let LocalColumnFFCScan = LocalColumns.find(element => element.field === "FactoryToBranchScan");
 
     if (LocalColumnOperateFine === undefined === false) {
@@ -61,6 +65,14 @@ let StartFunc = ({ inColumns }) => {
         ColumnFactoryReturn({ inFindColumn: LocalColumnFactoryReturn });
     };
     
+    if (LocalColumnFFEScan === undefined === false) {
+        ColumnFFEScan({ inFindColumn: LocalColumnFFEScan });
+    };
+
+    if (LocalColumnFFPScan === undefined === false) {
+        ColumnFFPScan({ inFindColumn: LocalColumnFFPScan });
+    };
+
     if (LocalColumnFFCScan === undefined === false) {
         ColumnFFCScan({ inFindColumn: LocalColumnFFCScan });
     };

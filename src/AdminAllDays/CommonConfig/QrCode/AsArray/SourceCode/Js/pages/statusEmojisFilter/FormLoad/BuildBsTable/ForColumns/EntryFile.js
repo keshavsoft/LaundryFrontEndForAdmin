@@ -8,7 +8,11 @@ import { StartFunc as ColumnCompletionScan } from "./ColumnCompletionScan/entryF
 import { StartFunc as ColumnEntryReturn } from "./ColumnEntryReturn/entryFile.js";
 import { StartFunc as ColumnProcessReturn } from "./ColumnProcessReturn/entryFile.js";
 import { StartFunc as ColumnRewash } from "./ColumnRewash/entryFile.js";
+import { StartFunc as ColumnFFEScan } from "./ColumnFFEScan/entryFile.js";
+import { StartFunc as ColumnFFPScan } from "./ColumnFFPScan/entryFile.js";
 import { StartFunc as ColumnFFCScan } from "./ColumnFFCScan/entryFile.js";
+import { StartFunc as ColumnDelivery } from "./ColumnDelivery/entryFile.js";
+
 
 let StartFunc = ({ inColumns }) => {
     let LocalColumns = inColumns;
@@ -24,7 +28,11 @@ let StartFunc = ({ inColumns }) => {
     let LocalColumnEntryReturn = LocalColumns.find(element => element.field === "EntryReturnScan");
     let LocalColumnProcessReturn = LocalColumns.find(element => element.field === "PressingRejectScan");
     let LocalColumnRewash = LocalColumns.find(element => element.field === "PressingRewash");
+    let LocalColumnFFEScan = LocalColumns.find(element => element.field === "F_F_Entry_Return_Scan");
+    let LocalColumnFFPScan = LocalColumns.find(element => element.field === "F_F_Pressing_Return_Scan");
     let LocalColumnFFCScan = LocalColumns.find(element => element.field === "FactoryToBranchScan");
+    let LocalColumnDelivery = LocalColumns.find(element => element.field === "To_Delivery_Scan");
+
 
     if (LocalColumnOperateFine === undefined === false) {
         ColumnOperate({ inFindColumn: LocalColumnOperateFine });
@@ -64,9 +72,21 @@ let StartFunc = ({ inColumns }) => {
     if (LocalColumnRewash === undefined === false) {
         ColumnRewash({ inFindColumn: LocalColumnRewash });
     };
+
+    if (LocalColumnFFEScan === undefined === false) {
+        ColumnFFEScan({ inFindColumn: LocalColumnFFEScan });
+    };
+
+    if (LocalColumnFFPScan === undefined === false) {
+        ColumnFFPScan({ inFindColumn: LocalColumnFFPScan });
+    };
     
     if (LocalColumnFFCScan === undefined === false) {
         ColumnFFCScan({ inFindColumn: LocalColumnFFCScan });
+    };
+
+    if (LocalColumnDelivery === undefined === false) {
+        ColumnDelivery({ inFindColumn: LocalColumnDelivery });
     };
 };
 

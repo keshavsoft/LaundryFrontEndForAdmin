@@ -18,70 +18,112 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode"
+            "title": "Qr"
         },
         {
             "field": "OrderNumber",
-            "title": "Order ID",
+            "title": "Order ID"
+        },
+        {
+            "field": "BranchName",
+            "title": "Branch",
             "filterControl": "select"
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "Item"
+        },
+        {
+            "title": "Time Span",
+            "field": "TimeSpan"
+        },
+        {
+            "field": "BranchScan",
+            "title": "Branch",
+            "filterControl": "select"
         },
         {
             "field": "EntryScan",
-            "title": "EntryScan"
+            "title": "Factory",
+            "filterControl": "select"
+        },
+        {
+            "field": "EntryReturnScan",
+            "title": "Entry_C",
+            "filterControl": "select"
         },
         {
             "field": "WashingScan",
-            "title": "WashingScan"
+            "title": "Wash",
+            "filterControl": "select"
         },
         {
             "field": "PressingScan",
-            "title": "PressingScan"
+            "title": "Pro",
+            "filterControl": "select"
+        },
+        {
+            "field": "PressingRejectScan",
+            "title": "Pro_C",
+            "filterControl": "select"
+        },
+        {
+            "field": "PressingRewash",
+            "title": "Rewash",
+            "filterControl": "select"
         },
         {
             "field": "CompletionScan",
-            "title": "CompletionScan"
+            "title": "Comp",
+            "filterControl": "select"
         },
         {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
+            "field": "F_F_Entry_Return_Scan",
+            "title": "FFE Scan",
+            "filterControl": "select"
+        },
+        {
+            "field": "F_F_Pressing_Return_Scan",
+            "title": "FFP Scan",
+            "filterControl": "select"
+        },
+        {
+            "field": "FactoryToBranchScan",
+            "title": "FFC Scan",
+            "filterControl": "select"
+        },
+        {
+            "field": "To_Delivery_Scan",
+            "title": "Delivery",
+            "filterControl": "select"
         },
         {
             "title": "Rate",
             "field": "Rate",
-            "align":"right",
+            "align": "right",
             "filtercontrol": "select",
             "formatter": "",
-            "footerFormatter":""
+            "footerFormatter": ""
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime"
+            "title": "Order_Dt"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Delivery_Dt"
         },
         {
             "field": "location",
-            "title": "DC Factory",
-            "filterControl": "select"
-        },
-        {
-            "field": "BranchName",
-            "title": "BranchName",
-            "filterControl": "select"
+            "title": "Factory"
         },
         {
             "field": "CustomerName",
-            "title": "Customer Name"
+            "title": "Customer"
         },
         {
             "field": "CustomerMobileNumber",
-            "title": "Mobile Number"
+            "title": "Mobile"
         }
     ]
 }
