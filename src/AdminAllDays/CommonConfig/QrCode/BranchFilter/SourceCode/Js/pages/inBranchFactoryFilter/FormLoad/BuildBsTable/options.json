@@ -17,23 +17,19 @@
             "formatter": "jFLocalSerialColumn"
         },
         {
-            "field": "QrCodeId",
+            "field": "Qr",
             "title": "QrCode"
         },
         
         {
             "field": "OrderNumber",
-            "title": "Order ID",
+            "title": "Or_ID",
             "filterControl": "select"
         },
         {
             "field": "ItemName",
-            "title": "ItemName",
+            "title": "Item",
             "filterControl": "select"
-        },
-        {
-            "field": "OrderNo",
-            "title": "Order#"
         },
         {
             "title": "TimeSpan",
@@ -48,24 +44,24 @@
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime"
+            "title": "Order_Dt"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Delivery_Dt"
         },
         {
             "field": "location",
-            "title": "OrderFactory",
+            "title": "Factory",
             "filterControl": "select"
         },
         {
             "field": "CustomerName",
-            "title": "Customer Name"
+            "title": "Customer"
         },
         {
             "field": "CustomerMobileNumber",
-            "title": "Mobile Number"
+            "title": "Mobile"
         }
     ]
 }

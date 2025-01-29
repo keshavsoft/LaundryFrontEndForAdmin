@@ -19,22 +19,22 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode",
+            "title": "Qr",
             "filtercontrol": "select"
         },
         {
             "field": "OrderNumber",
-            "title": "Order ID",
+            "title": "Or_ID",
             "filterControl": "select"
         },
         {
             "field": "ItemName",
-            "title": "Item Name",
+            "title": "Item",
             "filtercontrol": "select"
         },
         {
             "field": "BranchName",
-            "title": "Branch Name",
+            "title": "Branch",
             "filtercontrol": "select"
         },
         {
@@ -51,26 +51,26 @@
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime",
+            "title": "Order_Dt",
             "filtercontrol": "select"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "Delivery DateTime",
+            "title": "Delivery_Dt",
             "filtercontrol": "select"
         },
         {
             "field": "location",
-            "title": "DC Factory",
+            "title": "Factory",
             "filtercontrol": "select"
         },
         {
             "field": "CustomerName",
-            "title": "Customer Name"
+            "title": "Customer"
         },
         {
             "field": "CustomerMobileNumber",
-            "title": "Mobile Number"
+            "title": "Mobile"
         }
     ]
 }
