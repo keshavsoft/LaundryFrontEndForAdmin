@@ -80,6 +80,21 @@
         "icon": "bi bi-truck-front",
         "children": [
             {
+                "name": "InEntryReturn",
+                "url": "FFEntryReturn.html",
+                "icon": "bi bi-gear"
+            },
+            {
+                "name": "InProcessReturn",
+                "url": "FFProcessReturn.html",
+                "icon": "bi bi-gear"
+            },
+            {
+                "name": "InCompletion",
+                "url": "FFCompletion.html",
+                "icon": "bi bi-gear"
+            },
+            {
                 "name": "ShowAll",
                 "url": "Completion.html",
                 "icon": "bi bi-gear"
