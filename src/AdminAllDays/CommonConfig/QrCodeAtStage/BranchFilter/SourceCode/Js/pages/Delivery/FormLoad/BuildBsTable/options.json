@@ -3,9 +3,9 @@
     "search": "true",
     "searchable": "true",
     "idfield": "pk",
-    "pagination": "true",
-    "pageList":"[10,25,50,100,all]",
-    "pageSize": "5",  
+    "pagination": true,
+    "pageList": [10, 25, 50, 100, "all"],
+    "pageSize": 5, 
     "showFooter": "true",
     "data": [],
     "onClickRow": "",
@@ -17,21 +17,20 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode"
+            "title": "Qr"
         },
         {
-            "title": "Branch Name",
+            "title": "Branch",
             "field": "BranchName",
             "filterControl": "select"
         },
-        
+        {
+            "field": "ItemName",
+            "title": "Item"
+        },        
         {
             "title": "TimeSpan",
             "field": "TimeSpan"
-        },
-        {
-            "field": "ItemName",
-            "title": "Item Name"
         },
         {
             "field": "Rate",
@@ -42,27 +41,27 @@
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime"
+            "title": "Order_Dt"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "Delivery DateTime"
+            "title": "Delivery_Dt"
         },
         {
             "field": "EntryScan_DC",
             "title": "DC #"
         },
         {
-            "title": "DC Date",
+            "title": "DC_Dt",
             "field": "EntryScan_DCDate"
         },
         {
             "field": "location",
-            "title": "DC Factory",
+            "title": "Factory",
             "filterControl": "select"
         },
         {
-            "field": "CompletedScanFactory",
+            "field": "DeliveryScan",
             "title": "Status",
             "filterControl": "select"
         }

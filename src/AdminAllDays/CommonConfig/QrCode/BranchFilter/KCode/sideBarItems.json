@@ -180,11 +180,6 @@
                 "name": "Completion",
                 "url": "FFCompletion.html",
                 "icon": "bi bi-gear"
-            },
-            {
-                "name": "Show All",
-                "url": "FFFromFactory.html",
-                "icon": "bi bi-diagram-3"
             }
         ]
     },
