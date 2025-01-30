@@ -11,31 +11,39 @@
         {
             "field": "KS-Serial",
             "title": "#",
-            "formatter": "jFGlobalSerialColumn"
+            "formatter": ""
+        },
+        {
+            "field": "pk",
+            "title": "Order#"
         },
         {
             "field": "CustomerData.CustomerName",
-            "title": "CustomerName"
+            "title": "Customer"
         },
         {
-            "field": "OrderData.BranchName",
-            "title": "BranchName"
+            "field": "CustomerData.CustomerMobile",
+            "title": "Mobile"
         },
         {
             "field": "OrderData.Currentdateandtime",
-            "title": "Date"
+            "title": "Time Span",
+            "formatter": ""
         },
         {
-            "field": "ItemsInOrder.ItemName",
-            "title": "ItemName"
+            "field": "AggValues.ItemDetails",
+            "title": "Items",
+            "footerFormatter": ""
         },
         {
-            "field": "ItemsInOrder.Category",
-            "title": "Category"
+            "field": "AggValues.SettlementAmount",
+            "title": "Settlement",
+            "footerFormatter": "",
+            "align": "right"
         },
         {
-            "field": "ItemsInOrder.location",
-            "title": "location"
+            "field": "IsSettled",
+            "title": "IsSettled"
         }
     ]
 }
