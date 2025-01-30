@@ -18,16 +18,24 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode"
+            "title": "Qr"
+        },
+        {
+            "field": "BranchName",
+            "title": "Branch"
         },
         {
             "field": "OrderNumber",
-            "title": "Order ID",
+            "title": "Ord_ID",
             "filterControl": "select"
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "Item"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
         },
         {
             "field": "BranchScan",
@@ -35,20 +43,16 @@
         },
         {
             "field": "WashingScan",
-            "title": "Washing",
+            "title": "Wash",
             "filterControl": "select"
         },
         {
             "field": "PressingScan",
-            "title": "Pressing"
+            "title": "Pro"
         },
         {
             "field": "CompletionScan",
-            "title": "Completion"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
+            "title": "Comp"
         },
         {
             "title": "Rate",
@@ -60,31 +64,23 @@
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime"
+            "title": "Order_Dt"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Delivery_Dte"
         },
         {
             "field": "location",
-            "title": "DC Factory"
-        },
-        {
-            "field": "BranchName",
-            "title": "BranchName"
-        },
-        {
-            "field": "EntryScan",
             "title": "Factory"
         },
         {
             "field": "CustomerName",
-            "title": "Customer Name"
+            "title": "Customer"
         },
         {
             "field": "CustomerMobileNumber",
-            "title": "Mobile Number"
+            "title": "Mobile"
         }
     ]
 }

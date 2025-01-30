@@ -18,65 +18,35 @@
         },
         {
             "field": "QrCodeId",
-            "title": "Qr Code"
+            "title": "Qr"
         },
         {
             "field": "OrderNumber",
-            "title": "Order ID",
+            "title": "Ord_ID",
             "filtercontrol": "select"
         },
         {
+            "field": "BranchName",
+            "title": "Branch"
+        },
+        {
             "field": "ItemName",
-            "title": "Item Name"
+            "title": "Item"
+        },
+        {
+            "title": "Time Span",
+            "field": "TimeSpan"
         },
         {
             "field": "BranchScan",
             "title": "Branch",
             "filterControl":"select"
-        },
+        }
+        ,
         {
             "field": "EntryScan",
-            "title": "Factory",
-            "filterControl":"select"
-        },
-        {
-            "field": "EntryReturnScan",
-            "title": "Entry Return",
+            "title": "Status",
             "filterControl": "select"
-        },
-        {
-            "field": "WashingScan",
-            "title": "Washing",
-            "filterControl": "select"
-        },
-        {
-            "field": "PressingScan",
-            "title": "Pressing",
-            "filterControl": "select"
-        },
-        {
-            "field": "PressingRejectScan",
-            "title": "Process Return",
-            "filterControl": "select"
-        },
-        {
-            "field": "PressingRewash",
-            "title": "Rewash",
-            "filterControl": "select"
-        },
-        {
-            "field": "CompletionScan",
-            "title": "Completion",
-            "filterControl": "select"
-        },
-        {
-            "field": "FactoryToBranchScan",
-            "title": "FFC Scan",
-            "filterControl": "select"
-        },
-        {
-            "title": "Time Span",
-            "field": "TimeSpan"
         },
         {
             "title": "Rate",
@@ -88,27 +58,23 @@
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime"
+            "title": "Order_Dt"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "Delivery Date"
+            "title": "Delivery_Dt"
         },
         {
             "field": "location",
-            "title": "DC Factory"
-        },
-        {
-            "field": "BranchName",
-            "title": "Branch Name"
+            "title": "Factory"
         },
         {
             "field": "CustomerName",
-            "title": "Customer Name"
+            "title": "Customer"
         },
         {
             "field": "CustomerMobileNumber",
-            "title": "Mobile Number"
+            "title": "Mobile"
         }
         
     ]

@@ -22,24 +22,30 @@
             "width": "100"
         },
         {
+            "title": "Branch",
+            "field": "BranchName",
+            "width": "200",
+            "filterControl": "select"
+        },
+        {
             "field": "OrderNumber",
-            "title": "Order ID",
+            "title": "Ord_ID",
             "filterControl": "select"
         },
         {
             "field": "ItemName",
-            "title": "ItemName",
+            "title": "Item",
             "width": "300"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
         },
         {
             "field": "BranchScan_FactoryName",
             "title": "Factory",
             "width": "200",
             "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         },
         {
             "title": "Rate",
@@ -52,7 +58,7 @@
         },
         {
             "field": "OrderNo",
-            "title": "Order #",
+            "title": "Order",
             "width": "100",
             "filterControl": "select"
         },
@@ -63,23 +69,17 @@
             "filterControl": "select"
         },
         {
-            "title": "Branch",
-            "field": "BranchName",
-            "width": "200",
-            "filterControl": "select"
-        },
-        {
             "field": "location",
-            "title": "Location",
+            "title": "Factory",
             "filterControl": "select"
         },
         {
             "field": "CustomerName",
-            "title": "Customer Name"
+            "title": "Customer"
         },
         {
             "field": "CustomerMobileNumber",
-            "title": "Mobile Number"
+            "title": "Mobile"
         }
     ]
 }
