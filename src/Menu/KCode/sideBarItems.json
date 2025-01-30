@@ -32,6 +32,11 @@
         "url":"../../Accounts/Payments/HtmlFiles/"
     },
     {
+        "name": "Orders",
+        "icon": "bi bi-border-style",
+        "url":"../../Orders/HtmlFiles/index.html"
+    },
+    {
         "name": "ShowUsers",
         "icon": "bi bi-box-arrow-in-right",
         "url":"../../../../LoginUsers/HtmlFiles/LaundryShow.html"

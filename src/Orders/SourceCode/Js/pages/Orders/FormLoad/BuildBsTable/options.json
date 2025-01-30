@@ -1,0 +1,41 @@
+{
+    "toolbar": "#toolbar",
+    "search": "true",
+    "searchable": "true",
+    "idfield": "pk",
+    "showFooter": "true",
+    "pagination": "true",
+    "pageList" : "[5,10,25,50,100,all]",
+    "data": [],
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFGlobalSerialColumn"
+        },
+        {
+            "field": "CustomerData.CustomerName",
+            "title": "CustomerName"
+        },
+        {
+            "field": "OrderData.BranchName",
+            "title": "BranchName"
+        },
+        {
+            "field": "OrderData.Currentdateandtime",
+            "title": "Date"
+        },
+        {
+            "field": "ItemsInOrder.ItemName",
+            "title": "ItemName"
+        },
+        {
+            "field": "ItemsInOrder.Category",
+            "title": "Category"
+        },
+        {
+            "field": "ItemsInOrder.location",
+            "title": "location"
+        }
+    ]
+}

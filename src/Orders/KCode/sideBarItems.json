@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Home",
+        "icon": "bi bi-grid",
+        "url": "../../Menu/HtmlFiles/index.html"
+    },
+    {
+        "name": "Parent",
+        "icon": "bi bi-arrow-90deg-left",
+        "url": "../../Menu/HtmlFiles/index.html"
+    },
+    {
+        "name": "Dashboard",
+        "url": "index.html",
+        "icon": "bi bi-grid-fill"
+    },
+    {
+        "name": "Orders",
+        "key": "Orders",
+        "icon": "bi bi-x-diamond-fill",
+        "children": [
+            {
+                "name": "Show",
+                "url": "Orders.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    }
+]
