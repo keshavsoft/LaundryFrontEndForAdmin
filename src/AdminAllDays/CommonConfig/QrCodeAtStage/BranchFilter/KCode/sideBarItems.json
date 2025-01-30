@@ -79,7 +79,26 @@
         "key": "Completion",
         "icon": "bi bi-truck-front",
         "children": [
+          
             {
+                
+                "name": "ShowAll",
+                "url": "Completion.html",
+                "icon": "bi bi-gear"
+            }
+        ]
+    },
+    {
+        "name": "FromFactory",
+        "key": "FF",
+        "icon": "bi bi-buildings",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "FFFromFactory.html",
+                "icon": "bi bi-gear"
+            },
+             {
                 "name": "InEntryReturn",
                 "url": "FFEntryReturn.html",
                 "icon": "bi bi-gear"
@@ -93,23 +112,18 @@
                 "name": "InCompletion",
                 "url": "FFCompletion.html",
                 "icon": "bi bi-gear"
-            },
+            }
+        ]
+    },  {
+        "name": "InDelivery",
+        "key": "Delivery",
+        "icon": "bi bi-truck-front",
+        "children": [
+          
             {
                 
                 "name": "ShowAll",
-                "url": "Completion.html",
-                "icon": "bi bi-gear"
-            }
-        ]
-    },
-    {
-        "name": "InFactory",
-        "key": "FromFactory",
-        "icon": "bi bi-buildings",
-        "children": [
-            {
-                "name": "ShowAll",
-                "url": "FromFactory.html",
+                "url": "Delivery.html",
                 "icon": "bi bi-gear"
             }
         ]
