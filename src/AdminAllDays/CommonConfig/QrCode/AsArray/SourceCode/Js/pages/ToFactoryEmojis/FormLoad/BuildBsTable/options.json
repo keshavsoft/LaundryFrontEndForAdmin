@@ -17,15 +17,23 @@
         },
         {
             "field": "QrCodeId",
-            "title": "Qr Code"
+            "title": "Qr"
         },
         {
             "field": "OrderNumber",
-            "title": "Order ID"
+            "title": "Ord_ID"
+        },
+        {
+            "field": "BranchName",
+            "title": "Branch Name"
         },
         {
             "field": "ItemName",
-            "title": "Item Name"
+            "title": "Item"
+        },
+        {
+            "title": "Time Span",
+            "field": "TimeSpan"
         },
         {
             "field": "BranchScan",
@@ -37,19 +45,19 @@
         },
         {
             "field": "EntryReturnScan",
-            "title": "Entry Return"
+            "title": "Entry_C"
         },
         {
             "field": "WashingScan",
-            "title": "Washing"
+            "title": "Wash"
         },
         {
             "field": "PressingScan",
-            "title": "Pressing"
+            "title": "Pro"
         },
         {
             "field": "PressingRejectScan",
-            "title": "Process Return"
+            "title": "Pro_C"
         },
         {
             "field": "PressingRewash",
@@ -57,15 +65,11 @@
         },
         {
             "field": "CompletionScan",
-            "title": "Completion"
+            "title": "Comp"
         },
         {
             "field": "FactoryToBranchScan",
             "title": "FFC Scan"
-        },
-        {
-            "title": "Time Span",
-            "field": "TimeSpan"
         },
         {
             "title": "Rate",
@@ -77,27 +81,23 @@
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime"
+            "title": "Order_Dt"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "Delivery DateTime"
+            "title": "Delivery_Dt"
         },
         {
             "field": "location",
-            "title": "DC Factory"
-        },
-        {
-            "field": "BranchName",
-            "title": "Branch Name"
+            "title": "Factory"
         },
         {
             "field": "CustomerName",
-            "title": "Customer Name"
+            "title": "Customer"
         },
         {
             "field": "CustomerMobileNumber",
-            "title": "Mobile Number"
+            "title": "Mobile"
         }
     ]
 }

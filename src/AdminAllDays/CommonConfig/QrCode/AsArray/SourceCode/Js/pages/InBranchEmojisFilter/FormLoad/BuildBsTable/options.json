@@ -18,65 +18,30 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode"
+            "title": "Qr"
         },
         {
             "field": "OrderNumber",
-            "title": "Order ID",
+            "title": "Ord_ID",
+            "filterControl": "select"
+        },
+        {
+            "field": "BranchName",
+            "title": "Branch",
             "filterControl": "select"
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
-        },
-        {
-            "field": "BranchScan",
-            "title": "Branch",
-            "filterControl":"select"
-        },
-        {
-            "field": "EntryScan",
-            "title": "Factory",
-            "filterControl":"select"
-        },
-        {
-            "field": "EntryReturnScan",
-            "title": "Entry Return",
-            "filterControl": "select"
-        },
-        {
-            "field": "WashingScan",
-            "title": "Washing",
-            "filterControl": "select"
-        },
-        {
-            "field": "PressingScan",
-            "title": "Pressing",
-            "filterControl": "select"
-        },
-        {
-            "field": "PressingRejectScan",
-            "title": "Process Return",
-            "filterControl": "select"
-        },
-        {
-            "field": "PressingRewash",
-            "title": "Rewash",
-            "filterControl": "select"
-        },
-        {
-            "field": "CompletionScan",
-            "title": "Completion",
-            "filterControl": "select"
-        },
-        {
-            "field": "FactoryToBranchScan",
-            "title": "FFC Scan",
-            "filterControl": "select"
+            "title": "Item"
         },
         {
             "title": "TimeSpan",
             "field": "TimeSpan"
+        },
+        {
+            "field": "Status",
+            "title": "Status",
+            "filterControl":"select"
         },
         {
             "title": "Rate",
@@ -88,35 +53,23 @@
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime"
+            "title": "Order_Dt"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Delivery_Dt"
         },
         {
             "field": "location",
-            "title": "DC Factory"
-        },
-        {
-            "field": "BranchName",
-            "title": "BranchName"
+            "title": "Factory"
         },
         {
             "field": "CustomerName",
-            "title": "Customer Name"
+            "title": "Customer"
         },
         {
             "field": "CustomerMobileNumber",
-            "title": "Mobile Number"
-        },
-        {
-            "field": "CustomerName",
-            "title": "Customer Name"
-        },
-        {
-            "field": "CustomerMobileNumber",
-            "title": "Mobile Number"
+            "title": "Mobile"
         }
         
     ]

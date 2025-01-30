@@ -18,41 +18,41 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode"
+            "title": "Qr"
+        },
+        {
+            "field": "BranchName",
+            "title": "Branch"
         },
         {
             "field": "OrderNumber",
-            "title": "Order ID",  
+            "title": "Ord_ID",
             "filterControl": "select"
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "Item"
+        },
+        {
+            "title": "TimeSpan",
+            "field": "TimeSpan"
         },
         {
             "field": "BranchScan",
             "title": "Branch"
         },
         {
-            "field": "EntryScan",
-            "title": "Factory"
-        },
-        {
             "field": "WashingScan",
-            "title": "Washing"
+            "title": "Wash"
         },
         {
             "field": "PressingScan",
-            "title": "Pressing"
+            "title": "Pro"
         },
         {
             "field": "CompletionScan",
-            "title": "Completion",
+            "title": "Comp",
             "filterControl": "select"
-        },
-        {
-            "title": "TimeSpan",
-            "field": "TimeSpan"
         },
         {
             "title": "Rate",
@@ -64,27 +64,23 @@
         },
         {
             "field": "OrderDateTime",
-            "title": "Order DateTime"
+            "title": "Order_Dt"
         },
         {
             "field": "DeliveryDateTime",
-            "title": "DeliveryDateTime"
+            "title": "Delivery_Dte"
         },
         {
             "field": "location",
-            "title": "DC Factory"
-        },
-        {
-            "field": "BranchName",
-            "title": "BranchName"
+            "title": "Factory"
         },
         {
             "field": "CustomerName",
-            "title": "Customer Name"
+            "title": "Customer"
         },
         {
             "field": "CustomerMobileNumber",
-            "title": "Mobile Number"
+            "title": "Mobile"
         }
     ]
 }
