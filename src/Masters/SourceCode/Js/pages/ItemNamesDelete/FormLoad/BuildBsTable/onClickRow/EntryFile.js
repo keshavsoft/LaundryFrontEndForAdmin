@@ -9,9 +9,7 @@ const StartFunc = async (row, $element, field) => {
             showCancelButton: true,
             confirmButtonColor: "#d33",
             cancelButtonColor: "grey",
-            returnInputValueOnDismiss: true,
             confirmButtonText: "Yes, delete it!",
-            // returnFocus:false,
             reverseButtons: true,
             focusCancel: true,
             cancelButtonText: "Cancel"

@@ -1,6 +1,5 @@
 let StartFunc = ({ inDataToShow }) => {
     let jVarLocalData = inDataToShow;
-    console.log(jVarLocalData);
     
     jFLocalToInnerHtmlyourAddOnRateTextId({ inyourAddOnRate: jVarLocalData.AddOnRate })
     jFLocalToInnerHtmlyourAddOnServiceTextId({ inyourAddOnService: jVarLocalData.AddOnService });
