@@ -1,5 +1,4 @@
 let StartFunc = ({ inFetchData }) => {
-    console.log("inFetchData:", inFetchData);
     const url = new URL(window.location.href);
     let NewURl = new URL("./CustomersEdit.html", url);
     const new_url = new URL(`${NewURl.href}`);
