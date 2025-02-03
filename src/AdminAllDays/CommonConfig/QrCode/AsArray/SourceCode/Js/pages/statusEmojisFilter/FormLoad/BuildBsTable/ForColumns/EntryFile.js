@@ -1,17 +1,17 @@
 import { StartFunc as ColumnOperate } from "./ColumnSerial/entryFile.js";
 import { StartFunc as ColumnRate } from "./ColumnRate/entryFile.js";
-import { StartFunc as ColumnBranchScan } from "./ColumnBranchScan/entryFile.js";
-import { StartFunc as ColumnEntryScan } from "./ColumnEntryScan/entryFile.js";
-import { StartFunc as ColumnWashingScan } from "./ColumnWashingScan/entryFile.js";
-import { StartFunc as ColumnPressingScan } from "./ColumnPressingScan/entryFile.js";
-import { StartFunc as ColumnCompletionScan } from "./ColumnCompletionScan/entryFile.js";
-import { StartFunc as ColumnEntryReturn } from "./ColumnEntryReturn/entryFile.js";
-import { StartFunc as ColumnProcessReturn } from "./ColumnProcessReturn/entryFile.js";
-import { StartFunc as ColumnRewash } from "./ColumnRewash/entryFile.js";
-import { StartFunc as ColumnFFEScan } from "./ColumnFFEScan/entryFile.js";
-import { StartFunc as ColumnFFPScan } from "./ColumnFFPScan/entryFile.js";
-import { StartFunc as ColumnFFCScan } from "./ColumnFFCScan/entryFile.js";
-import { StartFunc as ColumnDelivery } from "./ColumnDelivery/entryFile.js";
+import { StartFunc as ColumnBranchScan } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnEntryScan } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnWashingScan } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnPressingScan } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnCompletionScan } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnEntryReturn } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnProcessReturn } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnRewash } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnFFEScan } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnFFPScan } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnFFCScan } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnDelivery } from "./ColumnEmojiScan/entryFile.js";
 
 
 let StartFunc = ({ inColumns }) => {
