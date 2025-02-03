@@ -44,7 +44,7 @@
     {
         "name": "Download",
         "icon": "bi bi-download",
-        "url":"https://washtex5.keshavsoft.com/utility/src/backup"
+        "url":"/utility/src/backup"
     }
     
 ]
