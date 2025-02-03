@@ -3,7 +3,7 @@ let StartFunc = ({ inFindColumn }) => {
 };
 
 let jVarLocalFormatterFunc = (value, row, index) => {
-    console.log("value : ", value);
+    
     if (value === true) {
         return '<span class="badge bg-success">✔</span>';
     } else {

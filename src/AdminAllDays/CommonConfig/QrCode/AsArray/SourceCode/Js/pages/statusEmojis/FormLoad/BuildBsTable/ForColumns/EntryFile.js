@@ -1,12 +1,12 @@
 import { StartFunc as ColumnOperate } from "./ColumnSerial/entryFile.js";
 import { StartFunc as ColumnRate } from "./ColumnRate/entryFile.js";
-import { StartFunc as ColumnBranchScan } from "./ColumnBranchScan/entryFile.js";
-import { StartFunc as ColumnFactoryReturn } from "./ColumnFactoryReturn/entryFile.js";
-import { StartFunc as ColumnProcessReturn } from "./ColumnProcessReturn/entryFile.js";
-import { StartFunc as ColumnRewash } from "./ColumnRewash/entryFile.js";
-import { StartFunc as ColumnFFEScan } from "./ColumnFFEScan/entryFile.js";
-import { StartFunc as ColumnFFPScan } from "./ColumnFFPScan/entryFile.js";
-import { StartFunc as ColumnFFCScan } from "./ColumnFFCScan/entryFile.js";
+import { StartFunc as ColumnBranchScan } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnFactoryReturn } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnProcessReturn } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnRewash } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnFFEScan } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnFFPScan } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnFFCScan } from "./ColumnEmojiScan/entryFile.js";
 
 let StartFunc = ({ inColumns }) => {
     let LocalColumns = inColumns;
