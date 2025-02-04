@@ -45,6 +45,11 @@
         "name": "Download",
         "icon": "bi bi-download",
         "url":"/utility/src/backup"
+    },
+    {
+        "name": "Volt",
+        "icon":"bi bi-lightning-fill",
+        "url":"../../../../Volt/pages/"
     }
     
 ]
