@@ -1,8 +1,6 @@
-let StartFunc = async () => {
-    let jVarLocalHtmlId = 'RefreshBSTableId';
-    let jVarLocalRefreshBSTableId = document.getElementById(jVarLocalHtmlId);
+let StartFunc = () => {
+    let jVarLocalRefreshBSTableId = document.querySelector(`.RefreshBSTableClass`);
     jVarLocalRefreshBSTableId.click();
-   
 };
 
 export { StartFunc }
