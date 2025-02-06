@@ -149,27 +149,27 @@
     },
     {
         "name": "FromFactory",
-        "key": "From",
+        "key": "FF",
         "icon": "bi bi-diagram-2",
         "children": [
             {
                 "name": "EntryReturn",
-                "url": "EntryReturn.html",
+                "url": "FFEntryReturn.html",
                 "icon": "bi bi-gear"
             },
             {
                 "name": "ProcessReturn",
-                "url": "ProcessReturn.html",
+                "url": "FFProcessReturn.html",
                 "icon": "bi bi-gear"
             },
             {
                 "name": "Completion",
-                "url": "DeliveryFFCompletion.html",
+                "url": "FFCompletion.html",
                 "icon": "bi bi-gear"
             },
             {
                 "name": "Show All",
-                "url": "FromFactory.html",
+                "url": "FFFromFactory.html",
                 "icon": "bi bi-diagram-3"
             }
         ]
