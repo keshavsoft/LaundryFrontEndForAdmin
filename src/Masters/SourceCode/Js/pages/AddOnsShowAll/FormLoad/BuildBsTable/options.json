@@ -11,7 +11,7 @@
         {
             "field": "KS-Serial",
             "title": "#",
-            "formatter": "jFGlobalSerialColumn"
+            "formatter": "jFLocalSerialColumn"
         },
         {
             "field": "AddOnService",
@@ -20,7 +20,9 @@
         {
             "field": "AddOnRate",
             "title": "AddOn Rate",
-            "align": "right"
+            "align": "right",
+            "formatter": "",
+            "footerFormatter":""
         }
     ]
 }
