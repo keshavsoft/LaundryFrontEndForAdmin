@@ -32,7 +32,7 @@
             "title": "Item"
         },
         {
-            "field": "Status",
+            "field": "BranchScan",
             "title": "Status"
         },
         {

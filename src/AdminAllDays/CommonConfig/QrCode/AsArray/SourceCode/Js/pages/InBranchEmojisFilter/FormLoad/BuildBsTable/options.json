@@ -39,7 +39,7 @@
             "field": "TimeSpan"
         },
         {
-            "field": "Status",
+            "field": "BranchScan",
             "title": "Status",
             "filterControl":"select"
         },

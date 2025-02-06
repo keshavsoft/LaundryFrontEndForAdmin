@@ -7,6 +7,7 @@ import { StartFunc as ColumnRewash } from "./ColumnEmojiScan/entryFile.js";
 import { StartFunc as ColumnFFEScan } from "./ColumnEmojiScan/entryFile.js";
 import { StartFunc as ColumnFFPScan } from "./ColumnEmojiScan/entryFile.js";
 import { StartFunc as ColumnFFCScan } from "./ColumnEmojiScan/entryFile.js";
+import { StartFunc as ColumnDelivery } from "./ColumnEmojiScan/entryFile.js";
 
 let StartFunc = ({ inColumns }) => {
     let LocalColumns = inColumns;
@@ -24,6 +25,7 @@ let StartFunc = ({ inColumns }) => {
     let LocalColumnFFEScan = LocalColumns.find(element => element.field === "F_F_Entry_Return_Scan");
     let LocalColumnFFPScan = LocalColumns.find(element => element.field === "F_F_Pressing_Return_Scan");
     let LocalColumnFFCScan = LocalColumns.find(element => element.field === "FactoryToBranchScan");
+    let LocalColumnDelivery = LocalColumns.find(element => element.field === "To_Delivery_Scan");
 
     if (LocalColumnOperateFine === undefined === false) {
         ColumnOperate({ inFindColumn: LocalColumnOperateFine });
@@ -75,6 +77,10 @@ let StartFunc = ({ inColumns }) => {
 
     if (LocalColumnFFCScan === undefined === false) {
         ColumnFFCScan({ inFindColumn: LocalColumnFFCScan });
+    };
+
+    if (LocalColumnDelivery === undefined === false) {
+        ColumnDelivery({ inFindColumn: LocalColumnDelivery});
     };
 };
 
