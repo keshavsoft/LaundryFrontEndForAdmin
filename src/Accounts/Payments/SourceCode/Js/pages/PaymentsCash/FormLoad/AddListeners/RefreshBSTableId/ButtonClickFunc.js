@@ -11,7 +11,7 @@ let StartFunc = async () => {
         StartFuncAfterFetch();
     } catch (e) {
         console.log("error from Promise all : ", e);
-        alert("error from Promise All");
+        alert("No Data");
     };
 };
 
