@@ -1,10 +1,9 @@
 {
     "toolbar": "#toolbar",
-    "search": "true",
-    "searchable": "true",
     "idfield": "pk",
     "showFooter": "true",
     "pagination": "true",
+    "filterControl": true,
     "pageList":"[10,25,50,100,all]",
     "pageSize": "5",
     "data": [],
@@ -17,7 +16,8 @@
         },
         {
             "field": "UuId",
-            "title": "Order #"
+            "title": "Order #",
+            "filterControl": "select"
         },
         {
             "field": "CustomerData.CustomerName",
@@ -49,7 +49,26 @@
             "field": "CashAmount",
             "title": "Cash",
             "footerFormatter": "totalFormatter",
+            "filterControl": "select",
             "align": "right"
+        },
+        {
+            "field": "CardAmount",
+            "title": "Card",
+            "footerFormatter": "totalFormatter",
+            "align": "right"
+        },
+        {
+            "title": "UPI",
+            "field": "UPIAmount",
+            "align": "right",
+            "footerFormatter": "totalFormatter"
+        },
+        {
+            "title": "Total",
+            "align": "right",
+            "field": "TotalAmount",
+            "footerFormatter": "totalFormatter"
         }
     ]
 }
