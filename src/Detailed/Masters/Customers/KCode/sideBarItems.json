@@ -15,37 +15,72 @@
         "icon": "bi bi-grid-fill"
     },
     {
-        "name": "Customers",
-        "key": "Customers",
+        "name": "Create",
+        "key": "Create",
         "icon": "bi bi-people-fill",
         "children": [
             {
-                "name": "Create",
-                "url": "CustomersCreate.html",
+                "name": "Simple",
+                "url": "Create.html",
                 "icon": "bi bi-plus-square-fill"
-            },
+            }
+        ]
+    },
+    {
+        "name": "ShowAll",
+        "key": "ShowAll",
+        "icon": "bi bi-table",
+        "children": [
             {
-                "name": "Show",
-                "url": "CustomersShowAll.html",
+                "name": "Simple",
+                "url": "ShowAll.html",
                 "icon": "bi bi-grid-3x3"
-            },
+            }
+        ]
+    },
+    {
+        "name": "Alter",
+        "key": "Alter",
+        "icon": "bi bi-pencil-square",
+        "children": [
             {
-                "name": "Alter",
-                "url": "CustomersEdit.html",
+                "name": "Simple",
+                "url": "Alter.html",
                 "icon": "bi bi-grid-3x3"
-            },
+            }
+        ]
+    },
+    {
+        "name": "Delete",
+        "key": "Delete",
+        "icon": "bi bi-trash3",
+        "children": [
             {
-                "name": "Delete",
-                "url": "CustomersDelete.html",
+                "name": "Simple",
+                "url": "Delete.html",
                 "icon": "bi bi-grid-3x3"
-            },
+            }
+        ]
+    },
+    {
+        "name": "BranchWise",
+        "key": "BranchWise",
+        "icon": "bi bi-boxes",
+        "children": [
             {
-                "name": "BranchWise",
-                "url": "CustomersBranchWise.html",
+                "name": "Simple",
+                "url": "BranchWise.html",
                 "icon": "bi bi-grid-3x3"
-            },
+            }
+        ]
+    },
+    {
+        "name": "Orders",
+        "key": "CustomersBtn",
+        "icon": "bi bi-cart3",
+        "children": [
             {
-                "name": "Orders",
+                "name": "Simple",
                 "url": "CustomersBtn.html",
                 "icon": "bi bi-grid-3x3"
             }
