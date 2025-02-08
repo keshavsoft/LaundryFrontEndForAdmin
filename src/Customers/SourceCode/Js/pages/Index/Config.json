@@ -1,0 +1,8 @@
+{
+    "routePath": "binV4",
+    "MastersAddOnstableName":"MastersAddOns",
+    "MastersCustomerstableName":"MastersCustomers",
+    "MastersItemstableName":"MastersItems",
+    "MastersItemServicetableName":"MastersItemService",
+    "MastersItemTypestableName":"MastersItemTypes"
+}

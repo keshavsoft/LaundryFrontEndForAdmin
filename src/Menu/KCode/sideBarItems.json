@@ -15,6 +15,11 @@
         "url":"../../Masters/HtmlFiles/"
     },
     {
+        "name": "Customers",
+        "icon": "bi bi-person-gear",
+        "url":"../../Customers/HtmlFiles/"
+    },
+    {
         "name": "AllDays",
         "key": "Simple",
         "icon": "bi bi-calendar3",

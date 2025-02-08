@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Home",
+        "icon": "bi bi-grid",
+        "url": "../../../../../index.html"
+    },
+    {
+        "name": "Parent",
+        "icon": "bi bi-arrow-90deg-left",
+        "url": "../../Menu/HtmlFiles/index.html"
+    },
+    {
+        "name": "Dashboard",
+        "url": "index.html",
+        "icon": "bi bi-grid-fill"
+    },
+    {
+        "name": "Customers",
+        "key": "Customers",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "Create",
+                "url": "CustomersCreate.html",
+                "icon": "bi bi-plus-square-fill"
+            },
+            {
+                "name": "Show",
+                "url": "CustomersShowAll.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Alter",
+                "url": "CustomersEdit.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Delete",
+                "url": "CustomersDelete.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "BranchWise",
+                "url": "CustomersBranchWise.html",
+                "icon": "bi bi-grid-3x3"
+            },
+            {
+                "name": "Orders",
+                "url": "CustomersBtn.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    }
+]
