@@ -17,7 +17,9 @@
     "Admin-Masters": "vite build --config src/Masters/vite.config.js",
     "Accounts": "vite build --config src/Accounts/Payments/vite.config.js",
     "Dcs": "vite build --config src/AdminAllDays/CommonConfig/Dcs/vite.config.js",
-    "Orders": "vite build --config src/Orders/vite.config.js"
+    "Orders": "vite build --config src/Orders/vite.config.js",
+    "Admin-Customers": "vite build --config src/Customers/vite.config.js"
+
   },
   "author": "",
   "license": "ISC",
