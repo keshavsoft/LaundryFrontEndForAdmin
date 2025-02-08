@@ -11,13 +11,20 @@
     },
     {
         "name": "Masters",
+        "key": "Masters",
         "icon": "bi bi-person-plus-fill",
-        "url":"../../Masters/HtmlFiles/"
-    },
-    {
-        "name": "Customers",
-        "icon": "bi bi-person-gear",
-        "url":"../../Customers/HtmlFiles/"
+        "children": [
+            {
+                "name": "Masters",
+                "icon": "bi bi-list",
+                "url": "../../Masters/HtmlFiles/"
+            },
+            {
+                "name": "MastersCustomers",
+                "icon": "bi bi-list",
+                "url": "../../Detailed/Masters/Customers/HtmlFiles/"
+            }
+        ]
     },
     {
         "name": "AllDays",
@@ -34,27 +41,26 @@
     {
         "name": "Accounts",
         "icon": "bi bi-person-plus-fill",
-        "url":"../../Accounts/Payments/HtmlFiles/"
+        "url": "../../Accounts/Payments/HtmlFiles/"
     },
     {
         "name": "Orders",
         "icon": "bi bi-border-style",
-        "url":"../../Orders/HtmlFiles/index.html"
+        "url": "../../Orders/HtmlFiles/index.html"
     },
     {
         "name": "ShowUsers",
         "icon": "bi bi-box-arrow-in-right",
-        "url":"../../../../LoginUsers/HtmlFiles/LaundryShow.html"
+        "url": "../../../../LoginUsers/HtmlFiles/LaundryShow.html"
     },
     {
         "name": "Download",
         "icon": "bi bi-download",
-        "url":"/utility/src/backup"
+        "url": "/utility/src/backup"
     },
     {
         "name": "Volt",
-        "icon":"bi bi-lightning-fill",
-        "url":"../../../../Volt/pages/"
+        "icon": "bi bi-lightning-fill",
+        "url": "../../../../Volt/pages/"
     }
-    
 ]
