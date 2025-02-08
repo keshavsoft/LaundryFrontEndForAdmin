@@ -1,0 +1,112 @@
+{% extends 'src/Detailed/Masters/Customers/SourceCode/Masters/simple.html' %}
+
+{% block content %}
+<section class="section dashboard">
+    <div class="row">
+        <div class="col">
+            <h1>Masters
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Left side columns -->
+        <div class="col-lg-8">
+            <div class="row">
+                <!-- Sales Card -->
+                <div class="col-xxl-4 col-md-6">
+                    <div class="card info-card sales-card">
+
+                        <div class="filter">
+                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                <li class="dropdown-header text-start">
+                                    <h6>Filter</h6>
+                                </li>
+
+                                <li><a class="dropdown-item"
+                                        href="../../Masters/HtmlFiles/CustomersCreate.html">Create</a></li>
+                                <li><a class="dropdown-item"
+                                        href="../../Masters/HtmlFiles/CustomersShowAll.html">Show</a></li>
+                                <li><a class="dropdown-item"
+                                        href="../../Masters/HtmlFiles/CustomersBranchWise.html">BranchWise</a></li>
+                                <li><a class="dropdown-item" href="../../Masters/HtmlFiles/CustomersEdit.html">Alter</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="../../Masters/HtmlFiles/CustomersDelete.html">Delete</a></li>
+                                <li><a class="dropdown-item" href="../../Masters/HtmlFiles/CustomersBtn.html">Order</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Customers</h5>
+
+                            <div class="d-flex align-items-center">
+                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-people-fill"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6 id="CustomersID"></h6>
+                                    <span class="text-success small pt-1 fw-bold">12%</span>
+                                    <span class="text-muted small pt-2 ps-1">increase</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!-- End Sales Card -->
+
+            </div>
+        </div><!-- End Left side columns -->
+
+        <!-- Right side columns -->
+        <div class="col-lg-4">
+
+            <!-- Recent Activity -->
+            <div class="card">
+                <div class="filter">
+                    <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                        <li class="dropdown-header text-start">
+                            <h6>Filter</h6>
+                        </li>
+
+                        <li><a class="dropdown-item" href="#">Today</a></li>
+                        <li><a class="dropdown-item" href="#">This Month</a></li>
+                        <li><a class="dropdown-item" href="#">This Year</a></li>
+                    </ul>
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Activities </h5>
+
+                    <div class="activity" id="ActivityRight">
+
+                    </div>
+
+
+                </div>
+            </div><!-- End Recent Activity -->
+        </div><!-- End Right side columns -->
+
+    </div>
+</section>
+<template id="ActivityTemplate">
+
+    <div class="activity-item d-flex">
+        <div class="activite-label countClass" id="" style="font-weight: bold; ">
+            <span class="countClass"></span>
+        </div>
+        <i class='Circleadd bi bi-circle-fill activity-badge align-self-start'></i>
+        <div class="activity-content ActivityNames" style="font-weight:bold">
+
+        </div>
+    </div><!-- End activity item-->
+</template>
+{% endblock %}
+
+{% block js %}
+<!-- <script type="module" src="../Js/pages/Index/StartFunc.js"></script> -->
+<script type="module" src="../Js/pages/Index/StartFunc.js"></script>
+{% endblock %}
