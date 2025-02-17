@@ -11,6 +11,7 @@ function priceFormatter(data) {
         return sum + i
     }, 0)
 }
+
 function symbolFormatPrice(data) {
     var field = this.field
     return '₹ '+data;
