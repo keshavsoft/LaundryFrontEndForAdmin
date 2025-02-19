@@ -38,7 +38,9 @@
 
                         <div class="col-md-8">
 
-                            <input name="Mobile" type="number" class="form-control" autocomplete="off" required oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)">
+                            <input name="Mobile" type="number" class="form-control" autocomplete="off" id="MobileNumberId" list="MobileNumberDataListId" required oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)">
+                            <datalist id="MobileNumberDataListId">
+                            </datalist>
                             <div class="invalid-feedback" id="MobileClass">
                                 Mobile Should not be empty!!
                             </div>
@@ -103,5 +105,6 @@
 {% endblock %}
 
 {% block js %}
+<!-- <script type="module" src="../Js/pages/CustomersCreate/StartFunc.js"></script> -->
 <script type="module" src="../Js/pages/CustomersCreate/StartFunc.js"></script>
 {% endblock %}
