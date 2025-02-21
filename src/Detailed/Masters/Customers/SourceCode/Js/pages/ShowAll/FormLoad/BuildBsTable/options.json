@@ -5,7 +5,7 @@
     "idfield": "pk",
     "showFooter": "true",
     "pagination": "true",
-    "pageList" : "[5,10,25,50,100,all]",
+    "pageList": "[5,10,25,50,100,all]",
     "data": [],
     "columns": [
         {
@@ -16,6 +16,10 @@
         {
             "field": "CustomerName",
             "title": "Customer Name"
+        },
+        {
+            "field": "BranchName",
+            "title": "BranchName"
         },
         {
             "field": "Mobile",
