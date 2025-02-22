@@ -17,6 +17,11 @@
             "field": "ItemService",
             "title": "ItemService",
             "align": "left"
+        },
+        {
+            "field": "UuId",
+            "title": "SerialNo",
+            "align": "right"
         }
     ]
 }
