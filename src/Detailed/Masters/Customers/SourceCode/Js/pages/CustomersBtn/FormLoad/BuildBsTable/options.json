@@ -44,7 +44,7 @@
         },
         {
             "field": "Orders",
-            "title": "Orders",
+            "title": "New Order",
             "formatter": ""
 
         }

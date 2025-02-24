@@ -15,6 +15,11 @@
             "formatter": "jFGlobalSerialColumn"
         },
         {
+            "field": "BranchName",
+            "title": "Branch Name",
+            "filterControl": "select"
+        },
+        {
             "field": "CustomerName",
             "title": "Customer Name"
         },
@@ -41,11 +46,7 @@
         {
             "field": "CompanyName",
             "title": "Company Name"
-        },
-        {
-            "field": "BranchName",
-            "title": "Branch Name",
-            "filterControl": "select"
         }
+        
     ]
 }
