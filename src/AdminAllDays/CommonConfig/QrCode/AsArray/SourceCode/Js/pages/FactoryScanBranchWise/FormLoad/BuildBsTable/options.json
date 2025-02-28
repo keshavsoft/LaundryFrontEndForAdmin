@@ -28,7 +28,7 @@
         },
         {
             "title": "BranchName",
-            "field": "Branch",
+            "field": "BranchName",
             "filterControl": "select"
         },
         {
