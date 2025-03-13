@@ -23,7 +23,7 @@
     {
         "name": "GSTShowAll",
         "url": "PaymentsGSTShowAll.html",
-        "icon": "bi bi-border-all"
+        "icon": "bi-currency-rupee"
     },
     {
         "name": "Cash",
