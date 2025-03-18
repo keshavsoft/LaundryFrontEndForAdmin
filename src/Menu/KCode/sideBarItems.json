@@ -44,9 +44,9 @@
         "url": "../../Accounts/Payments/HtmlFiles/"
     },
     {
-        "name": "ShowUsers",
+        "name": "Users",
         "icon": "bi bi-box-arrow-in-right",
-        "url": "../../../../LoginUsers/HtmlFiles/LaundryShow.html"
+        "url": "/Volt/pages/Users/index.html"
     },
     {
         "name": "Download",
