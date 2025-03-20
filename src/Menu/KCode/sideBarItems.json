@@ -51,7 +51,7 @@
     {
         "name": "Download",
         "icon": "bi bi-download",
-        "url": "/utility/src/backup"
+        "url": "/utility/src/AdminBackup"
     },
     {
         "name": "Volt",
