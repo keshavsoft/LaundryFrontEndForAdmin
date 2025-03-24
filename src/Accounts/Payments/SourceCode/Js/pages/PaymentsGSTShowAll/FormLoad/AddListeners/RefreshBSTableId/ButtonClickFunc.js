@@ -8,7 +8,7 @@ let StartFunc = async () => {
 
         jVarGlobalPresentViewData = [...a];
 
-        StartFuncAfterFetch();
+        StartFuncAfterFetch({ inData: [...a] });
     } catch (e) {
         console.log("error from Promise all : ", e);
         alert("error from Promise All");

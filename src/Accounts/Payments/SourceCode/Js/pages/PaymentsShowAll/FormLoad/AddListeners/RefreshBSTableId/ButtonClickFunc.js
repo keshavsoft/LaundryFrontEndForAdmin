@@ -6,9 +6,7 @@ let StartFunc = async () => {
     try {
         let [a] = await Promise.all([Receipts()]);
 
-        jVarGlobalPresentViewData = [...a];
-
-        StartFuncAfterFetch();
+        StartFuncAfterFetch({ inData: [...a] });
     } catch (e) {
         console.log("error from Promise all : ", e);
         alert("No Data");
