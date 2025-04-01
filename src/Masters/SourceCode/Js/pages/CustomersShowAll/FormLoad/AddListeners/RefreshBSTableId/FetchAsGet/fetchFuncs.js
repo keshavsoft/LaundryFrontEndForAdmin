@@ -1,9 +1,9 @@
 import ConfigJson from '../../../../Config.json' with {type: 'json'};
 
 let StartFunc = async () => {
-    const jVarLocalStartUrl = ConfigJson.routePath;
-    const jVarLocalTableName = ConfigJson.tableName;
-    let jVarLocalFetchUrl = `/${jVarLocalStartUrl}/${jVarLocalTableName}/Show/DataOnly`;
+    const jVarLocalStartUrl = ConfigJson.url;
+    // const jVarLocalTableName = ConfigJson.tableName;
+    let jVarLocalFetchUrl = `${jVarLocalStartUrl}`;
 
     let response = await fetch(jVarLocalFetchUrl);
 
