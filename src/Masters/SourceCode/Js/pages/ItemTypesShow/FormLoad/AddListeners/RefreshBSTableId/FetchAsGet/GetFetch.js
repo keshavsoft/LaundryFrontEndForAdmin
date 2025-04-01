@@ -1,7 +1,9 @@
-import UrlJson from "./Config.json" with { type: "json" };
+import ConfigJson from '../../../../Config.json' with {type: 'json'};
 
 let StartFunc = async () => {
-    let jVarLocalFetchUrl = UrlJson.GetUrl;
+    const jVarLocalStartUrl = ConfigJson.url;
+    // const jVarLocalTableName = ConfigJson.tableName;
+    let jVarLocalFetchUrl = `${jVarLocalStartUrl}`;
 
     let response = await fetch(jVarLocalFetchUrl);
 

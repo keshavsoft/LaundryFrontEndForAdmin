@@ -1,1 +1,5 @@
-{"routePath":"binV4","tableName":"MastersItems"}
+{
+    "routePath": "binV4",
+    "tableName": "MastersAddOns",
+    "url":"/Custom/Cleaning/Masters/V2/ItemNames/DataOnly"
+}
