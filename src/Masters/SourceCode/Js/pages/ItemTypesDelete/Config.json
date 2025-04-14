@@ -1,6 +1,6 @@
 {
     "StartRoute": "binV4",
     "tableName": "MastersItemTypes",
-    "GetUrl": "/binV4/MastersItemTypes/Show/DataOnly",
+    "GetUrl": "/Custom/Cleaning/Masters/V2/ItemType/DataOnly",
     "DeleteUrl": "/binV4/MastersItemTypes/Delete"
 }
