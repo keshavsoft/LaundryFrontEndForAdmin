@@ -8,7 +8,7 @@ let StartFunc = async () => {
    
 
     let jVarLocalFetchHeaders = StartFuncFetchHeaders();
-    let jVarLocalFetchUrl = `/${LocalroutePath}/${LocaltableName}/Alter/${jVarLocalFilterString}`;
+    let jVarLocalFetchUrl = `/Custom/Cleaning/Masters/V1/AddOns`;
     let response = await fetch(jVarLocalFetchUrl, jVarLocalFetchHeaders);
     
     return await response;
