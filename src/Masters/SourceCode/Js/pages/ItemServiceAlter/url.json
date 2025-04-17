@@ -1,4 +1,4 @@
 {
-    "StartRoute": "/Custom/Cleaning/Masters/V2/ItemService/DataOnly",
+    "StartRoute": "/Custom/Cleaning/V1/Masters/MastersItemService/Get/DataOnly",
     "tableName":"MastersItemService"
 }
