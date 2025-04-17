@@ -62,5 +62,10 @@
         "name": "Volt Masters",
         "icon": "bi bi-lightning-fill",
         "url": "../../../V1/VoltUI/Masters/pages/Masters"
+    },
+    {
+        "name": "Admin Masters",
+        "icon": "bi bi-lightning-fill",
+        "url": "../../../V1/AdminMasters/Masters/HtmlFiles/"
     }
 ]
