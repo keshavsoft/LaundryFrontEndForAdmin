@@ -6,7 +6,6 @@ const startFunc = async () => {
 
   if (localResponse.status == 200) {
     afterFetch(await localResponse.json());
-
   }
 };
 
