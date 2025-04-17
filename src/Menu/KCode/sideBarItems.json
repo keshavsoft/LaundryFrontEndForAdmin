@@ -55,17 +55,18 @@
     },
     {
         "name": "Volt Analysis",
-        "icon": "bi bi-lightning-fill",
+        "icon": "bi bi-bar-chart-line",  
         "url": "../../../../Volt/pages/"
     },
     {
         "name": "Volt Masters",
-        "icon": "bi bi-lightning-fill",
+        "icon": "bi bi-lightning-charge-fill", 
         "url": "../../../V1/VoltUI/Masters/pages/Masters"
     },
     {
         "name": "Admin Masters",
-        "icon": "bi bi-lightning-fill",
+        "icon": "bi bi-people-fill",  
         "url": "../../../V1/AdminMasters/Masters/HtmlFiles/"
     }
+      
 ]
