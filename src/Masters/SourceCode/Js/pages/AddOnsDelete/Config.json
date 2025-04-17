@@ -2,5 +2,5 @@
     "StartRoute": "binV4",
     "tableName": "MastersAddOns",
     "GetUrl": "/Custom/Cleaning/V1/Masters/AddOns/Get/DataOnly",
-    "DeleteUrl": "/Custom/Cleaning/Masters/V1/AddOns"
+    "DeleteUrl": "/Custom/Cleaning/V1/Masters/AddOns/Delete"
 }

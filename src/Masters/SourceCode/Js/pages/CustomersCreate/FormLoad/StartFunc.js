@@ -10,7 +10,6 @@ const StartFunc = async () => {
     ToLocalStorage();
     ToDataList();
     ShowOnDom();
-
 };
 
 export { StartFunc };

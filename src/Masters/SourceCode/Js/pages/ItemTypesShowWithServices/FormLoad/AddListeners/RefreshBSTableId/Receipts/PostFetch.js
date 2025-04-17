@@ -1,7 +1,7 @@
-import urlJson from '../../../../url.json' with {type: 'json'};
+// import urlJson from '../../../../url.json' with {type: 'json'};
 
 let StartFunc = async () => {
-    let jVarLocalFetchUrl = `/${urlJson.StartRoute}/${urlJson.tableName}/Show/DataOnly`;
+    let jVarLocalFetchUrl = `/Custom/Cleaning/V1/Masters/MastersItemTypes/Get/DataOnly`;
     let response = await fetch(jVarLocalFetchUrl);
 
     return await response;

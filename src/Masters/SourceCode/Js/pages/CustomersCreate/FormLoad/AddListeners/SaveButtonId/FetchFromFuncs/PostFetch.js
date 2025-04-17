@@ -7,7 +7,7 @@ let StartFunc = async () => {
    
 
     let jVarLocalFetchHeaders = StartFuncFetchHeaders();
-    let jVarLocalFetchUrl = `Custom/Cleaning/V1/Masters/Customers/Get/DataOnly`;
+    let jVarLocalFetchUrl = `/${LocalroutePath}/${LocaltableName}/Create`;
     let response = await fetch(jVarLocalFetchUrl, jVarLocalFetchHeaders);
     
     return await response;

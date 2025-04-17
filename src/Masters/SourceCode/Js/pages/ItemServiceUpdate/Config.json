@@ -1,5 +1,3 @@
 {
-    "routePath": "binV4",
-    "tableName":"MastersItemService"
-
+    "routePath": "/Custom/Cleaning/V1/Masters/MastersItemService/Alter"
 }

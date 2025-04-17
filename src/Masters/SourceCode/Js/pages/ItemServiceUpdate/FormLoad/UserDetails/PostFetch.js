@@ -1,7 +1,7 @@
 let StartFunc = async () => {
     let jVarLocalFilterString = getUrlQueryParams({ inGetKey: "UuId" });
 
-    let jVarLocalFetchUrl =`/Custom/Cleaning/V1/Masters/MastersItemService/Alter${jVarLocalFilterString}`;
+    let jVarLocalFetchUrl =`/Custom/Cleaning/V1/Masters/MastersItemService/Get/RowData/${jVarLocalFilterString}`;
     let response = await fetch(jVarLocalFetchUrl);
     let data = await response.json();
 
