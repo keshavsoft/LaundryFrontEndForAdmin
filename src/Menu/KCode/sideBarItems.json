@@ -54,8 +54,13 @@
         "url": "/utility/src/AdminBackup"
     },
     {
-        "name": "Volt",
+        "name": "Volt Analysis",
         "icon": "bi bi-lightning-fill",
         "url": "../../../../Volt/pages/"
+    },
+    {
+        "name": "Volt Masters",
+        "icon": "bi bi-lightning-fill",
+        "url": "../../../V1/VoltUI/Masters/pages/Masters"
     }
 ]
