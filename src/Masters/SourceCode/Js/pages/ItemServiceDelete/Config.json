@@ -1,6 +1,0 @@
-{
-    "StartRoute": "binV4",
-    "tableName": "MastersItemService",
-    "GetUrl": "/Custom/Cleaning/V1/Masters/MastersItemService/Get/DataOnly",
-    "DeleteUrl": "/Custom/Cleaning/V1/Masters/MastersItemService/Delete"
-}

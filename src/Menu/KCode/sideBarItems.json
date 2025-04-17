@@ -15,11 +15,6 @@
         "icon": "bi bi-person-plus-fill",
         "children": [
             {
-                "name": "Masters",
-                "icon": "bi bi-list",
-                "url": "../../Masters/HtmlFiles/"
-            },
-            {
                 "name": "MastersCustomers",
                 "icon": "bi bi-list",
                 "url": "../../Detailed/Masters/Customers/HtmlFiles/"
@@ -55,18 +50,17 @@
     },
     {
         "name": "Volt Analysis",
-        "icon": "bi bi-bar-chart-line",  
+        "icon": "bi bi-bar-chart-line",
         "url": "../../../../Volt/pages/"
     },
     {
         "name": "Volt Masters",
-        "icon": "bi bi-lightning-charge-fill", 
+        "icon": "bi bi-lightning-charge-fill",
         "url": "../../../V1/VoltUI/Masters/pages/Masters"
     },
     {
         "name": "Admin Masters",
-        "icon": "bi bi-people-fill",  
+        "icon": "bi bi-people-fill",
         "url": "../../../V1/AdminMasters/Masters/HtmlFiles/"
     }
-      
 ]

@@ -1,7 +1,0 @@
-{
-    "routePath": "bin",
-    "tableName": "Openings",
-    "PostFetch": "/Custom/Cleaning/Branch/Order/NewOrder",
-    "500Status": "/Laundry/Branch/NewOrders/HtmlFiles/AddItems.html"
-
-}

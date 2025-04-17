@@ -14,7 +14,6 @@
     "AdminAllDays-CommonConfig-QrCodeAtStage-AsArray": "vite build --config src/AdminAllDays/CommonConfig/QrCodeAtStage/AsArray/vite.config.js",
     "AdminAllDays-CommonConfig-QrCodeAtStage-BranchFilter": "vite build --config src/AdminAllDays/CommonConfig/QrCodeAtStage/BranchFilter/vite.config.js",
     "AdminAllDays-CommonConfig-QrCodeAtStage-BranchWise": "vite build --config src/AdminAllDays/CommonConfig/QrCodeAtStage/BranchWise/vite.config.js",
-    "Admin-Masters": "vite build --config src/Masters/vite.config.js",
     "Accounts": "vite build --config src/Accounts/Payments/vite.config.js",
     "Dcs": "vite build --config src/AdminAllDays/CommonConfig/Dcs/vite.config.js",
     "Orders": "vite build --config src/Orders/vite.config.js",
