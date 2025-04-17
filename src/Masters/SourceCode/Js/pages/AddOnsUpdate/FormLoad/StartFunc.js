@@ -7,8 +7,6 @@ const StartFunc = async () => {
     StartFuncFromUrlParams();
     StartFuncAddListeners();
     UserDetails();
-    
-
 };
 
 export { StartFunc };
